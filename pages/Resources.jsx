@@ -28,6 +28,10 @@ function ResourcesPage() {
   const quizId = 'quiz';
   const guidesId = 'guides';
 
+  // Category filter for the archive grid.
+  const [activeCat, setActiveCat] = React.useState('All');
+  const shown = activeCat === 'All' ? articles : articles.filter(a => a[0] === activeCat);
+
   return (
     <window.PEPPage current="resources">
       <window.PEPHero
@@ -93,18 +97,23 @@ function ResourcesPage() {
             </h2>
           </div>
           <div style={{ display: 'flex', gap: 8 }}>
-            {cats.map((c, i) => (
-              <span key={c} style={{
-                padding: '8px 14px', borderRadius: 999, fontSize: 12, fontWeight: 500,
-                background: i === 0 ? T.sageDk : T.cream, color: i === 0 ? T.cream : T.ink,
-                border: i === 0 ? 'none' : `1px solid ${T.rule}`,
-              }}>{c}</span>
-            ))}
+            {cats.map((c) => {
+              const on = c === activeCat;
+              return (
+                <button key={c} onClick={() => setActiveCat(c)} style={{
+                  padding: '8px 14px', borderRadius: 999, fontSize: 12, fontWeight: 500,
+                  background: on ? T.sageDk : T.cream, color: on ? T.cream : T.ink,
+                  border: on ? `1px solid ${T.sageDk}` : `1px solid ${T.rule}`,
+                  cursor: 'pointer', fontFamily: T.body, lineHeight: 1.4,
+                  transition: 'background 0.15s ease, color 0.15s ease',
+                }}>{c}</button>
+              );
+            })}
           </div>
         </div>
 
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 0 }}>
-          {articles.map(([cat, t, summary, meta, href], i) => (
+          {shown.map(([cat, t, summary, meta, href], i) => (
             <a key={t} href={href} style={{
               textDecoration: 'none', color: T.ink, padding: '32px 28px',
               borderRight: (i % 4) < 3 ? `1px solid ${T.rule}` : 'none',
