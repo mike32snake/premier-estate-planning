@@ -31,7 +31,7 @@ function ArticleEPE() {
             <div style={{ fontSize: 15, lineHeight: 1.6, marginBottom: 14 }}>
               A printable version of this guide, with worksheets for your initial consultation.
             </div>
-            <a href="#" style={{
+            <a href="guides/estate-planning-essentials.pdf" download style={{
               display: 'inline-block', background: T.tealBr, color: T.tealInk || T.ink,
               padding: '10px 18px', borderRadius: 8, fontSize: 13, fontWeight: 500, textDecoration: 'none',
             }}>Download PDF ↓</a>

@@ -40,6 +40,15 @@ function ArticleHEMS() {
 
       <window.PEPArticleBody
         sidebar={<>
+          <SB title="Download" dark>
+            <div style={{ fontSize: 15, lineHeight: 1.6, marginBottom: 14 }}>
+              A printable, PEP-branded version of this guide.
+            </div>
+            <a href="guides/hems-explained.pdf" download style={{
+              display: 'inline-block', background: '#4aa9a4', color: '#0a0a0a',
+              padding: '10px 18px', borderRadius: 8, fontSize: 13, fontWeight: 500, textDecoration: 'none',
+            }}>Download PDF ↓</a>
+          </SB>
           <SB title="The Four Letters">
             <div style={{ fontSize: 14, lineHeight: 1.7 }}>
               <div><strong>H</strong> &nbsp;Health</div>

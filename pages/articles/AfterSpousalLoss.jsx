@@ -27,6 +27,15 @@ function ArticleSpousalLoss() {
 
       <window.PEPArticleBody
         sidebar={<>
+          <SB title="Download" dark>
+            <div style={{ fontSize: 15, lineHeight: 1.6, marginBottom: 14 }}>
+              A printable, PEP-branded version of this guide.
+            </div>
+            <a href="guides/after-the-loss-of-a-spouse.pdf" download style={{
+              display: 'inline-block', background: '#4aa9a4', color: '#0a0a0a',
+              padding: '10px 18px', borderRadius: 8, fontSize: 13, fontWeight: 500, textDecoration: 'none',
+            }}>Download PDF ↓</a>
+          </SB>
           <SB title="Three Phases">
             <div style={{ fontSize: 14, lineHeight: 1.7 }}>
               <div><strong>1.</strong> &nbsp;First days and weeks</div>

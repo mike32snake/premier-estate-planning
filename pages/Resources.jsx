@@ -167,16 +167,16 @@ function ResourcesPage() {
             </h3>
             <ul style={{ margin: 0, padding: 0, listStyle: 'none', display: 'flex', flexDirection: 'column', gap: 14 }}>
               {[
-                ['The Florida Estate Planning Primer',     'PDF · 24 pp'],
-                ['A Probate Checklist for Personal Reps',  'PDF · 8 pp'],
-                ['The Business Succession Worksheet',      'PDF · 12 pp'],
-              ].map(([t, m]) => (
+                ['The Cornerstones of Estate Planning', 'PDF · 3 pp', 'guides/estate-planning-essentials.pdf'],
+                ['HEMS, in Practice',                   'PDF · 4 pp', 'guides/hems-explained.pdf'],
+                ['Funding Your Trust',                  'PDF · 2 pp', 'guides/funding-your-trust.pdf'],
+              ].map(([t, m, href]) => (
                 <li key={t} style={{
                   display: 'flex', justifyContent: 'space-between', alignItems: 'baseline',
                   padding: '14px 0', borderBottom: `1px solid ${T.rule}`,
                   fontSize: 15,
                 }}>
-                  <a href="#" style={{ color: T.ink, textDecoration: 'none', fontFamily: T.display, fontSize: 22, letterSpacing: -0.3 }}>{t}</a>
+                  <a href={href} download style={{ color: T.ink, textDecoration: 'none', fontFamily: T.display, fontSize: 22, letterSpacing: -0.3 }}>{t}</a>
                   <span style={{ fontSize: 12, color: T.muted, letterSpacing: 0.4 }}>{m} &nbsp;↓</span>
                 </li>
               ))}
