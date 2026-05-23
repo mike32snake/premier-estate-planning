@@ -17,6 +17,20 @@ this is his estate-planning vertical (PEP = Premier Estate Planning).
 - Added viewport + favicon + SEO meta to every page.
 - Verified all 15 pages render with 0 JS errors at 1440px and 390px (Playwright).
 - Published as a **public** repo on the `mike32snake` GitHub account + GitHub Pages.
+- Made the Resources "Recent essays" category chips actually filter the archive grid.
+- Added **9 downloadable PEP-branded guide PDFs** in `guides/` (reworded/rebranded from the
+  source decks; no Hargrove/NetLaw, Florida + PEP contact, no copied pricing). Generated from
+  `/Users/mmaseda/Desktop/PEP/pdf_build/` (gen.py + content.py) via headless Chrome
+  `--print-to-pdf`. Wired into each article's Download block and the Resources guides section.
+
+## Regenerating the guide PDFs
+```bash
+cd /Users/mmaseda/Desktop/PEP/pdf_build
+python3 gen.py   # edit content.py for copy changes
+for h in html/*.html; do "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" \
+  --headless=new --no-pdf-header-footer --virtual-time-budget=12000 \
+  --print-to-pdf="/Users/mmaseda/Desktop/PEP/premier-estate-planning/guides/$(basename "$h" .html).pdf" "file://$PWD/$h"; done
+```
 
 ## Key paths
 - Repo / working dir: `/Users/mmaseda/Desktop/PEP/premier-estate-planning`
