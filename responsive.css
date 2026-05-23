@@ -20,7 +20,9 @@
 }
 
 img { max-width: 100%; }
-html, body { overflow-x: hidden; }
+/* Use `clip` (not `hidden`) so we prevent sideways scroll WITHOUT creating a
+   scroll container — `overflow-x: hidden` would silently break position:sticky. */
+html, body { overflow-x: clip; }
 
 /* ===========================================================================
    TABLET / SMALL LAPTOP  (<= 1024px)

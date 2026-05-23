@@ -315,11 +315,11 @@ function VariantBTeal() {
             fontSize: 14, lineHeight: 1.8, color: 'rgba(255,255,255,0.78)',
           }}>
             <div style={{ fontSize: 11, letterSpacing: 2, textTransform: 'uppercase', color: tealBr, fontWeight: 600, marginBottom: 14 }}>Office</div>
-            200 Central Avenue, Suite 400<br/>
-            St. Petersburg, Florida 33701<br/>
+            Tampa, Florida<br/>
+            Serving Tampa Bay &amp; clients nationwide<br/>
             <span style={{ color: 'rgba(255,255,255,0.5)' }}>—</span><br/>
-            (727) 555&middot;0142<br/>
-            counsel@premierep.law
+            813.330.0697<br/>
+            info@premier.law
           </div>
         </div>
       </section>
@@ -330,7 +330,7 @@ function VariantBTeal() {
           <div>
             <img src="assets/pep-logo.png" style={{ height: 40, mixBlendMode: 'multiply' }} />
             <div style={{ marginTop: 14, lineHeight: 1.7 }}>
-              200 Central Avenue, Suite 400<br/>St. Petersburg, FL 33701
+              Tampa, Florida<br/>Serving Tampa Bay &amp; clients nationwide
             </div>
           </div>
           {[

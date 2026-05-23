@@ -27,7 +27,7 @@ function ArticleSpousalLoss() {
 
       <window.PEPArticleBody
         sidebar={<>
-          <SB title="Download" dark>
+          <window.PEPSidebarBlock title="Download" dark>
             <div style={{ fontSize: 15, lineHeight: 1.6, marginBottom: 14 }}>
               A printable, PEP-branded version of this guide.
             </div>
@@ -35,23 +35,7 @@ function ArticleSpousalLoss() {
               display: 'inline-block', background: '#4aa9a4', color: '#0a0a0a',
               padding: '10px 18px', borderRadius: 8, fontSize: 13, fontWeight: 500, textDecoration: 'none',
             }}>Download PDF ↓</a>
-          </SB>
-          <SB title="Three Phases">
-            <div style={{ fontSize: 14, lineHeight: 1.7 }}>
-              <div><strong>1.</strong> &nbsp;First days and weeks</div>
-              <div><strong>2.</strong> &nbsp;First one to three months</div>
-              <div><strong>3.</strong> &nbsp;Three to twelve months</div>
-            </div>
-          </SB>
-          <SB title="If You Need Help" dark>
-            <div style={{ fontSize: 15, lineHeight: 1.65, marginBottom: 14 }}>
-              PEP handles probate, trust administration, and the practical matters that follow a death. Initial consultations are complimentary.
-            </div>
-            <a href="Contact.html" style={{
-              display: 'inline-block', background: T.tealBr, color: T.tealInk || T.ink,
-              padding: '10px 18px', borderRadius: 8, fontSize: 13, fontWeight: 500, textDecoration: 'none',
-            }}>Schedule a Call →</a>
-          </SB>
+          </window.PEPSidebarBlock>
         </>}
       >
         <P lead>
@@ -121,7 +105,7 @@ function ArticleSpousalLoss() {
           We assist surviving spouses with probate administration, trust funding and distribution, deed transfers, retitling, and the dozen smaller matters that arrive in the months after a loss. Most clients prefer to delegate that work entirely, and we handle each item ourselves rather than dispatching it to staff.
         </P>
         <P>
-          If you would like assistance, <a href="Contact.html" style={{ color: T.teal }}>schedule a complimentary thirty-minute call</a> or reach our office at (727) 555·0142. There is no obligation, and most callers leave the conversation with a clearer sense of next steps regardless of whether they retain us.
+          If you would like assistance, <a href="Contact.html" style={{ color: T.teal }}>schedule a complimentary thirty-minute call</a> or reach our office at 813.330.0697. There is no obligation, and most callers leave the conversation with a clearer sense of next steps regardless of whether they retain us.
         </P>
       </window.PEPArticleBody>
 

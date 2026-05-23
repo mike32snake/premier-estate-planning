@@ -17,7 +17,7 @@ function ArticleHowItWorks() {
 
       <window.PEPArticleBody
         sidebar={<>
-          <SB title="Download" dark>
+          <window.PEPSidebarBlock title="Download" dark>
             <div style={{ fontSize: 15, lineHeight: 1.6, marginBottom: 14 }}>
               A printable, PEP-branded version of this guide.
             </div>
@@ -25,25 +25,7 @@ function ArticleHowItWorks() {
               display: 'inline-block', background: '#4aa9a4', color: '#0a0a0a',
               padding: '10px 18px', borderRadius: 8, fontSize: 13, fontWeight: 500, textDecoration: 'none',
             }}>Download PDF ↓</a>
-          </SB>
-          <SB title="The Milestones">
-            <div style={{ fontSize: 14, lineHeight: 1.7 }}>
-              <div><strong>Day 0</strong> &nbsp;Initial Consultation</div>
-              <div><strong>Day 1–5</strong> &nbsp;Plan Design</div>
-              <div><strong>Day 5–10</strong> &nbsp;Drafting</div>
-              <div><strong>Day 14</strong> &nbsp;Wrap-Up &amp; Signing</div>
-              <div><strong>Day 14+</strong> &nbsp;Funding</div>
-            </div>
-          </SB>
-          <SB title="Begin" dark>
-            <div style={{ fontSize: 15, lineHeight: 1.65, marginBottom: 14 }}>
-              Every engagement begins with a complimentary call.
-            </div>
-            <a href="Contact.html" style={{
-              display: 'inline-block', background: T.tealBr, color: T.tealInk || T.ink,
-              padding: '10px 18px', borderRadius: 8, fontSize: 13, fontWeight: 500, textDecoration: 'none',
-            }}>Schedule a Call →</a>
-          </SB>
+          </window.PEPSidebarBlock>
         </>}
       >
         <P lead>
@@ -90,7 +72,7 @@ function ArticleHowItWorks() {
         </Callout>
 
         <P>
-          To begin, <a href="Contact.html" style={{ color: T.teal }}>schedule a complimentary thirty-minute call</a> or reach our office at (727) 555·0142.
+          To begin, <a href="Contact.html" style={{ color: T.teal }}>schedule a complimentary thirty-minute call</a> or reach our office at 813.330.0697.
         </P>
       </window.PEPArticleBody>
 

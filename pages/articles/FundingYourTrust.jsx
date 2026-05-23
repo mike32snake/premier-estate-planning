@@ -17,7 +17,7 @@ function ArticleFunding() {
 
       <window.PEPArticleBody
         sidebar={<>
-          <SB title="Download" dark>
+          <window.PEPSidebarBlock title="Download" dark>
             <div style={{ fontSize: 15, lineHeight: 1.6, marginBottom: 14 }}>
               A printable, PEP-branded version of this guide.
             </div>
@@ -25,21 +25,7 @@ function ArticleFunding() {
               display: 'inline-block', background: '#4aa9a4', color: '#0a0a0a',
               padding: '10px 18px', borderRadius: 8, fontSize: 13, fontWeight: 500, textDecoration: 'none',
             }}>Download PDF ↓</a>
-          </SB>
-          <SB title="The Short Version">
-            <div style={{ fontSize: 15, lineHeight: 1.65 }}>
-              Signed but unfunded trusts pass through probate anyway. Funding is the difference between a plan that works and a plan that exists.
-            </div>
-          </SB>
-          <SB title="Done With You" dark>
-            <div style={{ fontSize: 15, lineHeight: 1.65, marginBottom: 14 }}>
-              PEP prepares the deeds, beneficiary forms, and retitling letters as part of every estate-planning engagement.
-            </div>
-            <a href="Contact.html" style={{
-              display: 'inline-block', background: T.tealBr, color: T.tealInk || T.ink,
-              padding: '10px 18px', borderRadius: 8, fontSize: 13, fontWeight: 500, textDecoration: 'none',
-            }}>Schedule a Call →</a>
-          </SB>
+          </window.PEPSidebarBlock>
         </>}
       >
         <P lead>

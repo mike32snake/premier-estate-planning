@@ -40,7 +40,7 @@ function ArticleHEMS() {
 
       <window.PEPArticleBody
         sidebar={<>
-          <SB title="Download" dark>
+          <window.PEPSidebarBlock title="Download" dark>
             <div style={{ fontSize: 15, lineHeight: 1.6, marginBottom: 14 }}>
               A printable, PEP-branded version of this guide.
             </div>
@@ -48,20 +48,7 @@ function ArticleHEMS() {
               display: 'inline-block', background: '#4aa9a4', color: '#0a0a0a',
               padding: '10px 18px', borderRadius: 8, fontSize: 13, fontWeight: 500, textDecoration: 'none',
             }}>Download PDF ↓</a>
-          </SB>
-          <SB title="The Four Letters">
-            <div style={{ fontSize: 14, lineHeight: 1.7 }}>
-              <div><strong>H</strong> &nbsp;Health</div>
-              <div><strong>E</strong> &nbsp;Education</div>
-              <div><strong>M</strong> &nbsp;Maintenance</div>
-              <div><strong>S</strong> &nbsp;Support</div>
-            </div>
-          </SB>
-          <SB title="Why It Matters" dark>
-            <div style={{ fontSize: 15, lineHeight: 1.65 }}>
-              The HEMS standard is the difference between a trust that protects a beneficiary and one that can be drained. We draft to the standard; we administer to it.
-            </div>
-          </SB>
+          </window.PEPSidebarBlock>
         </>}
       >
         <P lead>

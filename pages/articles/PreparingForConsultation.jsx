@@ -17,7 +17,7 @@ function ArticlePrepConsult() {
 
       <window.PEPArticleBody
         sidebar={<>
-          <SB title="Download" dark>
+          <window.PEPSidebarBlock title="Download" dark>
             <div style={{ fontSize: 15, lineHeight: 1.6, marginBottom: 14 }}>
               A printable, PEP-branded version of this guide.
             </div>
@@ -25,25 +25,7 @@ function ArticlePrepConsult() {
               display: 'inline-block', background: '#4aa9a4', color: '#0a0a0a',
               padding: '10px 18px', borderRadius: 8, fontSize: 13, fontWeight: 500, textDecoration: 'none',
             }}>Download PDF ↓</a>
-          </SB>
-          <SB title="The Short List">
-            <div style={{ fontSize: 14, lineHeight: 1.65 }}>
-              <div>· A rough family picture</div>
-              <div>· A rough asset picture</div>
-              <div>· Existing planning documents</div>
-              <div>· A few of your worries</div>
-              <div>· Your other advisors' names</div>
-            </div>
-          </SB>
-          <SB title="Schedule" dark>
-            <div style={{ fontSize: 15, lineHeight: 1.65, marginBottom: 14 }}>
-              The call is thirty minutes, by phone or video, complimentary.
-            </div>
-            <a href="Contact.html" style={{
-              display: 'inline-block', background: T.tealBr, color: T.tealInk || T.ink,
-              padding: '10px 18px', borderRadius: 8, fontSize: 13, fontWeight: 500, textDecoration: 'none',
-            }}>Schedule a Call →</a>
-          </SB>
+          </window.PEPSidebarBlock>
         </>}
       >
         <P lead>
@@ -84,7 +66,7 @@ function ArticlePrepConsult() {
         </P>
 
         <Callout tone="dark">
-          To schedule, visit our <a href="Contact.html" style={{ color: T.tealBr }}>contact page</a> or call (727) 555·0142.
+          To schedule, visit our <a href="Contact.html" style={{ color: T.tealBr }}>contact page</a> or call 813.330.0697.
         </Callout>
       </window.PEPArticleBody>
 

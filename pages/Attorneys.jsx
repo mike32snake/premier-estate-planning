@@ -52,7 +52,7 @@ function AttorneysPage() {
               fontSize: 13, lineHeight: 1.65,
             }}>
               <div style={{ fontSize: 11, letterSpacing: 2, textTransform: 'uppercase', color: T.sageDk, fontWeight: 600, marginBottom: 8 }}>Direct</div>
-              counsel@premierep.law &middot; (727) 555&middot;0142
+              info@premier.law &middot; 813.330.0697
             </div>
           </div>
         </div>

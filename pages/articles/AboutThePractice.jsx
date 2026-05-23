@@ -17,7 +17,7 @@ function ArticleAbout() {
 
       <window.PEPArticleBody
         sidebar={<>
-          <SB title="Download" dark>
+          <window.PEPSidebarBlock title="Download" dark>
             <div style={{ fontSize: 15, lineHeight: 1.6, marginBottom: 14 }}>
               A printable, PEP-branded version of this guide.
             </div>
@@ -25,25 +25,7 @@ function ArticleAbout() {
               display: 'inline-block', background: '#4aa9a4', color: '#0a0a0a',
               padding: '10px 18px', borderRadius: 8, fontSize: 13, fontWeight: 500, textDecoration: 'none',
             }}>Download PDF ↓</a>
-          </SB>
-          <SB title="At a Glance">
-            <div style={{ fontSize: 14, lineHeight: 1.7 }}>
-              <div><strong>Founded</strong> &nbsp;2010</div>
-              <div><strong>Location</strong> &nbsp;St. Petersburg, FL</div>
-              <div><strong>Practice</strong> &nbsp;Estate planning only</div>
-              <div><strong>Pricing</strong> &nbsp;Flat fee, in writing</div>
-              <div><strong>Clients</strong> &nbsp;Florida families &amp; advisors</div>
-            </div>
-          </SB>
-          <SB title="Begin the Conversation" dark>
-            <div style={{ fontSize: 15, lineHeight: 1.65, marginBottom: 14 }}>
-              A complimentary thirty-minute call is the easiest way to know whether we are the right fit.
-            </div>
-            <a href="Contact.html" style={{
-              display: 'inline-block', background: T.tealBr, color: T.tealInk || T.ink,
-              padding: '10px 18px', borderRadius: 8, fontSize: 13, fontWeight: 500, textDecoration: 'none',
-            }}>Schedule a Call →</a>
-          </SB>
+          </window.PEPSidebarBlock>
         </>}
       >
         <P lead>
@@ -96,11 +78,11 @@ function ArticleAbout() {
 
         <H2>Where we are based</H2>
         <P>
-          Our office is at 200 Central Avenue in downtown St. Petersburg, with parking validated and convenient to Pinellas, Hillsborough, Manatee, and Sarasota counties. Initial consultations can be conducted by phone or video; signing meetings are conducted in person.
+          Our office is in Tampa, convenient to Hillsborough, Pinellas, Pasco, Manatee, and Sarasota counties — and we serve clients throughout the Tampa Bay area and nationwide. Initial consultations can be conducted by phone or video; signing meetings are conducted in person.
         </P>
 
         <Callout tone="dark">
-          To learn whether PEP is right for your family, <a href="Contact.html" style={{ color: T.tealBr }}>schedule a complimentary thirty-minute consultation</a> or call our office at (727) 555·0142.
+          To learn whether PEP is right for your family, <a href="Contact.html" style={{ color: T.tealBr }}>schedule a complimentary thirty-minute consultation</a> or call our office at 813.330.0697.
         </Callout>
       </window.PEPArticleBody>
 

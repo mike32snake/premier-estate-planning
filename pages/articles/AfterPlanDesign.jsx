@@ -33,7 +33,7 @@ function ArticleAfterDesign() {
 
       <window.PEPArticleBody
         sidebar={<>
-          <SB title="Download" dark>
+          <window.PEPSidebarBlock title="Download" dark>
             <div style={{ fontSize: 15, lineHeight: 1.6, marginBottom: 14 }}>
               A printable, PEP-branded version of this guide.
             </div>
@@ -41,26 +41,7 @@ function ArticleAfterDesign() {
               display: 'inline-block', background: '#4aa9a4', color: '#0a0a0a',
               padding: '10px 18px', borderRadius: 8, fontSize: 13, fontWeight: 500, textDecoration: 'none',
             }}>Download PDF ↓</a>
-          </SB>
-          <SB title="What's Next">
-            <div style={{ fontSize: 14, lineHeight: 1.7 }}>
-              <div><strong>1.</strong> Confirm design</div>
-              <div><strong>2.</strong> Documents prepared</div>
-              <div><strong>3.</strong> Review notification</div>
-              <div><strong>4.</strong> Wrap-up meeting</div>
-              <div><strong>5.</strong> Signing &amp; portfolio</div>
-              <div><strong>6.</strong> Funding</div>
-            </div>
-          </SB>
-          <SB title="Questions Welcome" dark>
-            <div style={{ fontSize: 15, lineHeight: 1.65, marginBottom: 14 }}>
-              Call or email at any stage. There is no billable clock between plan design and signing.
-            </div>
-            <a href="Contact.html" style={{
-              display: 'inline-block', background: T.tealBr, color: T.tealInk || T.ink,
-              padding: '10px 18px', borderRadius: 8, fontSize: 13, fontWeight: 500, textDecoration: 'none',
-            }}>Reach the Office →</a>
-          </SB>
+          </window.PEPSidebarBlock>
         </>}
       >
         <P lead>
@@ -83,7 +64,7 @@ function ArticleAfterDesign() {
             body="A 60-minute meeting (in office or by video) to walk through every document, address questions, discuss funding strategy, and prepare for execution. Bring a list of questions; bring your spouse if applicable."
           />
           <Step n="5" title="Document execution"
-            body="Signing occurs in our St. Petersburg office with two witnesses and a notary public, scheduled at your convenience. The full set takes approximately 90 minutes. You leave with the bound portfolio in hand."
+            body="Signing occurs in our Tampa office with two witnesses and a notary public, scheduled at your convenience. The full set takes approximately 90 minutes. You leave with the bound portfolio in hand."
           />
           <Step n="6" title="Plan completion &amp; funding"
             body="Your executed originals go home with you; digital copies live in your secure client file. For trusts, funding begins immediately — deeds prepared by our office, beneficiary forms sent to your financial institutions, and a follow-up at 30, 60, and 90 days to confirm completion."
@@ -103,7 +84,7 @@ function ArticleAfterDesign() {
         </P>
 
         <Callout tone="dark" title="Office contact">
-          <strong>counsel@premierep.law</strong> &nbsp;·&nbsp; (727) 555·0142 &nbsp;·&nbsp; 200 Central Avenue, Suite 400, St. Petersburg, FL 33701
+          <strong>info@premier.law</strong> &nbsp;·&nbsp; 813.330.0697 &nbsp;·&nbsp; Tampa, Florida — serving Tampa Bay &amp; clients nationwide
         </Callout>
       </window.PEPArticleBody>
 

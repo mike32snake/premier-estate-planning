@@ -17,25 +17,15 @@ function ArticleEPE() {
 
       <window.PEPArticleBody
         sidebar={<>
-          <SB title="In This Article">
-            <ul style={{ margin: 0, padding: 0, listStyle: 'none', display: 'flex', flexDirection: 'column', gap: 8, fontSize: 14 }}>
-              <li><a href="#trust" style={{ color: T.ink, textDecoration: 'none' }}>The Living Trust</a></li>
-              <li><a href="#subtrust" style={{ color: T.ink, textDecoration: 'none' }}>The Family Protection Subtrust</a></li>
-              <li><a href="#will" style={{ color: T.ink, textDecoration: 'none' }}>The Last Will & Testament</a></li>
-              <li><a href="#poa" style={{ color: T.ink, textDecoration: 'none' }}>Durable Power of Attorney</a></li>
-              <li><a href="#health" style={{ color: T.ink, textDecoration: 'none' }}>Healthcare Documents</a></li>
-              <li><a href="#hipaa" style={{ color: T.ink, textDecoration: 'none' }}>HIPAA Authorization</a></li>
-            </ul>
-          </SB>
-          <SB title="Download" dark>
+          <window.PEPSidebarBlock title="Download" dark>
             <div style={{ fontSize: 15, lineHeight: 1.6, marginBottom: 14 }}>
-              A printable version of this guide, with worksheets for your initial consultation.
+              A printable, PEP-branded version of this guide.
             </div>
             <a href="guides/estate-planning-essentials.pdf" download style={{
-              display: 'inline-block', background: T.tealBr, color: T.tealInk || T.ink,
+              display: 'inline-block', background: '#4aa9a4', color: '#0a0a0a',
               padding: '10px 18px', borderRadius: 8, fontSize: 13, fontWeight: 500, textDecoration: 'none',
             }}>Download PDF ↓</a>
-          </SB>
+          </window.PEPSidebarBlock>
         </>}
       >
         <P lead>

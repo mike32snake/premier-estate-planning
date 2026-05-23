@@ -117,7 +117,7 @@ window.PEPFooter = function PEPFooter() {
         <div>
           <img src="assets/pep-logo.png" style={{ height: 40, mixBlendMode: 'multiply' }} alt="PEP" />
           <div style={{ marginTop: 14, lineHeight: 1.7 }}>
-            200 Central Avenue, Suite 400<br/>St. Petersburg, FL 33701
+            Tampa, Florida<br/>Serving Tampa Bay &amp; clients nationwide
           </div>
         </div>
         {cols.map(([h, items]) => (
@@ -194,11 +194,11 @@ window.PEPCTA = function PEPCTA() {
           fontSize: 14, lineHeight: 1.8, color: 'rgba(255,255,255,0.78)',
         }}>
           <div style={{ fontSize: 11, letterSpacing: 2, textTransform: 'uppercase', color: T.tealBr, fontWeight: 600, marginBottom: 14 }}>Office</div>
-          200 Central Avenue, Suite 400<br/>
-          St. Petersburg, Florida 33701<br/>
+          Tampa, Florida<br/>
+          Serving Tampa Bay &amp; clients nationwide<br/>
           <span style={{ color: 'rgba(255,255,255,0.5)' }}>—</span><br/>
-          (727) 555&middot;0142<br/>
-          counsel@premierep.law
+          813.330.0697<br/>
+          info@premier.law
         </div>
       </div>
     </section>
@@ -268,6 +268,45 @@ window.PEPArticleHero = function PEPArticleHero({ category, title, italic, lede,
   );
 };
 
+// Auto-generated table of contents. Scans the rendered <article> for its H2
+// section headings, gives each a stable id, and renders an anchored list.
+// Used as the (sticky) first block in every article sidebar.
+window.PEPArticleTOC = function PEPArticleTOC({ title = 'In This Article' }) {
+  const T = window.PEP;
+  const [items, setItems] = React.useState([]);
+  React.useEffect(() => {
+    const article = document.querySelector('article');
+    if (!article) return;
+    const used = {};
+    const slugify = (s) => {
+      let base = (s || 'section').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '').slice(0, 48) || 'section';
+      let id = base, n = 2;
+      while (used[id]) { id = base + '-' + n; n++; }
+      used[id] = 1;
+      return id;
+    };
+    const list = Array.prototype.slice.call(article.querySelectorAll('h2')).map((h) => {
+      const id = h.id || slugify(h.textContent);
+      h.id = id;
+      h.style.scrollMarginTop = '28px';
+      return { id, text: h.textContent.trim() };
+    });
+    setItems(list);
+  }, []);
+  if (!items.length) return null;
+  return (
+    <window.PEPSidebarBlock title={title}>
+      <ul style={{ margin: 0, padding: 0, listStyle: 'none', display: 'flex', flexDirection: 'column', gap: 9, fontSize: 14 }}>
+        {items.map((it) => (
+          <li key={it.id}>
+            <a href={'#' + it.id} style={{ color: T.ink, textDecoration: 'none', lineHeight: 1.35, display: 'block' }}>{it.text}</a>
+          </li>
+        ))}
+      </ul>
+    </window.PEPSidebarBlock>
+  );
+};
+
 window.PEPArticleBody = function PEPArticleBody({ children, sidebar }) {
   const T = window.PEP;
   return (
@@ -279,7 +318,8 @@ window.PEPArticleBody = function PEPArticleBody({ children, sidebar }) {
         <article style={{ fontSize: 17, lineHeight: 1.75, color: T.ink, maxWidth: 720 }}>
           {children}
         </article>
-        <aside style={{ display: 'flex', flexDirection: 'column', gap: 16, position: 'sticky', top: 32 }}>
+        <aside style={{ display: 'flex', flexDirection: 'column', gap: 16, position: 'sticky', top: 32, alignSelf: 'start' }}>
+          <window.PEPArticleTOC/>
           {sidebar}
         </aside>
       </div>

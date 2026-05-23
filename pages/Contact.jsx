@@ -57,7 +57,7 @@ function ContactPage() {
               <Input label="First name"  placeholder="Eleanor" />
               <Input label="Last name"   placeholder="Halloran" />
               <Input label="Email"       type="email" placeholder="eleanor@email.com" />
-              <Input label="Phone"       type="tel"   placeholder="(727) 555-0142" />
+              <Input label="Phone"       type="tel"   placeholder="813.330.0697" />
               <label style={{ display: 'flex', flexDirection: 'column', gap: 8, gridColumn: 'span 2' }}>
                 <span style={{ fontSize: 11, letterSpacing: 2, color: T.sageDk, fontWeight: 600, textTransform: 'uppercase' }}>
                   Matter
@@ -100,10 +100,10 @@ function ContactPage() {
                 Prefer to call?
               </div>
               <div style={{ fontFamily: T.display, fontSize: 36, fontStyle: 'italic', color: T.tealBr, marginBottom: 8 }}>
-                (727) 555&middot;0142
+                813.330.0697
               </div>
               <div id="email" style={{ fontSize: 14, color: 'rgba(255,255,255,0.78)' }}>
-                counsel@premierep.law
+                info@premier.law
               </div>
             </div>
 
@@ -113,8 +113,8 @@ function ContactPage() {
               <window.PEPEyebrow>Office</window.PEPEyebrow>
               <div style={{ marginTop: 14, fontSize: 15, lineHeight: 1.7 }}>
                 Premier Estate Planning, PLLC<br/>
-                200 Central Avenue, Suite 400<br/>
-                St. Petersburg, FL 33701
+                Tampa, Florida<br/>
+                Serving Tampa Bay &amp; clients nationwide
               </div>
               <div style={{
                 marginTop: 16, paddingTop: 16, borderTop: `1px solid ${T.rule}`,
@@ -150,7 +150,7 @@ function ContactPage() {
               <div style={{
                 position: 'absolute', bottom: 16, left: 18, fontSize: 11, letterSpacing: 1.5, color: T.muted,
                 textTransform: 'uppercase', fontWeight: 600,
-              }}>Downtown St. Petersburg</div>
+              }}>Tampa, Florida</div>
             </div>
           </div>
         </div>
@@ -174,7 +174,7 @@ function ContactPage() {
               ['Within one business day', 'You will receive a reply from our office with two or three proposed call times.'],
               ['Within one week',         'A complimentary thirty-minute call. We listen first; we propose a path forward.'],
               ['Within two weeks',        'If you choose to engage, drafts arrive with a plain-English summary.'],
-              ['On signing',              'Witnessed and notarized in our St. Petersburg office. You leave with the portfolio.'],
+              ['On signing',              'Witnessed and notarized in our Tampa office. You leave with the portfolio.'],
             ].map(([w, d], i) => (
               <div key={w} style={{
                 padding: '28px 28px', background: T.sand,
