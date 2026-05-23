@@ -1,0 +1,111 @@
+/* ============================================================================
+   PEP — Responsive layer
+   The pages are built with React inline styles at a fixed 1440px desktop width.
+   This stylesheet keeps that desktop design pixel-identical while making the
+   site reflow cleanly on laptops, tablets, and phones.
+
+   Mechanism: React serializes inline styles into the element's `style`
+   attribute, so attribute-substring selectors ([style*="..."]) can target them,
+   and `!important` outranks a non-important inline style. Rules are scoped under
+   max-width media queries so the >=1440 desktop layout is never touched.
+   ============================================================================ */
+
+/* --- Always on: make the fixed 1440 page container fluid -------------------
+   Fixes horizontal scroll on any viewport narrower than 1440 (incl. laptops). */
+[style*="width: 1440px"] {
+  width: 100% !important;
+  max-width: 1440px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+img { max-width: 100%; }
+html, body { overflow-x: hidden; }
+
+/* ===========================================================================
+   TABLET / SMALL LAPTOP  (<= 1024px)
+   =========================================================================== */
+@media (max-width: 1024px) {
+  /* tighten the 40px gutters used by every top-level section/nav/footer */
+  section, footer { padding-left: 28px !important; padding-right: 28px !important; }
+  [style*="22px 40px"] { padding-left: 28px !important; padding-right: 28px !important; }
+
+  /* 4-up and 3-up grids -> 2-up */
+  [style*="grid-template-columns: repeat(4"],
+  [style*="grid-template-columns: repeat(3"] { grid-template-columns: repeat(2, 1fr) !important; }
+
+  /* 5-col footer -> 3-col */
+  [style*="grid-template-columns: 2fr 1fr 1fr 1fr 1fr"] { grid-template-columns: repeat(3, 1fr) !important; }
+
+  /* article body: drop the fixed 320px sidebar to a flexible second column */
+  [style*="grid-template-columns: 1fr 320px"] { grid-template-columns: 1fr 260px !important; }
+
+  /* ease the largest display type a touch */
+  [style*="font-size: 112px"] { font-size: 84px !important; }
+  [style*="font-size: 96px"]  { font-size: 72px !important; }
+  [style*="font-size: 84px"]  { font-size: 64px !important; }
+}
+
+/* ===========================================================================
+   PHONE / SMALL TABLET  (<= 680px)  — collapse everything to a single column
+   =========================================================================== */
+@media (max-width: 680px) {
+  /* gutters */
+  section, footer { padding-left: 18px !important; padding-right: 18px !important; }
+
+  /* every multi-column grid becomes a single stacked column */
+  [style*="grid-template-columns"] { grid-template-columns: 1fr !important; }
+  [style*="grid-column: span"]     { grid-column: auto !important; }
+
+  /* section headers (title left / chips or note right) stack vertically */
+  [style*="justify-content: space-between"][style*="align-items: end"] {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 18px !important;
+  }
+  /* let the category-chip rows wrap instead of overflowing */
+  [style*="display: flex"][style*="gap: 8px"] { flex-wrap: wrap !important; }
+
+  /* nav: let the bar and its links wrap and center instead of overflowing */
+  [style*="22px 40px"] {
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    gap: 14px !important;
+    padding-left: 18px !important;
+    padding-right: 18px !important;
+    text-align: center;
+  }
+  nav {
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    gap: 12px 18px !important;
+    font-size: 13px !important;
+  }
+
+  /* shrink the big inner card paddings so content isn't crushed */
+  [style*="padding: 72px 56px"],
+  [style*="padding: 88px 56px"],
+  [style*="padding: 56px 48px"],
+  [style*="padding: 48px 48px"],
+  [style*="padding: 48px 36px"],
+  [style*="padding: 36px 36px 32px"],
+  [style*="padding: 44px"],
+  [style*="padding: 48px;"] { padding: 32px 22px !important; }
+
+  /* display type scaled for small screens */
+  [style*="font-size: 280px"] { font-size: 120px !important; }
+  [style*="font-size: 112px"] { font-size: 52px !important; }
+  [style*="font-size: 96px"]  { font-size: 44px !important; }
+  [style*="font-size: 84px"]  { font-size: 40px !important; }
+  [style*="font-size: 72px"]  { font-size: 38px !important; }
+  [style*="font-size: 60px"]  { font-size: 36px !important; }
+  [style*="font-size: 56px"]  { font-size: 34px !important; }
+  [style*="font-size: 48px"]  { font-size: 32px !important; }
+  [style*="font-size: 42px"]  { font-size: 30px !important; }
+  [style*="font-size: 40px"]  { font-size: 29px !important; }
+  [style*="font-size: 36px"]  { font-size: 27px !important; }
+  [style*="font-size: 34px"]  { font-size: 26px !important; }
+
+  /* article body sidebar is sticky on desktop; let it flow naturally below */
+  [style*="position: sticky"] { position: static !important; }
+}
