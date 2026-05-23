@@ -7,7 +7,7 @@ function ArticleHEMS() {
 
   const Categories = ({ title, intro, groups }) => (
     <div style={{ margin: '32px 0' }}>
-      <H3>{title}</H3>
+      <H2>{title}</H2>
       <P>{intro}</P>
       <div style={{
         border: `1px solid ${T.rule}`, borderRadius: 14, overflow: 'hidden', marginTop: 16,
