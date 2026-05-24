@@ -11,7 +11,7 @@ function ArticleHowItWorks() {
         category="GUIDE · ENGAGEMENT WORKFLOW"
         title="How our engagement"
         italic="actually works."
-        lede="Three meetings, approximately two weeks, one flat fee — and a plan you understand well enough to explain to your family. A look at each milestone and what happens between them."
+        lede="Three meetings, about two weeks, one flat fee, and a plan you understand well enough to explain to your family. A look at each step and what happens in between."
         meta={[['Reading','5 minutes'],['Updated','Spring 2026']]}
       />
 
@@ -29,36 +29,36 @@ function ArticleHowItWorks() {
         </>}
       >
         <P lead>
-          Estate planning need not be drawn out. Our process is deliberately short, deliberately flat-fee, and deliberately drafted by the attorney whose name is on the door. Below is what to expect at each milestone, and what is happening in our office between them.
+          Estate planning does not have to drag on. Our process is short, flat-fee, and handled start to finish by the attorney whose name is on the door. Here is what to expect at each step, and what is happening in our office in between.
         </P>
 
         <H2>1 · Initial Consultation</H2>
-        <P style={{ marginTop: -8, color: T.muted, fontSize: 16, fontStyle: 'italic' }}>Day 0 &nbsp;·&nbsp; thirty minutes &nbsp;·&nbsp; complimentary</P>
+        <P style={{ marginTop: -8, color: T.muted, fontSize: 16, fontStyle: 'italic' }}>Day 0 &nbsp;·&nbsp; thirty minutes &nbsp;·&nbsp; free</P>
         <P>
-          A discovery call by phone or video. We ask about your family, your assets, your prior planning, and the outcomes you are hoping for. There is no billable clock; there is no obligation. By the end of the call you have a clear sense of whether we are the right counsel for your matter and a flat-fee quote in writing.
+          A call by phone or video. We ask about your family, your assets, any planning you have already done, and what you are hoping for. No billing, no obligation. By the end of the call you will know whether we are the right fit, and you will have a flat-fee quote in writing.
         </P>
         <Callout title="What you bring">
-          A rough mental picture of your family and your assets. Any existing planning documents — even ones you suspect are out of date. A short list of your concerns. There is no preparation packet to complete in advance.
+          A rough picture of your family and your assets. Any existing planning documents, even ones you think are out of date. A short list of your concerns. There is no prep packet to fill out beforehand.
         </Callout>
 
         <H2>2 · Plan Design Meeting</H2>
         <P style={{ marginTop: -8, color: T.muted, fontSize: 16, fontStyle: 'italic' }}>Within the first week &nbsp;·&nbsp; 60–90 minutes</P>
         <P>
-          The decision-making meeting. Together we work through the substantive choices — beneficiaries, guardians, trust structures, distribution standards, powers of attorney, healthcare surrogates, and the dozen smaller decisions that compose a complete plan. You leave with a written summary of every decision we made, and our office moves into drafting.
+          The decision-making meeting. Together we work through the real choices: beneficiaries, guardians, trust structures, distribution standards, powers of attorney, healthcare surrogates, and the dozen smaller decisions that make up a complete plan. You leave with a written summary of every decision we made, and our office moves into drafting.
         </P>
 
-        <Pull>By the end of plan design, every meaningful decision is made — in plain language, on paper.</Pull>
+        <Pull>By the end of plan design, every meaningful decision is made, in plain language and on paper.</Pull>
 
         <H2>3 · Drafting</H2>
         <P style={{ marginTop: -8, color: T.muted, fontSize: 16, fontStyle: 'italic' }}>Days 5–10 &nbsp;·&nbsp; happens in our office</P>
         <P>
-          Documents are drafted by Mr. Carrillo personally. Each draft arrives with a plain-language summary that precedes the legalese — so you read the summary first, raise any questions, and only then engage with the language of the documents themselves. One round of revisions is included; a second is included if needed.
+          Derek drafts the documents himself. Each draft comes with a plain-language summary, so you read the summary first, ask any questions, and only then dig into the legal language. One round of revisions is included, and a second if you need it.
         </P>
 
         <H2>4 · Wrap-Up &amp; Signing</H2>
         <P style={{ marginTop: -8, color: T.muted, fontSize: 16, fontStyle: 'italic' }}>Day 14 &nbsp;·&nbsp; 90 minutes &nbsp;·&nbsp; in office</P>
         <P>
-          A final walk-through of the documents, then signing with two witnesses and a notary public. You depart with a bound estate portfolio, a digital archive in your secure client file, and a one-page instruction sheet for your personal representative.
+          A final walk-through of the documents, then signing with two witnesses and a notary. You will leave with a bound copy of your plan, a digital archive in your client file, and a one-page instruction sheet for your personal representative.
         </P>
 
         <H2>5 · Funding</H2>
@@ -68,11 +68,11 @@ function ArticleHowItWorks() {
         </P>
 
         <Callout tone="dark" title="What's included in the flat fee">
-          Everything above — the consultation, the design meeting, drafting, one round of revisions, the signing meeting, the bound portfolio, deed preparation for Florida property, and one year of minor amendments. Court filings (if any), recording fees, and notary fees are paid at cost and disclosed in the engagement letter.
+          Everything above: the consultation, the design meeting, drafting, one round of revisions, the signing meeting, the bound portfolio, deed preparation for Florida property, and one year of minor amendments. Court filings (if any), recording fees, and notary fees are paid at cost and listed in the engagement letter.
         </Callout>
 
         <P>
-          To begin, <a href="Contact.html" style={{ color: T.teal }}>schedule a complimentary thirty-minute call</a> or reach our office at 813.330.0697.
+          To begin, <a href="Contact.html" style={{ color: T.teal }}>schedule a free thirty-minute call</a> or reach our office at 813.330.0697.
         </P>
       </window.PEPArticleBody>
 

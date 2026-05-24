@@ -6,20 +6,20 @@ function ResourcesPage() {
   const featured = {
     cat: 'FEATURE · SPRING 2026',
     title: 'The cornerstones of estate planning: an essential overview',
-    summary: 'A plan is not simply a record of how your assets pass — it is part of a larger financial conversation, designed to carry your wishes, your values, and the people you love through whatever comes next. A close look at the six instruments most Florida families need.',
+    summary: 'Your plan is more than a list of who gets what. It is part of a bigger financial picture, built to carry out your wishes and look after the people you love. A close look at the six documents most Florida families need.',
     read: '11 minute read',
     href: 'Estate Planning Essentials.html',
   };
 
   const articles = [
-    ['Overview',     'About the practice',                              'A short overview of how PEP practices — what we draft, how we charge, and where we sit in your team of advisors.',                                                  '5 min · Spring 2026',   'About the Practice.html'],
-    ['Process',      'How our engagement works',                        'Three meetings, two weeks, one flat fee — a look at each milestone and what happens in our office between them.',                                              '5 min · Spring 2026',   'How Our Engagement Works.html'],
-    ['Process',      'Preparing for your initial consultation',         'The first call is deliberately conversational. A short note on what to have at hand — and what not to bring.',                                                     '4 min · Spring 2026',   'Preparing for Your Consultation.html'],
-    ['Trust Admin',  'HEMS, in practice',                               'Health, Education, Maintenance, and Support — the discretionary distribution standard at the heart of most modern trusts, examined line by line.',              '9 min · Spring 2026',   'HEMS Explained.html'],
-    ['Marriage',     'Individual vs. joint trusts: a strategic choice', 'For Florida couples in a separate-property state, individual trusts almost always serve better than a joint trust. The reasons — administrative, tax, and protective.', '6 min · Spring 2026', 'Individual vs Joint Trusts.html'],
-    ['Funding',      'Funding your trust: why, what, when, how',        'An unfunded trust is a beautifully drafted set of pages that does almost nothing. A practical look at what funding means and how it actually happens.',          '7 min · Spring 2026',   'Funding Your Trust.html'],
-    ['After a Loss', 'After the loss of a spouse: a planning checklist','The hardest days are not the right time for complicated decisions. This checklist organises the months that follow into three deliberate phases.',                 '7 min · Spring 2026',   'After the Loss of a Spouse.html'],
-    ['Process',      'After plan design: what happens next',            'You have completed the design meeting. A roadmap of the next ten to fourteen days — drafting, review, signing, and funding.',                                    '4 min · Spring 2026',   'After Plan Design.html'],
+    ['Overview',     'About the practice',                              'A short overview of how we work, what we draft, and how we charge.',                                                  '5 min · Spring 2026',   'About the Practice.html'],
+    ['Process',      'How our engagement works',                        'Three meetings, two weeks, one flat fee. A look at each step and what happens in between.',                                              '5 min · Spring 2026',   'How Our Engagement Works.html'],
+    ['Process',      'Preparing for your initial consultation',         'The first call is a relaxed conversation. Here is what to have handy before we talk.',                                                     '4 min · Spring 2026',   'Preparing for Your Consultation.html'],
+    ['Trust Admin',  'HEMS, in practice',                               'Health, Education, Maintenance, and Support: the distribution standard at the heart of most modern trusts, explained line by line.',              '9 min · Spring 2026',   'HEMS Explained.html'],
+    ['Marriage',     'Individual vs. joint trusts: a strategic choice', 'For Florida couples, separate trusts almost always work better than a joint trust. Here is why, for administration, taxes, and protection.', '6 min · Spring 2026', 'Individual vs Joint Trusts.html'],
+    ['Funding',      'Funding your trust: why, what, when, how',        'An unfunded trust is a nicely drafted stack of paper that does almost nothing. Here is what funding means and how it actually works.',          '7 min · Spring 2026',   'Funding Your Trust.html'],
+    ['After a Loss', 'After the loss of a spouse: a planning checklist','The hardest days are not the time for big decisions. This checklist breaks the months that follow into three simple phases.',                 '7 min · Spring 2026',   'After the Loss of a Spouse.html'],
+    ['Process',      'After plan design: what happens next',            'You have finished the design meeting. Here is what the next ten to fourteen days look like: drafting, review, signing, and funding.',                                    '4 min · Spring 2026',   'After Plan Design.html'],
   ];
 
   const cats = ['All','Overview','Process','Trust Admin','Marriage','Funding','After a Loss'];
@@ -38,7 +38,7 @@ function ResourcesPage() {
         eyebrow="Resources"
         title="Reading from"
         italic="the desk."
-        lede="Plain-language essays on Florida estate practice — written for clients and their advisors, not for other lawyers."
+        lede="Plain-language essays on Florida estate planning, written for clients and their advisors."
       />
 
       {/* Featured article */}
@@ -54,7 +54,7 @@ function ResourcesPage() {
           }}>
             <img
               src="assets/cornerstones-feature.jpg"
-              alt="The Cornerstones of Estate Planning — An Essential Overview"
+              alt="The Cornerstones of Estate Planning: An Essential Overview"
               style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'left center', display: 'block' }}
             />
           </div>
@@ -139,7 +139,7 @@ function ResourcesPage() {
               The five-question planning quiz.
             </h3>
             <p style={{ fontSize: 15, lineHeight: 1.65, color: 'rgba(255,255,255,0.78)', margin: '0 0 28px', maxWidth: 440 }}>
-              In under two minutes, see which planning documents you most likely need — and which can wait. A personalized checklist arrives by email.
+              In under two minutes, find out which documents you probably need and which can wait. We'll email you a checklist.
             </p>
             <a href="#" style={{
               display: 'inline-block', background: T.cream, color: T.ink, padding: '14px 24px',
@@ -194,13 +194,13 @@ function ResourcesPage() {
           }}>
             {[
               ['Do I really need a trust, or will a will suffice?',
-               'A will alone passes through probate; a properly funded revocable trust avoids it for most assets. For Florida residents with real property, the answer is almost always: a trust, with a pour-over will as a safety net.'],
+               'A will alone still goes through probate. A properly funded revocable trust skips it for most assets. For Florida residents who own real estate, a trust with a pour-over will as backup is almost always the better setup.'],
               ['How often should I update my plan?',
-               'Major life events (marriage, divorce, a new child, a change of state, a death in the family) trigger a review. Absent those, every three to five years is sound.'],
+               'Big life changes like marriage, divorce, a new child, a move, or a death in the family are good reasons to review. Otherwise, every three to five years is plenty.'],
               ['Can you handle out-of-state property?',
-               'For decedents who held Florida real estate, yes — through ancillary administration. For Florida residents with property elsewhere, we coordinate with local counsel in the relevant jurisdiction.'],
+               'Yes. For Florida real estate in an out-of-state estate, we handle ancillary administration. If you own property in another state, we coordinate with local counsel there.'],
               ['What about digital assets, photos, crypto?',
-               'Increasingly part of every plan. We draft fiduciary access language and maintain a digital asset inventory as part of the bound portfolio.'],
+               'These are part of most plans now. We include access language for the people you name and keep a digital asset inventory with your plan.'],
             ].map(([q, a], i, arr) => (
               <details key={q} style={{
                 padding: '24px 28px',

@@ -31,9 +31,9 @@ function ContactPage() {
     <window.PEPPage current="contact">
       <window.PEPHero
         eyebrow="Contact"
-        title="Begin the conversation."
+        title="Let's talk."
         italic="No obligation."
-        lede="A complimentary thirty-minute call to understand your circumstances. We will follow up by email within one business day with proposed times and a brief intake."
+        lede="A free thirty-minute call to understand your situation. We will email you within one business day with a few proposed times."
       />
 
       {/* Form + sidebar */}
@@ -67,17 +67,17 @@ function ContactPage() {
                   border: `1px solid ${T.rule}`, borderRadius: 10, background: T.cream,
                   outline: 'none',
                 }}>
-                  <option>Estate planning — wills & trusts</option>
+                  <option>Estate planning (wills & trusts)</option>
                   <option>Probate or trust administration</option>
                   <option>Business succession</option>
                   <option>Elder law & incapacity</option>
                   <option>Something else</option>
                 </select>
               </label>
-              <Input label="A few words on your situation" type="textarea" placeholder="A line or two is plenty — we'll go deeper on the call." span={2} />
+              <Input label="A few words on your situation" type="textarea" placeholder="A line or two is plenty. We'll go deeper on the call." span={2} />
               <div style={{ gridColumn: 'span 2', display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginTop: 8 }}>
                 <span style={{ fontSize: 12, color: T.muted }}>
-                  All communication is confidential, but does not establish an attorney-client relationship until engagement.
+                  Your message is confidential. It does not create an attorney-client relationship until we are formally engaged.
                 </span>
                 <button type="submit" style={{
                   background: T.ink, color: T.cream, border: 'none', padding: '16px 28px',
@@ -171,10 +171,10 @@ function ContactPage() {
             border: `1px solid ${T.rule}`, borderRadius: 14, overflow: 'hidden',
           }}>
             {[
-              ['Within one business day', 'You will receive a reply from our office with two or three proposed call times.'],
-              ['Within one week',         'A complimentary thirty-minute call. We listen first; we propose a path forward.'],
-              ['Within two weeks',        'If you choose to engage, drafts arrive with a plain-English summary.'],
-              ['On signing',              'Witnessed and notarized in our Tampa office. You leave with the portfolio.'],
+              ['Within one business day', 'You will hear back from our office with two or three proposed call times.'],
+              ['Within one week',         'A free thirty-minute call. We listen first, then suggest a path forward.'],
+              ['Within two weeks',        'If you decide to move forward, your drafts arrive with a plain-English summary.'],
+              ['On signing',              'Witnessed and notarized in our Tampa office. You leave with your bound plan.'],
             ].map(([w, d], i) => (
               <div key={w} style={{
                 padding: '28px 28px', background: T.sand,

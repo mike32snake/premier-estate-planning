@@ -11,7 +11,7 @@ function ArticleTrustsCompare() {
         category="GUIDE · MARRIED COUPLES"
         title="Individual vs. joint trusts:"
         italic="a strategic choice."
-        lede="For Florida couples — a separate-property state — individual trusts almost always serve better than a joint trust. The reasons have less to do with the wedding and more to do with what happens after one spouse passes."
+        lede="Florida is a separate-property state, and for most couples here, individual trusts work better than a joint trust. The reasons have everything to do with what happens after one spouse passes."
         meta={[['Reading','6 minutes'],['Updated','Spring 2026']]}
       />
 
@@ -29,26 +29,26 @@ function ArticleTrustsCompare() {
         </>}
       >
         <P lead>
-          A joint trust feels intuitive: one married couple, one document, one set of decisions. For couples living in community-property states, that intuition can be correct. In Florida — a separate-property state — separate trusts for each spouse typically produce a more durable plan. The difference shows up not at signing but years later, when one spouse has passed and the other is administering what remains.
+          A joint trust feels intuitive: one married couple, one document, one set of decisions. In a community-property state, that intuition can be right. Florida is a separate-property state, and here separate trusts for each spouse usually make for a sturdier plan. You feel the difference years after signing, when one spouse has passed and the other is settling what remains.
         </P>
 
         <H2>Why separate trusts tend to win in Florida</H2>
 
         <H3>Streamlined administration</H3>
         <P>
-          When a spouse passes, the trustee — often the surviving spouse — needs to identify which assets were the decedent's, which were jointly held, and which belonged to the survivor. With separate trusts, that question is already answered by the title of the assets. With a joint trust, the same question can require months of forensic accounting.
+          When a spouse passes, the trustee, often the surviving spouse, has to sort out which assets belonged to the person who died, which were jointly held, and which belonged to the survivor. With separate trusts, the title already answers that. With a joint trust, the same question can take months of forensic accounting.
         </P>
 
         <H3>Enhanced asset protection</H3>
         <P>
-          Each spouse has their own creditors, their own potential liabilities, and their own professional exposures. Separate trusts keep those exposures cleanly separated. A joint trust commingles them — and commingled assets in a Florida trust can lose certain protections, particularly the powerful Florida "tenancy by the entireties" treatment that shields joint marital property from a single spouse's creditors.
+          Each spouse has their own creditors, their own potential liabilities, and their own professional exposures. Separate trusts keep those exposures apart. A joint trust mixes them together, and mixed assets in a Florida trust can lose certain protections, including the strong Florida "tenancy by the entireties" treatment that shields joint marital property from one spouse's creditors.
         </P>
 
-        <Pull>The structure should make administration easier, not harder, on the worst day.</Pull>
+        <Pull>The structure should make the worst day easier on the people you leave behind.</Pull>
 
         <H3>Tax advantages</H3>
         <P>
-          When the first spouse dies, the basis of their assets is stepped up to fair-market value — a meaningful tax benefit for appreciated property. With separate trusts, identifying which assets receive the step-up is straightforward. With a joint trust, sorting out the step-up basis on commingled assets can be technically complex and occasionally results in lost tax benefits.
+          When the first spouse dies, their assets get a step-up in basis to fair-market value, which is a real tax benefit for property that has appreciated. With separate trusts, it is easy to see which assets get the step-up. With a joint trust, sorting out the step-up on mixed assets can get technical and sometimes costs the family tax benefits.
         </P>
         <P>
           Separate trusts also make it easier to implement credit-shelter trust planning at the first death, preserve each spouse's federal estate-tax exemption, and track lifetime gifts cleanly.
@@ -56,7 +56,7 @@ function ArticleTrustsCompare() {
 
         <H3>Clearer record-keeping</H3>
         <P>
-          Each trust has a single grantor, single tax identification approach, and a clear chain of title. Joint trusts require ongoing tracking of which spouse contributed what — a record-keeping burden that often degrades over decades of marriage.
+          Each trust has a single grantor, single tax identification approach, and a clear chain of title. Joint trusts require ongoing tracking of which spouse contributed what, and that record-keeping tends to slip over decades of marriage.
         </P>
 
         <H2>Where joint trusts struggle in Florida</H2>
@@ -81,7 +81,7 @@ function ArticleTrustsCompare() {
         </UL>
 
         <Callout title="Already have a joint trust?">
-          Joint trusts can be amended, restated, or unwound into separate trusts depending on your circumstances. We do not recommend amendment as a reflex — sometimes a joint trust serves a particular couple well. We do recommend a review.
+          Joint trusts can be amended, restated, or unwound into separate trusts depending on your circumstances. We do not recommend changing it as a reflex. Sometimes a joint trust serves a couple well. We do recommend a review.
         </Callout>
 
         <H2>Making the right choice</H2>
@@ -98,7 +98,7 @@ function ArticleTrustsCompare() {
         </UL>
 
         <Callout tone="dark">
-          Let's discuss which structure best serves your family. A thirty-minute consultation is complimentary, and you will leave with a clear recommendation in plain language.
+          Let's talk about which structure fits your family. The thirty-minute consultation is free, and you will leave with a clear recommendation in plain language.
         </Callout>
 
         <P>

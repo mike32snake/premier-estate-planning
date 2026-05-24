@@ -176,10 +176,10 @@ window.PEPCTA = function PEPCTA() {
             fontFamily: T.display, fontSize: 72, margin: '24px 0 24px', fontWeight: 400,
             letterSpacing: -2, lineHeight: 1,
           }}>
-            The conversation begins with a <em style={{ color: T.tealBr, fontStyle: 'italic' }}>thirty-minute call.</em>
+            It starts with a <em style={{ color: T.tealBr, fontStyle: 'italic' }}>thirty-minute call.</em>
           </h2>
           <p style={{ fontSize: 16, lineHeight: 1.65, color: 'rgba(255,255,255,0.72)', maxWidth: 520, margin: 0 }}>
-            Complimentary and confidential. We will discuss your circumstances, outline a path forward, and quote a flat fee in writing.
+            It's free and confidential. We'll talk through your situation, walk you through your options, and give you a flat fee in writing.
           </p>
           <a href="Contact.html" style={{
             display: 'inline-block', background: T.cream, color: T.ink, padding: '16px 28px',
@@ -196,7 +196,6 @@ window.PEPCTA = function PEPCTA() {
           <div style={{ fontSize: 11, letterSpacing: 2, textTransform: 'uppercase', color: T.tealBr, fontWeight: 600, marginBottom: 14 }}>Office</div>
           Tampa, Florida<br/>
           Serving Tampa Bay &amp; clients nationwide<br/>
-          <span style={{ color: 'rgba(255,255,255,0.5)' }}>—</span><br/>
           813.330.0697<br/>
           info@premier.law
         </div>

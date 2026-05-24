@@ -81,9 +81,9 @@ function VariantBTeal() {
               done <em style={{ color: teal, fontStyle: 'italic' }}>properly.</em>
             </h1>
             <p style={{ fontSize: 18, lineHeight: 1.65, color: muted, maxWidth: 560, margin: 0 }}>
-              A Florida firm dedicated to wills, revocable trusts, probate, and
-              succession planning. Considered counsel for the families and
-              business owners of the Gulf Coast.
+              We're a Florida firm focused on wills, revocable trusts, probate,
+              and succession planning. We help families and business owners
+              across the Tampa Bay area protect what they've built.
             </p>
 
             <div style={{ display: 'flex', gap: 14, marginTop: 44, alignItems: 'center' }}>
@@ -125,7 +125,7 @@ function VariantBTeal() {
                 marginTop: 26, fontSize: 13, letterSpacing: 0.4, color: 'rgba(255,255,255,0.85)',
                 borderTop: '1px solid rgba(255,255,255,0.18)', paddingTop: 18,
               }}>
-                Five questions. A personalised checklist. →
+                Five questions. A checklist made for you. →
               </div>
             </div>
             <div style={{
@@ -145,9 +145,9 @@ function VariantBTeal() {
                 </div>
               </div>
               <div style={{ fontSize: 14, lineHeight: 1.6, color: muted, marginTop: 18, fontStyle: 'italic' }}>
-                "I founded PEP after watching my own family navigate an estate
-                without a plan. Two decades on, that lesson still informs every
-                document we draft."
+                "I started PEP after watching my own family deal with an estate
+                that had no plan. Years later, that experience still shapes
+                every document we draft."
               </div>
             </div>
           </div>
@@ -160,11 +160,11 @@ function VariantBTeal() {
           <div>
             <Eyebrow>Practice Areas</Eyebrow>
             <h2 style={{ fontFamily: display, fontSize: 60, margin: '18px 0 0', fontWeight: 400, letterSpacing: -1.5, lineHeight: 1 }}>
-              Counsel across the full <em style={{ color: teal }}>arc of a legacy.</em>
+              Everything your plan needs, <em style={{ color: teal }}>in one place.</em>
             </h2>
           </div>
           <div style={{ fontSize: 15, color: muted, maxWidth: 320, lineHeight: 1.6 }}>
-            Four focused practice areas. Engagement letters with flat fees. No surprise invoices.
+            Four practice areas, each quoted as a flat fee in your engagement letter. No hourly billing.
           </div>
         </div>
 
@@ -179,7 +179,7 @@ function VariantBTeal() {
               <div style={{ fontFamily: display, fontSize: 14, color: tealBr, marginBottom: 12, letterSpacing: 1.5, textTransform: 'uppercase', fontWeight: 600 }}>I &middot; Core Planning</div>
               <h3 style={{ fontFamily: display, fontSize: 40, margin: '0 0 14px', fontWeight: 400, letterSpacing: -0.8 }}>Wills &amp; Revocable Trusts</h3>
               <p style={{ fontSize: 16, lineHeight: 1.65, color: muted, margin: 0, maxWidth: 480 }}>
-                The foundation of every plan. Probate avoidance, guardianship of minor children, and homestead protection — drafted to Florida statute.
+                The foundation of every plan. We handle probate avoidance, guardianship for minor children, and homestead protection, all drafted to Florida law.
               </p>
             </div>
             <div style={{ display: 'flex', gap: 0, flexWrap: 'wrap', borderTop: `1px solid ${rule}`, marginTop: 32, paddingTop: 20 }}>
@@ -197,14 +197,14 @@ function VariantBTeal() {
               <div style={{ fontFamily: display, fontSize: 14, color: tealBr, marginBottom: 10, letterSpacing: 1.5, textTransform: 'uppercase', fontWeight: 600 }}>II &middot; Probate</div>
               <h3 style={{ fontFamily: display, fontSize: 30, margin: '6px 0 12px', fontWeight: 400, letterSpacing: -0.5 }}>Probate &amp; Trust Administration</h3>
               <p style={{ fontSize: 14, lineHeight: 1.6, opacity: 0.88, margin: 0 }}>
-                Filings, deadlines, creditor notice, and beneficiary distributions handled with discretion during a difficult season.
+                We handle the filings, deadlines, creditor notices, and distributions, so your family has less to carry during a hard time.
               </p>
             </div>
             <div style={{ background: '#fff', borderRadius: 14, padding: 32, flex: 1, border: `1px solid ${rule}` }}>
               <div style={{ fontFamily: display, fontSize: 14, color: tealBr, marginBottom: 10, letterSpacing: 1.5, textTransform: 'uppercase', fontWeight: 600 }}>III &middot; Business</div>
               <h3 style={{ fontFamily: display, fontSize: 30, margin: '6px 0 12px', fontWeight: 400, letterSpacing: -0.5 }}>Business Succession</h3>
               <p style={{ fontSize: 14, lineHeight: 1.6, color: muted, margin: 0 }}>
-                Buy-sell agreements, LLC restructurings, and dynasty trusts for closely-held Florida enterprises.
+                Buy-sell agreements, LLC restructuring, and dynasty trusts for closely held Florida businesses.
               </p>
             </div>
           </div>
@@ -214,7 +214,7 @@ function VariantBTeal() {
               <div style={{ fontFamily: display, fontSize: 14, color: tealBr, marginBottom: 12, letterSpacing: 1.5, textTransform: 'uppercase', fontWeight: 600 }}>IV &middot; Elder Law</div>
               <h3 style={{ fontFamily: display, fontSize: 40, margin: '6px 0 14px', fontWeight: 400, letterSpacing: -0.8 }}>Care &amp; Incapacity Planning</h3>
               <p style={{ fontSize: 16, lineHeight: 1.65, opacity: 0.88, margin: 0, maxWidth: 520 }}>
-                Powers of attorney, advance directives, Medicaid pre-planning, and guardianship petitions — preparing the documents before they are needed.
+                Powers of attorney, advance directives, Medicaid pre-planning, and guardianship petitions. We get these in place before you need them.
               </p>
             </div>
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2,1fr)', gap: 1, background: 'rgba(255,255,255,0.14)' }}>
@@ -239,14 +239,14 @@ function VariantBTeal() {
         <div style={{ background: sand, borderRadius: 14, padding: '72px 56px', border: `1px solid ${rule}` }}>
           <Eyebrow>The Engagement</Eyebrow>
           <h2 style={{ fontFamily: display, fontSize: 60, margin: '18px 0 56px', fontWeight: 400, letterSpacing: -1.5, lineHeight: 1 }}>
-            Three steps. <em style={{ color: teal }}>Approximately two weeks.</em>
+            Three steps. <em style={{ color: teal }}>About two weeks.</em>
           </h2>
 
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 0, borderTop: `1px solid ${rule}` }}>
             {[
-              ['I','Consultation', "A complimentary thirty-minute call to understand your assets, your beneficiaries, and your concerns."],
-              ['II','Drafting', 'A plain-language summary precedes the executed documents. You review; we revise; we file.'],
-              ['III','Execution', 'In-office signing with witnesses and a notary. You depart with a bound estate portfolio.'],
+              ['I','Consultation', "A free thirty-minute call to understand your situation and what matters most to you."],
+              ['II','Drafting', 'We send a plain-language summary first. You review it, we make changes, then we finalize the documents.'],
+              ['III','Execution', 'You sign in our office with witnesses and a notary, then leave with a bound copy of your plan.'],
             ].map(([n,t,d], i) => (
               <div key={n} style={{
                 padding: '40px 32px 8px',
@@ -264,13 +264,13 @@ function VariantBTeal() {
       {/* TESTIMONIALS row */}
       <section style={{ padding: '48px 40px 96px' }}>
         <div style={{ borderBottom: `1px solid ${rule}`, paddingBottom: 24, marginBottom: 32 }}>
-          <Eyebrow>Client Reflections</Eyebrow>
+          <Eyebrow>What Clients Say</Eyebrow>
         </div>
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 0 }}>
           {[
-            ['I had postponed this for twelve years. The firm guided us through it in a fortnight.', 'Sam K.', 'Business Owner · Tampa'],
-            ['When my mother passed, the administration was overwhelming. Mr. Carrillo took it on entirely.', 'Priya R.', 'Daughter · Sarasota'],
-            ['Counsel that explains plainly, without condescension. A rare combination.', 'Marcus T.', 'New Father · St. Petersburg'],
+            ['I had put this off for twelve years. They got us through it in about two weeks.', 'Sam K.', 'Business Owner · Tampa'],
+            ['When my mother passed, the paperwork was overwhelming. Derek handled all of it.', 'Priya R.', 'Daughter · Sarasota'],
+            ['He explained everything in plain English and never talked down to us.', 'Marcus T.', 'New Father · St. Petersburg'],
           ].map(([q, n, r], i) => (
             <div key={n} style={{
               padding: '32px 32px',
@@ -297,10 +297,10 @@ function VariantBTeal() {
           <div>
             <Eyebrow color="rgba(255,255,255,0.65)">Schedule a Consultation</Eyebrow>
             <h2 style={{ fontFamily: display, fontSize: 72, margin: '24px 0 24px', fontWeight: 400, letterSpacing: -2, lineHeight: 1 }}>
-              The conversation begins with a <em style={{ color: tealBr, fontStyle: 'italic' }}>thirty-minute call.</em>
+              It starts with a <em style={{ color: tealBr, fontStyle: 'italic' }}>thirty-minute call.</em>
             </h2>
             <p style={{ fontSize: 16, lineHeight: 1.65, color: 'rgba(255,255,255,0.72)', maxWidth: 520, margin: 0 }}>
-              Complimentary and confidential. We will discuss your circumstances, outline a path forward, and quote a flat fee in writing.
+              It's free and confidential. We'll talk through your situation, walk you through your options, and give you a flat fee in writing.
             </p>
             <a href="Contact.html" style={{
               background: cream, color: ink, padding: '16px 28px',
@@ -317,7 +317,6 @@ function VariantBTeal() {
             <div style={{ fontSize: 11, letterSpacing: 2, textTransform: 'uppercase', color: tealBr, fontWeight: 600, marginBottom: 14 }}>Office</div>
             Tampa, Florida<br/>
             Serving Tampa Bay &amp; clients nationwide<br/>
-            <span style={{ color: 'rgba(255,255,255,0.5)' }}>—</span><br/>
             813.330.0697<br/>
             info@premier.law
           </div>

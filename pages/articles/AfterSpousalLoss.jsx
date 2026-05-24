@@ -21,7 +21,7 @@ function ArticleSpousalLoss() {
         category="CHECKLIST · AFTER A LOSS"
         title="After the loss of a spouse:"
         italic="a planning checklist."
-        lede="The hardest days are not the right time for complicated decisions. This checklist organises the months that follow into three deliberate phases — so the most important matters get attention first, and the rest can wait their turn."
+        lede="The hardest days are not the time for complicated decisions. This checklist breaks the months that follow into three simple phases, so the most important things get attention first and the rest can wait."
         meta={[['Reading','7 minutes'],['Updated','Spring 2026']]}
       />
 
@@ -39,21 +39,21 @@ function ArticleSpousalLoss() {
         </>}
       >
         <P lead>
-          The weeks following a spouse's death feel both endless and impossibly compressed. Decisions arrive faster than you can process them; well-meaning advisors call with paperwork that does not feel like a priority. This checklist is not exhaustive — your circumstances will require items not listed here — but it is a starting structure, organised so that the most important matters come first and the rest can wait.
+          The weeks after a spouse's death feel both endless and impossibly compressed. Decisions come faster than you can process them, and well-meaning people call with paperwork that does not feel like a priority. This checklist will not cover everything, and your situation will add items of its own. Still, it gives you a place to start, with the most important things first and the rest able to wait.
         </P>
 
-        <Pull>You do not have to navigate these decisions alone. Take the immediate steps; let the rest wait until you can think clearly.</Pull>
+        <Pull>You do not have to face these decisions alone. Take the urgent steps, and let the rest wait until you can think clearly.</Pull>
 
         <H2>Phase 1 · Immediate focus</H2>
         <P style={{ marginTop: -8, color: T.muted, fontSize: 16, fontStyle: 'italic' }}>The first days and weeks.</P>
 
         <Section
           title="Care &amp; immediate logistics"
-          subtitle="Begin with the things that matter most — yourself, your family, and the documents you'll need in the coming weeks."
+          subtitle="Start with what matters most: yourself, your family, and the documents you'll need in the coming weeks."
           items={[
             'Take care of yourself and your family. Eat, sleep, walk, accept help.',
             'Create a single central folder (paper or digital) for documents arriving in the coming weeks.',
-            'Notify the people who help you — financial advisor, attorney, tax professional, insurance agent.',
+            'Notify the people who help you: financial advisor, attorney, tax professional, insurance agent.',
             'Obtain death certificates. Order between ten and twenty-five certified copies.',
             'Gather key personal and financial documents in one place.',
             'Review life insurance policies and confirm funeral arrangements are in motion.',
@@ -83,13 +83,13 @@ function ArticleSpousalLoss() {
 
         <Section
           title="Looking forward"
-          subtitle="With the immediate administrative work behind you, this is the moment to revisit the larger plan — investments, estate documents, and the next chapter."
+          subtitle="With the immediate work behind you, this is the time to revisit the bigger picture: investments, estate documents, and what comes next."
           items={[
             'Review overall financial and investment strategy with your advisor.',
             'Plan for retirement income and the management of insurance proceeds.',
             'Inventory remaining estate assets and household items.',
             'Begin estate administration and required tax filings.',
-            'Update your own will, trust, and healthcare documents — your plan has changed.',
+            'Update your own will, trust, and healthcare documents. Your plan has changed.',
             'Hold a family financial meeting; clarify what your beneficiaries should know.',
             'Review charitable, legacy, and educational planning.',
             'Continue tending to your personal well-being.',
@@ -97,15 +97,15 @@ function ArticleSpousalLoss() {
         />
 
         <Callout title="What to expect from probate or trust administration">
-          If your spouse had a properly funded revocable trust, most assets transfer without probate, and our role is primarily administrative — retitling, accountings, and beneficiary distributions. If a will was in place but no trust, formal or summary probate may be required. We handle both in-house and will tell you which applies on our first call.
+          If your spouse had a properly funded revocable trust, most assets transfer without probate, and our role is mostly administrative: retitling, accountings, and beneficiary distributions. If there was a will but no trust, formal or summary probate may be required. We handle both in-house and will tell you which applies on our first call.
         </Callout>
 
         <H2>Where PEP fits</H2>
         <P>
-          We assist surviving spouses with probate administration, trust funding and distribution, deed transfers, retitling, and the dozen smaller matters that arrive in the months after a loss. Most clients prefer to delegate that work entirely, and we handle each item ourselves rather than dispatching it to staff.
+          We assist surviving spouses with probate administration, trust funding and distribution, deed transfers, retitling, and the dozen smaller matters that arrive in the months after a loss. Most clients prefer to hand that work over entirely, and we handle each item ourselves instead of passing it to staff.
         </P>
         <P>
-          If you would like assistance, <a href="Contact.html" style={{ color: T.teal }}>schedule a complimentary thirty-minute call</a> or reach our office at 813.330.0697. There is no obligation, and most callers leave the conversation with a clearer sense of next steps regardless of whether they retain us.
+          If you would like assistance, <a href="Contact.html" style={{ color: T.teal }}>schedule a free thirty-minute call</a> or reach our office at 813.330.0697. There is no obligation, and most callers leave the conversation with a clearer sense of next steps regardless of whether they retain us.
         </P>
       </window.PEPArticleBody>
 

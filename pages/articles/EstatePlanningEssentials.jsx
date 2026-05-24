@@ -11,7 +11,7 @@ function ArticleEPE() {
         category="GUIDE · CORE PLANNING"
         title="The cornerstones of"
         italic="estate planning."
-        lede="A plan is not simply a record of how your assets will pass — it is part of a larger financial conversation, designed to carry your wishes, your values, and the people you love through whatever comes next."
+        lede="Your plan is more than a record of how your assets pass. It is part of a bigger financial picture, built to carry out your wishes and look after the people you love."
         meta={[['Reading','11 minutes'],['Updated','Spring 2026']]}
       />
 
@@ -29,21 +29,21 @@ function ArticleEPE() {
         </>}
       >
         <P lead>
-          Most clients arrive at PEP with the same question, phrased differently each time: <em>what documents do we actually need?</em> The honest answer is that a thoughtful Florida estate plan typically rests on six instruments — each one quiet on its own, formidable together.
+          Most clients come to us with the same question, asked in different ways: <em>what documents do we actually need?</em> For most Florida families, a solid plan rests on six. Each one does a specific job, and they work best as a set.
         </P>
 
         <H2><span id="trust"/>The Living Trust</H2>
         <P>
-          A revocable living trust is a flexible legal arrangement that allows you to transfer your assets into a trust during your lifetime. You remain in full control as trustee; the trust simply holds title on your behalf. The practical consequence is that, on your death, those assets pass to your beneficiaries without going through Florida's probate court — which is to say, without the time, expense, and public record that probate involves.
+          A revocable living trust is a flexible legal arrangement that allows you to transfer your assets into a trust during your lifetime. You remain in full control as trustee; the trust simply holds title on your behalf. The practical consequence is that, on your death, those assets pass to your beneficiaries without going through Florida's probate court. That means avoiding the time, expense, and public record that probate involves.
         </P>
-        <Pull>The trust is not an instrument of secrecy. It is an instrument of efficiency.</Pull>
+        <Pull>A trust does two things well: it keeps your family out of probate, and it keeps your affairs private.</Pull>
         <P>
-          A trust is also private. Where a will becomes a public record once filed for probate, a trust does not. For families who value discretion — and for those whose plans involve children from prior marriages, special-needs beneficiaries, or business interests — that privacy matters.
+          A trust is also private. A will becomes a public record once it is filed for probate. A trust stays out of the public record. That matters for families who value their privacy, and especially for those with children from prior marriages, special-needs beneficiaries, or business interests.
         </P>
 
         <H2><span id="subtrust"/>The Family Protection Subtrust</H2>
         <P>
-          A Family Protection Subtrust is a structural feature of the living trust: a "trust within the trust" that takes effect after your death. Rather than distributing assets outright to your beneficiaries — exposed to their creditors, divorces, and tax events — the subtrust holds and manages those assets on their behalf.
+          A Family Protection Subtrust is a structural feature of the living trust: a "trust within the trust" that takes effect after your death. The subtrust holds and manages those assets for your beneficiaries. Creditors, divorces, and tax events have a much harder time reaching money held this way than money handed over outright.
         </P>
         <P>
           The result is a plan that protects your beneficiaries from forces neither of you can predict: a future divorce, a lawsuit, a bankruptcy, a remarriage. Distributions can be made flexibly, according to the standard you set (see our article on <a href="HEMS Explained.html" style={{ color: T.teal }}>HEMS standards</a>), and the principal remains shielded.
@@ -51,10 +51,10 @@ function ArticleEPE() {
 
         <H2><span id="will"/>The Last Will &amp; Testament</H2>
         <P>
-          Most people have heard of a will, and it remains a critical component of a complete plan — but its role is different than most clients expect. In a properly funded trust plan, the will functions primarily as a <em>pour-over will</em>: a safety net that captures any asset not titled in the trust at your death and directs it into the trust to be distributed under the trust's terms.
+          Most people have heard of a will, and it is a critical part of a complete plan, though its role is different than most clients expect. In a properly funded trust plan, the will functions primarily as a <em>pour-over will</em>: a safety net that captures any asset not titled in the trust at your death and directs it into the trust to be distributed under the trust's terms.
         </P>
         <P>
-          The will also performs functions the trust cannot. Most importantly, it is where you nominate the guardian for your minor children. If you have minor children and no will, the Florida courts decide who raises them — a result no client has ever asked for.
+          The will also performs functions the trust cannot. Most importantly, it is where you nominate the guardian for your minor children. If you have minor children and no will, a Florida court decides who raises them. No client has ever wanted that.
         </P>
 
         <Callout title="A Common Misconception">
@@ -63,10 +63,10 @@ function ArticleEPE() {
 
         <H2><span id="poa"/>General Durable Power of Attorney</H2>
         <P>
-          Who attends to your affairs if you are incapacitated? A durable power of attorney grants someone you trust — your agent or attorney-in-fact — the legal authority to manage your financial matters and act on your behalf during periods of incapacity.
+          Who attends to your affairs if you are incapacitated? A durable power of attorney gives someone you trust (your agent, or attorney-in-fact) the legal authority to manage your financial matters and act for you during periods of incapacity.
         </P>
         <P>
-          The "durable" qualifier is the operative word: it means the document remains effective even after you can no longer make decisions for yourself, which is precisely when it is most needed. A POA permits the agent to pay your bills, manage your investments, file your tax returns, and handle real estate matters when you cannot.
+          The word "durable" is the important part: it means the document keeps working even after you can no longer make decisions, which is exactly when you need it most. A POA permits the agent to pay your bills, manage your investments, file your tax returns, and handle real estate matters when you cannot.
         </P>
 
         <H2><span id="health"/>Healthcare Directives</H2>
@@ -81,19 +81,19 @@ function ArticleEPE() {
 
         <H2><span id="hipaa"/>HIPAA Authorization</H2>
         <P>
-          Federal privacy law restricts who may receive your protected health information. A HIPAA authorization names the individuals — typically your spouse, agent, and surrogate — permitted to receive that information on your behalf, so that the people who need to help you are not stopped at the hospital's privacy desk.
+          Federal privacy law restricts who may receive your protected health information. A HIPAA authorization names the people, usually your spouse, agent, and surrogate, allowed to receive that information, so the people helping you are not stopped at the hospital's privacy desk.
         </P>
 
         <Callout tone="dark" title="Putting it together">
-          A complete Florida estate plan typically includes all six documents — drafted to work together as a single, coherent instrument of your wishes. We design, draft, and execute the full set under a single flat fee.
+          A complete Florida plan usually includes all six documents, drafted to work together as one. We design, draft, and execute the full set for one flat fee.
         </Callout>
 
         <H2>How PEP approaches it</H2>
         <P>
-          Each document above is a tool. The plan is the composition. Our practice exists to help Florida families assemble the right composition for their specific circumstances — drafted by an attorney whose name is on the engagement letter, reviewed in plain language before any legalese is signed.
+          Each document above is a tool. The plan is how they fit together. We help Florida families put together the right combination for their situation, drafted by the attorney whose name is on the engagement letter and explained in plain language before anything is signed.
         </P>
         <P>
-          If you would like to discuss what an appropriate plan might look like for your family, <a href="Contact.html" style={{ color: T.teal }}>schedule a complimentary thirty-minute consultation</a>.
+          If you would like to discuss what an appropriate plan might look like for your family, <a href="Contact.html" style={{ color: T.teal }}>schedule a free thirty-minute consultation</a>.
         </P>
       </window.PEPArticleBody>
 

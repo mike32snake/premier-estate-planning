@@ -10,60 +10,60 @@ function PracticeAreasPage() {
       roman: 'I',
       eyebrow: 'Core Planning',
       title: 'Wills & Revocable Trusts',
-      lede: 'The cornerstone of a thoughtful estate. We design instruments that direct your assets, name guardians for minor children, and minimize the burden of probate on those you leave behind.',
+      lede: 'The foundation of any plan. We put together the documents that direct your assets, name guardians for minor children, and keep your family out of probate.',
       includes: [
         ['Last Will & Testament',     'Naming personal representatives, guardians, and specific bequests.'],
         ['Revocable Living Trust',    'Probate avoidance, lifetime flexibility, and orderly succession.'],
         ['Pour-Over Will',            'A safety net that captures any asset not titled in trust.'],
         ['Homestead Strategy',        'Drafted to Florida\'s constitutional homestead protections.'],
       ],
-      forWhom: 'Florida residents at any life stage — particularly families with children, blended households, and owners of real property.',
-      typical: 'Flat fee, three meetings, signed within fourteen days.',
+      forWhom: 'Florida residents at any stage of life, especially families with children, blended households, and anyone who owns real estate.',
+      typical: 'Flat fee. Three meetings. Signed within two weeks.',
     },
     {
       id: 'probate',
       roman: 'II',
       eyebrow: 'Administration',
       title: 'Probate & Trust Administration',
-      lede: 'When a loved one passes, our role is to absorb the procedural weight — filings, deadlines, creditor notice, and beneficiary distributions — so the family can focus on what matters.',
+      lede: 'When a loved one passes, we take on the procedural work: the filings, deadlines, creditor notices, and distributions, so your family can focus on each other.',
       includes: [
         ['Formal Administration',    'For estates above the summary threshold or with disputes.'],
         ['Summary Administration',   'A streamlined process for smaller estates and older deaths.'],
         ['Trust Administration',     'Funding, accountings, and distribution under a trust\'s terms.'],
         ['Ancillary Proceedings',    'Out-of-state decedents holding Florida real property.'],
       ],
-      forWhom: 'Personal representatives, trustees, and beneficiaries navigating the months following a death.',
-      typical: 'Hourly or flat fee depending on complexity; first consultation is complimentary.',
+      forWhom: 'Personal representatives, trustees, and beneficiaries dealing with the months after a death.',
+      typical: 'Flat or hourly fee depending on the estate. The first consultation is free.',
     },
     {
       id: 'business',
       roman: 'III',
       eyebrow: 'Closely-Held',
       title: 'Business Succession',
-      lede: 'For Florida owner-operators, the business is often the largest asset in the estate. We design transfer structures that preserve enterprise value across generations or facilitate a clean exit.',
+      lede: 'For many Florida owners, the business is the biggest asset in the estate. We build transfer structures that keep its value in the family or set up a clean sale.',
       includes: [
         ['Buy-Sell Agreements',      'Triggered by death, disability, retirement, or dispute.'],
         ['LLC Operating Reforms',    'Restating documents to reflect succession intent.'],
-        ['Dynasty &amp; GRAT Trusts',    'Multi-generational wealth transfer with tax sensitivity.'],
+        ['Dynasty &amp; GRAT Trusts',    'Passing wealth across generations with an eye on taxes.'],
         ['Key-Person Planning',      'Insurance, deferred compensation, and contingency counsel.'],
       ],
-      forWhom: 'Founders, partners, and family-business owners preparing for succession, sale, or generational handoff.',
-      typical: 'Engagement letter with scope-based flat fees; coordination with your CPA encouraged.',
+      forWhom: 'Founders, partners, and family-business owners preparing for succession, a sale, or handing the business to the next generation.',
+      typical: 'Flat fees based on scope, set in your engagement letter. We are glad to work with your CPA.',
     },
     {
       id: 'elder',
       roman: 'IV',
       eyebrow: 'Care & Incapacity',
       title: 'Elder Law',
-      lede: 'Documents prepared before they are needed. We help families anticipate incapacity, qualify for long-term care benefits, and preserve dignity through difficult transitions.',
+      lede: 'We get these documents in place before you need them. They help your family plan for incapacity, qualify for long-term care benefits, and avoid scrambling later.',
       includes: [
         ['Durable Power of Attorney','Financial decision authority during incapacity.'],
         ['Healthcare Surrogate',     'A clear voice for medical decisions when you cannot speak.'],
         ['Living Will',              'End-of-life directives, in writing and witnessed.'],
         ['Medicaid Pre-Planning',    'Asset protection and benefits qualification, lawfully done.'],
       ],
-      forWhom: 'Adults of any age — and adult children supporting aging parents through the next chapter.',
-      typical: 'Document packages with flat fees; expedited drafting available for urgent matters.',
+      forWhom: 'Adults of any age, and adult children helping aging parents.',
+      typical: 'Flat-fee document packages. Rush drafting available when it is urgent.',
     },
   ];
 
@@ -71,9 +71,9 @@ function PracticeAreasPage() {
     <window.PEPPage current="practice">
       <window.PEPHero
         eyebrow="Practice Areas"
-        title="Counsel across the full"
-        italic="arc of a legacy."
-        lede="A focused Florida practice in four disciplines — drafted by the attorney whose name is on the engagement letter."
+        title="Four areas."
+        italic="One focused firm."
+        lede="A focused Florida practice covering four areas, with every plan drafted by the attorney whose name is on your engagement letter."
       />
 
       {/* Anchor index */}

@@ -17,8 +17,8 @@ function AttorneysPage() {
               Derek Carrillo, <em style={{ color: T.teal, fontStyle: 'italic' }}>Esq.</em>
             </h1>
             <p style={{ fontFamily: T.display, fontStyle: 'italic', fontSize: 24, lineHeight: 1.5, color: T.muted, maxWidth: 560, margin: 0 }}>
-              Sixteen years of practice. Fifteen hundred families. One premise — the attorney
-              who drafts your plan is the one who signs it.
+              Sixteen years of practice. Fifteen hundred families. The attorney who
+              drafts your plan is the one who signs it.
             </p>
             <div style={{
               display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: 16,
@@ -26,7 +26,7 @@ function AttorneysPage() {
             }}>
               {[
                 ['J.D.',        'University of Florida · 2008'],
-                ['Bar',         'Florida Bar — RPPTL Section'],
+                ['Bar',         'Florida Bar · RPPTL Section'],
                 ['Recognition', 'Super Lawyers, 2019 – 2026'],
                 ['Fellowship',  'ACTEC (pending)'],
               ].map(([a, b]) => (
@@ -72,21 +72,19 @@ function AttorneysPage() {
           </div>
           <div style={{ fontSize: 18, lineHeight: 1.7, color: T.ink, maxWidth: 700 }}>
             <p style={{ margin: '0 0 22px' }}>
-              Estate practice is unusual among legal specialties: the documents we draft
-              are not read in our offices but in someone's living room, often during the
-              hardest week of a family's life. That fact ought to determine the way they
-              are written.
+              Estate work is different from most legal practice. The documents we draft
+              get read at someone's kitchen table, often during the hardest week of a
+              family's life. That should shape how they are written.
             </p>
             <p style={{ margin: '0 0 22px' }}>
-              We work in plain language. We summarize before we draft, and we draft once
-              the summary is right. We meet clients where they live; we coordinate with
-              their CPAs and advisors rather than around them; we quote flat fees so no
-              client hesitates to call with a question.
+              We write in plain language. We summarize before we draft, then draft once
+              the summary is right. We work with your CPA and advisors, and we quote flat
+              fees so you never hesitate to call with a question.
             </p>
             <p style={{ margin: 0 }}>
-              The result is a plan that an executor — your spouse, your child, your
-              trustee — can actually follow without an attorney standing over their
-              shoulder. That, to us, is the measure of competent estate work.
+              The result is a plan your executor can actually follow, whether that is your
+              spouse, your child, or your trustee, without a lawyer standing over their
+              shoulder. That is how we measure good estate work.
             </p>
           </div>
         </div>
@@ -139,7 +137,7 @@ function AttorneysPage() {
       {/* Reviews (id=reviews for footer link) */}
       <section id="reviews" style={{ padding: '0 40px 96px' }}>
         <div style={{ borderTop: `1px solid ${T.rule}`, paddingTop: 56 }}>
-          <window.PEPEyebrow>Client Reflections</window.PEPEyebrow>
+          <window.PEPEyebrow>What Clients Say</window.PEPEyebrow>
           <h2 style={{
             fontFamily: T.display, fontSize: 56, margin: '18px 0 48px',
             fontWeight: 400, letterSpacing: -1.5, lineHeight: 1,
@@ -148,9 +146,9 @@ function AttorneysPage() {
           </h2>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 0 }}>
             {[
-              ['I had postponed this for twelve years. The firm guided us through it in a fortnight.', 'Sam K.', 'Business Owner · Tampa'],
-              ['When my mother passed, the administration was overwhelming. Mr. Carrillo took it on entirely.', 'Priya R.', 'Daughter · Sarasota'],
-              ['Counsel that explains plainly, without condescension. A rare combination.', 'Marcus T.', 'New Father · St. Petersburg'],
+              ['I had put this off for twelve years. They got us through it in about two weeks.', 'Sam K.', 'Business Owner · Tampa'],
+              ['When my mother passed, the paperwork was overwhelming. Derek handled all of it.', 'Priya R.', 'Daughter · Sarasota'],
+              ['He explained everything in plain English and never talked down to us.', 'Marcus T.', 'New Father · St. Petersburg'],
             ].map(([q, n, r], i) => (
               <div key={n} style={{
                 padding: '32px 32px',

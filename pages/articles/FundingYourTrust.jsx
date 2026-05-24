@@ -11,7 +11,7 @@ function ArticleFunding() {
         category="GUIDE · TRUST FUNDING"
         title="Funding your trust:"
         italic="why, what, when, how."
-        lede="An unfunded trust is a beautifully drafted set of pages that does almost nothing. Funding the trust — the act of retitling assets into its name — is what turns the document into a working instrument."
+        lede="An unfunded trust is a nicely drafted stack of paper that does almost nothing. Funding it means retitling your assets into the trust's name, and that is what makes the document actually work."
         meta={[['Reading','7 minutes'],['Updated','Spring 2026']]}
       />
 
@@ -29,23 +29,23 @@ function ArticleFunding() {
         </>}
       >
         <P lead>
-          A trust is a vehicle. Funding is the act of putting the cargo inside. We have seen elegantly drafted trusts sit empty for a decade — and the family then go through probate as if the trust had never been signed. Funding is the unglamorous step that determines whether the plan actually performs on the day it is needed.
+          Think of the trust as a container. Funding is putting your assets inside it. We have seen well-drafted trusts sit empty for a decade, and then the family goes through probate anyway, as if the trust had never been signed. Funding is the unglamorous step that decides whether the plan works on the day it is needed.
         </P>
 
         <H2>Why funding matters</H2>
         <UL>
           <LI>Assets titled in the trust avoid Florida's probate court process entirely.</LI>
           <LI>A properly funded trust saves both time and money for those you leave behind.</LI>
-          <LI>Funding gives your successor trustee a clean, efficient administration — not a forensic search.</LI>
+          <LI>Funding spares your successor trustee a forensic search for your assets.</LI>
           <LI>Distributions flow according to the trust's terms without court supervision.</LI>
           <LI>Additional asset protection provisions only operate over assets the trust actually owns.</LI>
         </UL>
 
-        <Pull>A trust is not what you signed. A trust is what you titled.</Pull>
+        <Pull>A trust only protects what you actually put inside it.</Pull>
 
         <H2>What does it mean to "fund" a trust?</H2>
         <P>
-          Funding refers to the act of transferring ownership of appropriate assets from yourself, individually, to yourself, as trustee of your trust. The trust becomes the legal owner; you remain in full control as its trustee. Nothing about your day-to-day life changes — only the title.
+          Funding refers to the act of transferring ownership of appropriate assets from yourself, individually, to yourself, as trustee of your trust. The trust becomes the legal owner, and you stay in full control as its trustee. Nothing about your day-to-day life changes except the title.
         </P>
         <H3>Assets typically transferred into the trust</H3>
         <UL>
@@ -68,7 +68,7 @@ function ArticleFunding() {
 
         <H3>Brokerage and investment accounts (non-retirement)</H3>
         <P>
-          Each financial institution has its own change-of-ownership form. The institution will typically also request a Certificate of Trust — a short document we prepare summarising the trust's essential terms without disclosing its contents.
+          Each financial institution has its own change-of-ownership form. The institution will usually also ask for a Certificate of Trust, a short document we prepare that summarizes the trust's key terms without revealing its contents.
         </P>
 
         <H3>Bank accounts</H3>
@@ -78,7 +78,7 @@ function ArticleFunding() {
 
         <H3>Qualified retirement accounts</H3>
         <P>
-          Rather than retitling, complete a change-of-beneficiary form designating the trust (in the appropriate manner — typically as a "see-through" trust) as primary or contingent beneficiary. Beneficiary designations override the will and trust documents on the merits of the account, so getting these forms right is more consequential than most clients realise.
+          Instead of retitling, complete a change-of-beneficiary form naming the trust (set up the right way, usually as a "see-through" trust) as primary or contingent beneficiary. Beneficiary designations override what your will and trust say about that account, so getting these forms right matters more than most clients realize.
         </P>
 
         <H3>Vehicles, boats, RVs, and titled assets</H3>
@@ -88,7 +88,7 @@ function ArticleFunding() {
 
         <H2>When to fund</H2>
         <P>
-          Funding occurs <em>after</em> the trust is signed, witnessed, notarised, and executed. It is the immediate next step of the engagement, and we do not consider an estate plan complete until funding is meaningfully underway.
+          Funding happens <em>after</em> the trust is signed, witnessed, notarized, and executed. It is the very next step, and we do not call a plan complete until funding is well underway.
         </P>
         <H3>Newly-acquired assets after execution</H3>
         <P>
@@ -100,7 +100,7 @@ function ArticleFunding() {
         </Callout>
 
         <P>
-          If you have an existing trust that you suspect may be partially or wholly unfunded, the fix is straightforward. <a href="Contact.html" style={{ color: T.teal }}>Schedule a complimentary review</a> and we will inventory your existing titling and identify the gaps in writing.
+          If you have an existing trust that may be partly or fully unfunded, the fix is straightforward. <a href="Contact.html" style={{ color: T.teal }}>Schedule a free review</a> and we will go through how your assets are titled and put the gaps in writing.
         </P>
       </window.PEPArticleBody>
 

@@ -11,7 +11,7 @@ function ArticleAbout() {
         category="OVERVIEW · ABOUT THE PRACTICE"
         title="Quality estate planning,"
         italic="quietly delivered."
-        lede="A short overview of how PEP practices — what we draft, how we charge, where we sit in your team of advisors, and the assumptions we built the firm around."
+        lede="A short overview of how we work: what we draft, how we charge, and where we fit among your advisors."
         meta={[['Reading','5 minutes'],['Updated','Spring 2026']]}
       />
 
@@ -29,12 +29,12 @@ function ArticleAbout() {
         </>}
       >
         <P lead>
-          Premier Estate Planning is a boutique Florida firm devoted exclusively to wills, trusts, probate, business succession, and elder law. We do not handle litigation, family law, or real estate transactions. The narrow focus is deliberate — it is what lets the attorney whose name is on the engagement letter be the one who drafts your plan.
+          Premier Estate Planning is a boutique Florida firm focused only on wills, trusts, probate, business succession, and elder law. We do not handle litigation, family law, or real estate deals. That focus is on purpose. It is what lets the attorney whose name is on the engagement letter be the one who drafts your plan.
         </P>
 
         <H2>What we do</H2>
         <UL>
-          <LI><strong>Wills &amp; Revocable Trusts.</strong> The cornerstone of every plan — probate avoidance, guardianship of minor children, homestead protection.</LI>
+          <LI><strong>Wills &amp; Revocable Trusts.</strong> The cornerstone of every plan: probate avoidance, guardianship of minor children, homestead protection.</LI>
           <LI><strong>Probate &amp; Trust Administration.</strong> Formal, summary, and ancillary probate; trust funding and distributions; accountings.</LI>
           <LI><strong>Business Succession.</strong> Buy-sell agreements, LLC operating reforms, and dynasty trusts for closely-held Florida businesses.</LI>
           <LI><strong>Elder Law.</strong> Durable powers of attorney, advance directives, Medicaid pre-planning, and guardianship petitions.</LI>
@@ -44,30 +44,30 @@ function ArticleAbout() {
 
         <H3>Flat fees, quoted in writing</H3>
         <P>
-          Every engagement begins with a flat-fee quote in your engagement letter. There is no surprise invoice at the end of the month, no billable clock running during your phone calls, and no incentive on our part to drag the work out. Most plans are signed within fourteen days of the initial consultation.
+          Every engagement starts with a flat-fee quote in your engagement letter. No surprise invoice at the end of the month, and no clock running while you are on the phone with us. Most plans are signed within two weeks of the first consultation.
         </P>
 
         <H3>The attorney drafts the plan</H3>
         <P>
-          Larger firms often delegate drafting to associates and paralegals; we do not. Mr. Carrillo personally drafts every plan — which is also why we cap the number of new families we accept each quarter.
+          Larger firms often hand drafting to associates and paralegals. We do not. Derek drafts every plan himself, which is why we cap how many new families we take on each quarter.
         </P>
 
         <Pull>The attorney drafting your plan should be the one who signs it.</Pull>
 
         <H3>Plain-language summaries before legalese</H3>
         <P>
-          Drafts arrive with a plain-language summary of what the documents do, in what order, under what circumstances. You review the summary first; we adjust; only then do we generate the legal documents themselves. The practical result is that you understand your own plan — which matters most on the day your family needs to use it.
+          Your drafts come with a plain-language summary of what each document does and when. You read the summary first, we make changes, and only then do we produce the legal documents. The point is simple: you actually understand your own plan, which matters most on the day your family has to use it.
         </P>
 
         <H3>Coordination with your other advisors</H3>
         <P>
-          We work most effectively when your CPA, financial advisor, and insurance agent are part of the conversation. We are happy to join calls with your existing advisors and treat them as members of the planning team rather than rivals for the engagement.
+          We do our best work when your CPA, financial advisor, and insurance agent are part of the conversation. We are glad to join calls with your existing advisors and treat them as part of your team.
         </P>
 
         <H2>Why families choose PEP</H2>
         <Callout title="A short list">
           <UL>
-            <LI>Florida-only practice — every document drafted to Florida statute.</LI>
+            <LI>Florida-only practice, with every document drafted to Florida law.</LI>
             <LI>Flat-fee pricing disclosed in writing before engagement.</LI>
             <LI>Three meetings, approximately two weeks, plan signed.</LI>
             <LI>Attorney-drafted, attorney-reviewed, attorney-signed.</LI>
@@ -78,11 +78,11 @@ function ArticleAbout() {
 
         <H2>Where we are based</H2>
         <P>
-          Our office is in Tampa, convenient to Hillsborough, Pinellas, Pasco, Manatee, and Sarasota counties — and we serve clients throughout the Tampa Bay area and nationwide. Initial consultations can be conducted by phone or video; signing meetings are conducted in person.
+          Our office is in Tampa, convenient to Hillsborough, Pinellas, Pasco, Manatee, and Sarasota counties, and we serve clients throughout the Tampa Bay area and nationwide. First consultations can be done by phone or video. Signing meetings happen in person.
         </P>
 
         <Callout tone="dark">
-          To learn whether PEP is right for your family, <a href="Contact.html" style={{ color: T.tealBr }}>schedule a complimentary thirty-minute consultation</a> or call our office at 813.330.0697.
+          To find out whether PEP is right for your family, <a href="Contact.html" style={{ color: T.tealBr }}>schedule a free thirty-minute consultation</a> or call our office at 813.330.0697.
         </Callout>
       </window.PEPArticleBody>
 

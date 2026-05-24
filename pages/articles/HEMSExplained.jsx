@@ -34,7 +34,7 @@ function ArticleHEMS() {
       <window.PEPArticleHero
         category="GUIDE · TRUST ADMINISTRATION"
         title="HEMS, in practice."
-        lede="Health, Education, Maintenance, and Support — a flexible yet protective standard that guides the responsible use of trust funds. A practical look at what falls inside, what falls outside, and why the line matters."
+        lede="Health, Education, Maintenance, and Support: the standard that guides how trust funds get used. A practical look at what falls inside, what falls outside, and why the line matters."
         meta={[['Reading','9 minutes'],['Updated','Spring 2026']]}
       />
 
@@ -52,14 +52,14 @@ function ArticleHEMS() {
         </>}
       >
         <P lead>
-          HEMS — short for <em>Health, Education, Maintenance, and Support</em> — is a discretionary distribution standard found in most well-drafted trusts. It gives a trustee the latitude to distribute trust assets for a beneficiary's needs while preserving the trust's protective shell against creditors, divorce, and impulsive spending. The four letters look simple. In practice, the line between "covered" and "not covered" deserves attention.
+          HEMS stands for <em>Health, Education, Maintenance, and Support</em>. It is the standard most well-drafted trusts use to guide distributions. It gives a trustee room to cover a beneficiary's real needs while keeping the trust's protections against creditors, divorce, and impulse spending intact. The four letters look simple. In practice, the line between "covered" and "not covered" is where the judgment lives.
         </P>
 
-        <Pull>HEMS is a discipline of language. Done well, it preserves both flexibility and protection.</Pull>
+        <Pull>Good HEMS language gives a trustee room to help while keeping the trust's protections intact.</Pull>
 
         <Categories
           title="Health"
-          intro="Expenses must be reasonable and medically necessary — not cosmetic or extravagant — unless a clear health justification is established."
+          intro="Expenses should be reasonable and medically necessary, not cosmetic or extravagant, unless there is a clear health reason."
           groups={[
             ['Medical care',           ['Physician visits', 'Hospitalization', 'Specialist consultations', 'Surgery', 'Physical therapy']],
             ['Prescriptions',          ['Pharmacy costs', 'Durable medical equipment', 'Insulin pumps, crutches, mobility aids']],
@@ -85,7 +85,7 @@ function ArticleHEMS() {
 
         <Categories
           title="Maintenance"
-          intro="Maintenance expenses are those needed to maintain the beneficiary's current standard of living — neither raising it materially nor letting it fall."
+          intro="Maintenance covers what is needed to keep the beneficiary's current standard of living, without raising it much or letting it slip."
           groups={[
             ['Housing',                ['Rent or mortgage', 'Property taxes', 'Homeowner\'s insurance', 'Maintenance and repairs', 'Utilities']],
             ['Transportation',         ['Car payments and insurance', 'Fuel and maintenance', 'Public transit or rideshare']],
@@ -105,16 +105,16 @@ function ArticleHEMS() {
         />
 
         <Callout title="Where HEMS does not reach">
-          Luxury vehicles beyond a reasonable need, speculative investments, gambling, gifts to non-beneficiaries beyond modest amounts, and purchases inconsistent with the beneficiary's established standard of living. The trustee's duty is to interpret the standard reasonably — and to document the basis for every distribution decision.
+          Luxury vehicles beyond a reasonable need, speculative investments, gambling, gifts to non-beneficiaries beyond modest amounts, and purchases inconsistent with the beneficiary's established standard of living. The trustee's job is to read the standard reasonably and to write down the reason for every distribution.
         </Callout>
 
         <H2>Why the line matters</H2>
         <P>
-          The HEMS language is not boilerplate. It is the legal armature that allows a trust to protect a beneficiary from a future creditor, an opposing party in a divorce, or a bankruptcy. A trustee who consistently distributes <em>within</em> the HEMS standard preserves that protection. A trustee who distributes <em>outside</em> it can compromise the trust's protective character, sometimes permanently.
+          The HEMS language does real work. It is what lets a trust protect a beneficiary from a future creditor, a divorce, or a bankruptcy. A trustee who keeps distributions <em>within</em> the HEMS standard preserves that protection. A trustee who goes <em>outside</em> it can weaken the trust's protections, sometimes for good.
         </P>
 
         <Callout tone="dark" title="If you are a trustee">
-          Document every distribution decision. A short paragraph in the file — what was requested, what was approved, why it falls within HEMS — is the single most useful protection against future challenge.
+          Document every distribution decision. A short note in the file, covering what was requested, what was approved, and why it falls within HEMS, is the single most useful protection against a future challenge.
         </Callout>
 
         <P>

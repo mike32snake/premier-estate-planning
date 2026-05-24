@@ -27,7 +27,7 @@ function ArticleAfterDesign() {
         category="GUIDE · AFTER PLAN DESIGN"
         title="After plan design:"
         italic="what happens next."
-        lede="You have completed the design meeting and confirmed the structure of your plan. The remaining steps move quickly — drafting, review, signing, and funding. A look at each, and what we need from you along the way."
+        lede="You have finished the design meeting and confirmed the shape of your plan. The rest moves quickly: drafting, review, signing, and funding. Here is each step, and what we need from you along the way."
         meta={[['Reading','4 minutes'],['Updated','Spring 2026']]}
       />
 
@@ -45,7 +45,7 @@ function ArticleAfterDesign() {
         </>}
       >
         <P lead>
-          Thank you for your continued trust in PEP. The plan design meeting is the substantive decision-making step; the work that follows is procedural — drafting, review, execution, and funding. Below is a roadmap of the next ten to fourteen days, in order.
+          Thank you for trusting PEP with this. The design meeting is where the real decisions get made. What follows is mostly process: drafting, review, signing, and funding. Here is what the next ten to fourteen days look like, in order.
         </P>
 
         <H2>The remaining steps</H2>
@@ -55,10 +55,10 @@ function ArticleAfterDesign() {
             body="Within a day of our meeting you will receive an email summary of every decision we made together. Read it carefully; if anything is wrong, missing, or simply different from what you intended, tell us before we begin drafting."
           />
           <Step n="2" title="Document preparation"
-            body="With the design confirmed, our office prepares the full set of documents — trust, will, powers of attorney, healthcare surrogate, living will, and any matter-specific instruments your plan calls for. Drafting is done in-house by Mr. Carrillo."
+            body="With the design confirmed, our office prepares the full set of documents: trust, will, powers of attorney, healthcare surrogate, living will, and anything else your plan calls for. Derek does the drafting."
           />
           <Step n="3" title="Review notification"
-            body="You will receive an email when drafts are ready. The package includes a plain-language summary of every document — read the summary first; the legal language second. Note any questions for the wrap-up meeting."
+            body="You will receive an email when drafts are ready. The package includes a plain-language summary of every document. Read the summary first, then the legal language. Note any questions for the wrap-up meeting."
           />
           <Step n="4" title="Wrap-up meeting"
             body="A 60-minute meeting (in office or by video) to walk through every document, address questions, discuss funding strategy, and prepare for execution. Bring a list of questions; bring your spouse if applicable."
@@ -67,11 +67,11 @@ function ArticleAfterDesign() {
             body="Signing occurs in our Tampa office with two witnesses and a notary public, scheduled at your convenience. The full set takes approximately 90 minutes. You leave with the bound portfolio in hand."
           />
           <Step n="6" title="Plan completion &amp; funding"
-            body="Your executed originals go home with you; digital copies live in your secure client file. For trusts, funding begins immediately — deeds prepared by our office, beneficiary forms sent to your financial institutions, and a follow-up at 30, 60, and 90 days to confirm completion."
+            body="Your executed originals go home with you; digital copies live in your secure client file. For trusts, funding begins right away. We prepare the deeds, send beneficiary forms to your financial institutions, and follow up at 30, 60, and 90 days to confirm it is done."
           />
         </div>
 
-        <Pull>Between plan design and signing, the substantive work is done. What remains is execution.</Pull>
+        <Pull>By the time you sign, all the real decisions are already behind you.</Pull>
 
         <H2>If you need a deed</H2>
         <P>
@@ -84,7 +84,7 @@ function ArticleAfterDesign() {
         </P>
 
         <Callout tone="dark" title="Office contact">
-          <strong>info@premier.law</strong> &nbsp;·&nbsp; 813.330.0697 &nbsp;·&nbsp; Tampa, Florida — serving Tampa Bay &amp; clients nationwide
+          <strong>info@premier.law</strong> &nbsp;·&nbsp; 813.330.0697 &nbsp;·&nbsp; Tampa, Florida &middot; serving Tampa Bay &amp; clients nationwide
         </Callout>
       </window.PEPArticleBody>
 
