@@ -50,20 +50,13 @@ function ResourcesPage() {
         }}>
           <div style={{
             aspectRatio: '4/3',
-            background: `linear-gradient(135deg, ${T.tealBr} 0%, ${T.sageDk} 60%, ${T.ink} 100%)`,
             position: 'relative', overflow: 'hidden',
           }}>
-            {/* etched serif initials */}
-            <div style={{
-              position: 'absolute', inset: 0,
-              display: 'flex', alignItems: 'center', justifyContent: 'center',
-              fontFamily: T.display, fontStyle: 'italic', fontSize: 280,
-              color: 'rgba(255,255,255,0.18)', letterSpacing: -8,
-            }}>F.X.</div>
-            <div style={{
-              position: 'absolute', bottom: 24, left: 28,
-              fontSize: 11, letterSpacing: 2, color: 'rgba(255,255,255,0.7)', fontWeight: 600,
-            }}>IMAGE · PLACEHOLDER</div>
+            <img
+              src="assets/cornerstones-feature.jpg"
+              alt="The Cornerstones of Estate Planning — An Essential Overview"
+              style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'left center', display: 'block' }}
+            />
           </div>
           <div style={{ padding: '56px 48px', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
             <div>
