@@ -24,6 +24,12 @@ img { max-width: 100%; }
    scroll container — `overflow-x: hidden` would silently break position:sticky. */
 html, body { overflow-x: clip; }
 
+/* Smooth-scroll for in-page anchors (e.g. the article table of contents),
+   disabled for visitors who prefer reduced motion. */
+@media (prefers-reduced-motion: no-preference) {
+  html { scroll-behavior: smooth; }
+}
+
 /* ===========================================================================
    TABLET / SMALL LAPTOP  (<= 1024px)
    =========================================================================== */
