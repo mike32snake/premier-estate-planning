@@ -214,7 +214,7 @@ function QuizPage() {
                 method="POST"
                 style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 16 }}
               >
-                <input type="hidden" name="_subject"  value="New Quiz Submission — Premier Estate Planning" />
+                <input type="hidden" name="_subject"  value="New Quiz Submission: Premier Estate Planning" />
                 <input type="hidden" name="_captcha"  value="true" />
                 <input type="hidden" name="_template" value="table" />
                 <input type="hidden" name="_next"     value={(typeof window !== 'undefined' ? window.location.origin + window.location.pathname : '') + '?submitted=true'} />

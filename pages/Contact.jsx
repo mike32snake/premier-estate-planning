@@ -73,7 +73,7 @@ function ContactPage() {
               style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: 20 }}
             >
               {/* FormSubmit config */}
-              <input type="hidden" name="_subject"  value="New Contact Form Submission — Premier Estate Planning" />
+              <input type="hidden" name="_subject"  value="New Contact Form Submission: Premier Estate Planning" />
               <input type="hidden" name="_captcha"  value="true" />
               <input type="hidden" name="_template" value="table" />
               <input type="hidden" name="_next"     value={(typeof window !== 'undefined' ? window.location.origin + window.location.pathname : '') + '?submitted=true'} />
