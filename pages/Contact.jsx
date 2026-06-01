@@ -2,23 +2,24 @@
 
 function ContactPage() {
   const T = window.PEP;
+  const submitted = typeof window !== 'undefined' && window.location.search.includes('submitted=true');
 
-  const Input = ({ label, type = 'text', placeholder, span = 1 }) => (
+  const Input = ({ label, type = 'text', placeholder, span = 1, name, required }) => (
     <label style={{
       display: 'flex', flexDirection: 'column', gap: 8,
       gridColumn: `span ${span}`,
     }}>
       <span style={{ fontSize: 11, letterSpacing: 2, color: T.sageDk, fontWeight: 600, textTransform: 'uppercase' }}>
-        {label}
+        {label}{required ? ' *' : ''}
       </span>
       {type === 'textarea' ? (
-        <textarea rows={5} placeholder={placeholder} style={{
+        <textarea name={name} rows={5} placeholder={placeholder} required={required} style={{
           padding: '14px 16px', fontFamily: T.body, fontSize: 15, color: T.ink,
           border: `1px solid ${T.rule}`, borderRadius: 10, background: T.cream,
           resize: 'vertical', outline: 'none',
         }}/>
       ) : (
-        <input type={type} placeholder={placeholder} style={{
+        <input name={name} type={type} placeholder={placeholder} required={required} style={{
           padding: '14px 16px', fontFamily: T.body, fontSize: 15, color: T.ink,
           border: `1px solid ${T.rule}`, borderRadius: 10, background: T.cream,
           outline: 'none',
@@ -51,30 +52,62 @@ function ContactPage() {
             }}>
               Tell us briefly <em style={{ color: T.teal }}>what brings you in.</em>
             </h2>
-            <form onSubmit={(e) => e.preventDefault()} style={{
-              display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: 20,
-            }}>
-              <Input label="First name"  placeholder="Eleanor" />
-              <Input label="Last name"   placeholder="Halloran" />
-              <Input label="Email"       type="email" placeholder="eleanor@email.com" />
-              <Input label="Phone"       type="tel"   placeholder="813.330.0697" />
+
+            {submitted ? (
+              <div style={{
+                padding: '40px 32px', background: T.cream, border: `1px solid ${T.rule}`,
+                borderRadius: 14, textAlign: 'center',
+              }}>
+                <div style={{ fontSize: 11, letterSpacing: 2, color: T.sageDk, fontWeight: 600, textTransform: 'uppercase', marginBottom: 12 }}>Message Sent</div>
+                <div style={{ fontFamily: T.display, fontSize: 32, lineHeight: 1.15, letterSpacing: -0.4, marginBottom: 14 }}>
+                  Thank you. We'll be in touch within one business day.
+                </div>
+                <div style={{ fontSize: 14, color: T.muted, lineHeight: 1.6 }}>
+                  In the meantime, you can <a href="Resources.html" style={{ color: T.teal }}>browse the resources</a> or take the <a href="Quiz.html" style={{ color: T.teal }}>five-question quiz</a>.
+                </div>
+              </div>
+            ) : (
+            <form
+              action="https://formsubmit.co/info@pep.law"
+              method="POST"
+              style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: 20 }}
+            >
+              {/* FormSubmit config */}
+              <input type="hidden" name="_subject"  value="New Contact Form Submission — Premier Estate Planning" />
+              <input type="hidden" name="_captcha"  value="true" />
+              <input type="hidden" name="_template" value="table" />
+              <input type="hidden" name="_next"     value={(typeof window !== 'undefined' ? window.location.origin + window.location.pathname : '') + '?submitted=true'} />
+              <input type="text"   name="_honey"    style={{ display: 'none' }} tabIndex={-1} autoComplete="off" />
+
+              <Input label="First name" name="first_name" placeholder="Eleanor" required />
+              <Input label="Last name"  name="last_name"  placeholder="Halloran" required />
+              <Input label="Email"      name="email" type="email" placeholder="eleanor@email.com" required />
+              <Input label="Phone"      name="phone" type="tel"   placeholder="813.555.0142" />
               <label style={{ display: 'flex', flexDirection: 'column', gap: 8, gridColumn: 'span 2' }}>
                 <span style={{ fontSize: 11, letterSpacing: 2, color: T.sageDk, fontWeight: 600, textTransform: 'uppercase' }}>
-                  Matter
+                  Estate Planning Topic *
                 </span>
-                <select style={{
+                <select name="topic" required defaultValue="" style={{
                   padding: '14px 16px', fontFamily: T.body, fontSize: 15, color: T.ink,
                   border: `1px solid ${T.rule}`, borderRadius: 10, background: T.cream,
                   outline: 'none',
                 }}>
-                  <option>Estate planning (wills & trusts)</option>
-                  <option>Probate or trust administration</option>
-                  <option>Business succession</option>
-                  <option>Elder law & incapacity</option>
-                  <option>Something else</option>
+                  <option value="" disabled>Select a topic</option>
+                  <option value="wills-trusts">Wills &amp; Revocable Trusts</option>
+                  <option value="powers-attorney">Powers of Attorney</option>
+                  <option value="healthcare-directives">Healthcare Directives &amp; Living Will</option>
+                  <option value="guardianship">Guardianship Designation</option>
+                  <option value="business-succession">Business Succession</option>
+                  <option value="trust-administration">Trust Administration</option>
+                  <option value="plan-review">Review of an Existing Plan</option>
+                  <option value="other">Something Else</option>
                 </select>
               </label>
-              <Input label="A few words on your situation" type="textarea" placeholder="A line or two is plenty. We'll go deeper on the call." span={2} />
+              <Input label="A few words on your situation" name="message" type="textarea" placeholder="A line or two is plenty. We'll go deeper on the call." span={2} required />
+              <label style={{ gridColumn: 'span 2', display: 'flex', gap: 12, alignItems: 'flex-start', fontSize: 13, color: T.muted, lineHeight: 1.55 }}>
+                <input type="checkbox" name="acknowledge" value="yes" required style={{ marginTop: 4 }} />
+                <span>I have read and acknowledge the <a href="#important-notice" style={{ color: T.teal }}>Important Notice</a> below. *</span>
+              </label>
               <div style={{ gridColumn: 'span 2', display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginTop: 8 }}>
                 <span style={{ fontSize: 12, color: T.muted }}>
                   Your message is confidential. It does not create an attorney-client relationship until we are formally engaged.
@@ -88,6 +121,7 @@ function ContactPage() {
                 </button>
               </div>
             </form>
+            )}
           </div>
 
           {/* sidebar */}
@@ -100,10 +134,10 @@ function ContactPage() {
                 Prefer to call?
               </div>
               <div style={{ fontFamily: T.display, fontSize: 36, fontStyle: 'italic', color: T.tealBr, marginBottom: 8 }}>
-                813.330.0697
+                813.330.0136
               </div>
               <div id="email" style={{ fontSize: 14, color: 'rgba(255,255,255,0.78)' }}>
-                info@premier.law
+                info@pep.law
               </div>
             </div>
 
@@ -153,6 +187,22 @@ function ContactPage() {
               }}>Tampa, Florida</div>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Important Notice — same disclaimer as premier.law */}
+      <section style={{ padding: '0 40px 64px' }}>
+        <div id="important-notice" style={{
+          maxWidth: 1000, margin: '0 auto', padding: '28px 32px',
+          background: T.sand, border: `1px solid ${T.rule}`, borderRadius: 14,
+          scrollMarginTop: 100,
+        }}>
+          <div style={{ fontSize: 11, letterSpacing: 2, fontWeight: 600, color: T.sageDk, textTransform: 'uppercase', marginBottom: 12 }}>
+            Important Notice — No Attorney-Client Relationship
+          </div>
+          <p style={{ fontSize: 13, lineHeight: 1.8, color: T.muted, margin: 0, textAlign: 'justify' }}>
+            Contacting Premier Estate Planning through this website, by phone, or by email does not create an attorney-client relationship. An attorney-client relationship is only formed when both parties have expressly agreed to its terms, typically through a signed engagement letter or retainer agreement. Information submitted through this contact form is not privileged and may not be kept confidential. Please do not submit confidential or sensitive information until an attorney-client relationship has been established. The information on this website is for general informational purposes only and does not constitute legal advice.
+          </p>
         </div>
       </section>
 

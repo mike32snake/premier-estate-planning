@@ -22,14 +22,14 @@ function ProcessPage() {
       n: 'III',
       title: 'Execution',
       timing: 'Day 14 · 90 minutes · in office',
-      body: 'You sign in our office with two witnesses and a notary. You will leave with a bound copy of your plan, a digital archive in your client vault, and a one-page instruction sheet for your personal representative.',
-      includes: ['Witnessed & notarized signing', 'Bound portfolio (paper + digital)', 'Funding instructions for any trust', 'Beneficiary designation review'],
+      body: 'You sign in our office with two witnesses and a notary. You will leave with your signed originals and a one-page instruction sheet your personal representative can actually follow.',
+      includes: ['Witnessed & notarized signing', 'Signed originals you take home', 'Funding instructions for any trust', 'Beneficiary designation review'],
     },
   ];
 
   const faq = [
     ['What is included in the flat fee?',
-     'Everything from the consultation through execution: drafting, revisions, the signing meeting, the bound portfolio, and one year of minor amendments. Court filings (if any), recording fees, and notary fees are paid at cost and disclosed in the engagement letter.'],
+     'Everything from the consultation through execution: drafting, revisions, the signing meeting, your signed originals, and one year of minor amendments. Court filings (if any), recording fees, and notary fees are paid at cost and disclosed in the engagement letter.'],
     ['How long until my plan is in place?',
      'Most plans are signed within two weeks of the consultation. If something is urgent, like a surgery, travel, or a recent diagnosis, we can move faster. Just mention your timing on the first call.'],
     ['Do you maintain ongoing relationships with clients?',

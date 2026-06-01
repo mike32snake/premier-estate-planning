@@ -84,10 +84,9 @@ window.PEPFooter = function PEPFooter() {
   const T = window.PEP;
   const cols = [
     ['Practice', [
-      ['Wills &amp; Trusts',  'Practice Areas.html#wills'],
-      ['Probate',             'Practice Areas.html#probate'],
-      ['Business Succession', 'Practice Areas.html#business'],
-      ['Elder Law',           'Practice Areas.html#elder'],
+      ['Wills &amp; Trusts',           'Practice Areas.html#wills'],
+      ['Business Succession',          'Practice Areas.html#business'],
+      ['Powers of Attorney &amp; Care','Practice Areas.html#care'],
     ]],
     ['Firm', [
       ['About',     'Attorneys.html'],
@@ -97,15 +96,15 @@ window.PEPFooter = function PEPFooter() {
     ]],
     ['Resources', [
       ['Articles', 'Resources.html'],
-      ['Quiz',     'Resources.html#quiz'],
+      ['Quiz',     'Quiz.html'],
       ['FAQ',      'Resources.html#faq'],
       ['Guides',   'Resources.html#guides'],
     ]],
     ['Contact', [
-      ['Schedule',      'Contact.html'],
-      ['Email',         'Contact.html#email'],
-      ['Client Portal', '#'],
-      ['Pay Invoice',   '#'],
+      ['Schedule',        'Contact.html'],
+      ['Email',           'Contact.html#email'],
+      ['Privacy Policy',  'Privacy Policy.html'],
+      ['Legal Disclaimer','Privacy Policy.html#disclaimer'],
     ]],
   ];
   return (
@@ -140,6 +139,14 @@ window.PEPFooter = function PEPFooter() {
       }}>
         <span>© 2026 Premier Estate Planning, PLLC &middot; All rights reserved</span>
         <span>Florida Bar &middot; Attorney Advertising</span>
+      </div>
+
+      <div style={{ marginTop: 24, fontSize: 11, lineHeight: 1.7, color: T.muted, maxWidth: 1100 }}>
+        <div style={{ fontSize: 11, letterSpacing: 1.5, fontWeight: 600, color: T.ink, textTransform: 'uppercase', marginBottom: 8 }}>Legal Disclaimer</div>
+        <p style={{ margin: '0 0 10px' }}>The hiring of a lawyer is an important decision and should not be based solely on advertisements. Before you decide, you may request free written information about our attorneys&rsquo; qualifications and experience.</p>
+        <p style={{ margin: '0 0 10px' }}>This website is provided for informational purposes only and does not constitute legal advice. The information here is not a substitute for consulting with an attorney and does not create an attorney-client relationship. You should always seek professional legal counsel for advice regarding your specific situation.</p>
+        <p style={{ margin: '0 0 10px' }}>Because laws change frequently and some content relies on external sources, we do not warrant or guarantee the accuracy, completeness, or availability of the information provided on this site or any linked third-party websites. Links to other sites are offered solely as a convenience and do not imply endorsement.</p>
+        <p style={{ margin: 0 }}>You should never delay seeking legal advice, disregard professional guidance, or start or stop any legal action based solely on information from this website. Always consult a qualified attorney for advice tailored to your circumstances.</p>
       </div>
     </footer>
   );
@@ -196,8 +203,8 @@ window.PEPCTA = function PEPCTA() {
           <div style={{ fontSize: 11, letterSpacing: 2, textTransform: 'uppercase', color: T.tealBr, fontWeight: 600, marginBottom: 14 }}>Office</div>
           Tampa, Florida<br/>
           Serving Tampa Bay &amp; clients nationwide<br/>
-          813.330.0697<br/>
-          info@premier.law
+          813.330.0136<br/>
+          info@pep.law
         </div>
       </div>
     </section>

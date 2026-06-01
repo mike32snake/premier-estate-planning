@@ -9,7 +9,7 @@ function AttorneysPage() {
       <section style={{ padding: '64px 40px 80px', borderBottom: `1px solid ${T.rule}` }}>
         <div style={{ display: 'grid', gridTemplateColumns: '1.2fr 1fr', gap: 64, alignItems: 'center' }}>
           <div>
-            <window.PEPEyebrow>Managing Attorney</window.PEPEyebrow>
+            <window.PEPEyebrow>Principal Attorney</window.PEPEyebrow>
             <h1 style={{
               fontFamily: T.display, fontWeight: 400, fontSize: 112, lineHeight: 0.96,
               letterSpacing: -3, margin: '24px 0 28px', color: T.ink,
@@ -52,7 +52,7 @@ function AttorneysPage() {
               fontSize: 13, lineHeight: 1.65,
             }}>
               <div style={{ fontSize: 11, letterSpacing: 2, textTransform: 'uppercase', color: T.sageDk, fontWeight: 600, marginBottom: 8 }}>Direct</div>
-              info@premier.law &middot; 813.330.0697
+              info@pep.law &middot; 813.330.0136
             </div>
           </div>
         </div>

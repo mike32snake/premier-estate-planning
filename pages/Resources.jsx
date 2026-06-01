@@ -38,7 +38,7 @@ function ResourcesPage() {
         eyebrow="Resources"
         title="Reading from"
         italic="the desk."
-        lede="Plain-language essays on Florida estate planning, written for clients and their advisors."
+        lede="Plain-language resources on Florida estate planning, written for clients and their advisors."
       />
 
       {/* Featured article */}
@@ -86,7 +86,7 @@ function ResourcesPage() {
               fontFamily: T.display, fontSize: 60, margin: '18px 0 0',
               fontWeight: 400, letterSpacing: -1.5, lineHeight: 1,
             }}>
-              Recent <em style={{ color: T.teal }}>essays.</em>
+              Recent <em style={{ color: T.teal }}>resources.</em>
             </h2>
           </div>
           <div style={{ display: 'flex', gap: 8 }}>
@@ -141,7 +141,7 @@ function ResourcesPage() {
             <p style={{ fontSize: 15, lineHeight: 1.65, color: 'rgba(255,255,255,0.78)', margin: '0 0 28px', maxWidth: 440 }}>
               In under two minutes, find out which documents you probably need and which can wait. We'll email you a checklist.
             </p>
-            <a href="#" style={{
+            <a href="Quiz.html" style={{
               display: 'inline-block', background: T.cream, color: T.ink, padding: '14px 24px',
               borderRadius: 10, fontSize: 14, fontWeight: 500, textDecoration: 'none',
             }}>Begin the quiz →</a>

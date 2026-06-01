@@ -29,15 +29,14 @@ function ArticleAbout() {
         </>}
       >
         <P lead>
-          Premier Estate Planning is a boutique Florida firm focused only on wills, trusts, probate, business succession, and elder law. We do not handle litigation, family law, or real estate deals. That focus is on purpose. It is what lets the attorney whose name is on the engagement letter be the one who drafts your plan.
+          Premier Estate Planning is a boutique Florida firm focused only on wills, trusts, business succession, and care planning. We do not handle litigation, family law, or real estate deals. That focus is on purpose. It is what lets the attorney whose name is on the engagement letter be the one who drafts your plan.
         </P>
 
         <H2>What we do</H2>
         <UL>
           <LI><strong>Wills &amp; Revocable Trusts.</strong> The cornerstone of every plan: probate avoidance, guardianship of minor children, homestead protection.</LI>
-          <LI><strong>Probate &amp; Trust Administration.</strong> Formal, summary, and ancillary probate; trust funding and distributions; accountings.</LI>
           <LI><strong>Business Succession.</strong> Buy-sell agreements, LLC operating reforms, and dynasty trusts for closely-held Florida businesses.</LI>
-          <LI><strong>Elder Law.</strong> Durable powers of attorney, advance directives, Medicaid pre-planning, and guardianship petitions.</LI>
+          <LI><strong>Powers of Attorney &amp; Care Planning.</strong> Durable powers of attorney, healthcare surrogates, living wills, and guardianship designations.</LI>
         </UL>
 
         <H2>How we work</H2>
@@ -82,7 +81,7 @@ function ArticleAbout() {
         </P>
 
         <Callout tone="dark">
-          To find out whether PEP is right for your family, <a href="Contact.html" style={{ color: T.tealBr }}>schedule a free thirty-minute consultation</a> or call our office at 813.330.0697.
+          To find out whether PEP is right for your family, <a href="Contact.html" style={{ color: T.tealBr }}>schedule a free thirty-minute consultation</a> or call our office at 813.330.0136.
         </Callout>
       </window.PEPArticleBody>
 

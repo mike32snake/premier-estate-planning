@@ -21,23 +21,8 @@ function PracticeAreasPage() {
       typical: 'Flat fee. Three meetings. Signed within two weeks.',
     },
     {
-      id: 'probate',
-      roman: 'II',
-      eyebrow: 'Administration',
-      title: 'Probate & Trust Administration',
-      lede: 'When a loved one passes, we take on the procedural work: the filings, deadlines, creditor notices, and distributions, so your family can focus on each other.',
-      includes: [
-        ['Formal Administration',    'For estates above the summary threshold or with disputes.'],
-        ['Summary Administration',   'A streamlined process for smaller estates and older deaths.'],
-        ['Trust Administration',     'Funding, accountings, and distribution under a trust\'s terms.'],
-        ['Ancillary Proceedings',    'Out-of-state decedents holding Florida real property.'],
-      ],
-      forWhom: 'Personal representatives, trustees, and beneficiaries dealing with the months after a death.',
-      typical: 'Flat or hourly fee depending on the estate. The first consultation is free.',
-    },
-    {
       id: 'business',
-      roman: 'III',
+      roman: 'II',
       eyebrow: 'Closely-Held',
       title: 'Business Succession',
       lede: 'For many Florida owners, the business is the biggest asset in the estate. We build transfer structures that keep its value in the family or set up a clean sale.',
@@ -51,18 +36,18 @@ function PracticeAreasPage() {
       typical: 'Flat fees based on scope, set in your engagement letter. We are glad to work with your CPA.',
     },
     {
-      id: 'elder',
-      roman: 'IV',
+      id: 'care',
+      roman: 'III',
       eyebrow: 'Care & Incapacity',
-      title: 'Elder Law',
-      lede: 'We get these documents in place before you need them. They help your family plan for incapacity, qualify for long-term care benefits, and avoid scrambling later.',
+      title: 'Powers of Attorney & Care Planning',
+      lede: 'We get these documents in place before you need them. They name the people who will speak for you and make decisions in the moments you cannot.',
       includes: [
         ['Durable Power of Attorney','Financial decision authority during incapacity.'],
         ['Healthcare Surrogate',     'A clear voice for medical decisions when you cannot speak.'],
         ['Living Will',              'End-of-life directives, in writing and witnessed.'],
-        ['Medicaid Pre-Planning',    'Asset protection and benefits qualification, lawfully done.'],
+        ['Guardianship Designation', 'Naming a guardian for minor children, with standby provisions.'],
       ],
-      forWhom: 'Adults of any age, and adult children helping aging parents.',
+      forWhom: 'Adults of any age, parents of minor children, and adult children helping aging parents.',
       typical: 'Flat-fee document packages. Rush drafting available when it is urgent.',
     },
   ];
@@ -71,21 +56,21 @@ function PracticeAreasPage() {
     <window.PEPPage current="practice">
       <window.PEPHero
         eyebrow="Practice Areas"
-        title="Four areas."
+        title="Three areas."
         italic="One focused firm."
-        lede="A focused Florida practice covering four areas, with every plan drafted by the attorney whose name is on your engagement letter."
+        lede="A focused Florida practice with every plan drafted by the attorney whose name is on your engagement letter."
       />
 
       {/* Anchor index */}
       <section style={{ padding: '40px 40px 0' }}>
         <div style={{
-          display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 0,
+          display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 0,
           border: `1px solid ${T.rule}`, borderRadius: 14, overflow: 'hidden',
         }}>
           {areas.map((a, i) => (
             <a key={a.id} href={`#${a.id}`} style={{
               padding: '24px 28px', textDecoration: 'none', color: T.ink,
-              borderRight: i < 3 ? `1px solid ${T.rule}` : 'none',
+              borderRight: i < areas.length - 1 ? `1px solid ${T.rule}` : 'none',
               display: 'flex', flexDirection: 'column', gap: 6,
               background: T.cream,
             }}>
