@@ -149,7 +149,7 @@ function VariantBTeal() {
           }}>
             <div>
               <div style={{ fontFamily: display, fontSize: 14, color: tealBr, marginBottom: 12, letterSpacing: 1.5, textTransform: 'uppercase', fontWeight: 600 }}>I &middot; Core Planning</div>
-              <h3 style={{ fontFamily: display, fontSize: 40, margin: '0 0 14px', fontWeight: 400, letterSpacing: -0.8 }}>Wills &amp; Revocable Trusts</h3>
+              <h3 style={{ fontFamily: display, fontSize: 40, margin: '0 0 14px', fontWeight: 400, letterSpacing: -0.8 }}>Wills &amp; Trusts</h3>
               <p style={{ fontSize: 16, lineHeight: 1.65, color: muted, margin: 0, maxWidth: 480 }}>
                 The foundation of every plan. We handle probate avoidance, guardianship for minor children, and homestead protection, all drafted to Florida law.
               </p>
