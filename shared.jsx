@@ -18,6 +18,124 @@ window.PEP = {
   body:    '"Inter", -apple-system, sans-serif',
 };
 
+// Practice areas — the single source of truth for the nav dropdown, the
+// Practice Areas overview grid, and each dedicated area page (PEPAreaPage).
+window.PEP_AREAS = [
+  {
+    slug: 'wills', page: 'Wills.html', navLabel: 'Wills',
+    cat: 'Core Planning', title: 'Wills',
+    short: 'Directs who receives your assets and names guardians for your children.',
+    lede: "A will directs who receives your assets, names guardians for your children, and tells the court who's in charge. It's the floor every Florida estate plan is built on.",
+    body: [
+      "A last will and testament does three jobs. It names the personal representative who settles your estate, it lists who inherits what, and it appoints guardians for your minor children. Without one, Florida's intestacy statute decides all of that for you, and the result is rarely what people would have chosen.",
+      "A will on its own still passes through probate, the court process that proves the will and transfers your property. Probate in Florida is public, takes months, and carries filing and attorney costs. That's why many of our clients pair a will with a revocable trust, which keeps assets out of probate. For a simpler estate, a well-drafted will may be all you need.",
+      "We draft the will, the self-proving affidavit that lets it be admitted without tracking down witnesses years later, and the supporting forms. Then we handle the signing in our office, witnessed and notarized so it holds up.",
+    ],
+    includes: [
+      ['Last Will & Testament', 'Names your personal representative, beneficiaries, and specific gifts.'],
+      ['Guardian Designation',  'Appoints who raises your minor children, with standby choices.'],
+      ['Self-Proving Affidavit','Lets the will be admitted to probate without locating witnesses.'],
+      ['Pour-Over Will',        'Catches any asset not already titled in your trust.'],
+    ],
+    forWhom: 'Every adult in Florida. Essential the moment you have children or own property.',
+    typical: 'Flat fee, included in most planning packages. Signed within two weeks.',
+  },
+  {
+    slug: 'trusts', page: 'Revocable Trusts.html', navLabel: 'Revocable Trusts',
+    cat: 'Core Planning', title: 'Revocable Trusts',
+    short: "Keeps your estate out of probate and steps in if you ever can't manage things yourself.",
+    lede: "A revocable living trust keeps your estate out of probate, manages your assets if you're ever unable to, and passes everything privately to the people you choose.",
+    body: [
+      "A revocable living trust is a legal arrangement you create and control during your lifetime. You move your assets into it, you serve as your own trustee, and you can change or revoke it anytime. Nothing about your day to day changes. You still buy, sell, and spend exactly as before.",
+      "The value shows up at two moments. If you become incapacitated, the successor trustee you named steps in to manage things without a court guardianship. When you pass, the trust distributes your assets directly to your beneficiaries without probate, which keeps the process private and usually faster and cheaper than a will alone.",
+      "Wills and revocable trusts are separate products, and they solve different problems. We'll tell you plainly which one fits your situation, and for many families the answer is both: the trust does the heavy lifting and a pour-over will acts as a backstop.",
+      "We draft the trust, prepare the pour-over will, and help you retitle your home, accounts, and other assets into the trust so it actually works when it's needed. A trust that isn't funded is just paper.",
+    ],
+    includes: [
+      ['Revocable Living Trust', 'Holds and distributes your assets, fully under your control.'],
+      ['Pour-Over Will',         'A safety net for anything left outside the trust.'],
+      ['Asset Funding',          'Retitling your home and accounts into the trust.'],
+      ['Successor Trustee Plan', "Names who takes over if you can't serve."],
+    ],
+    forWhom: 'Homeowners, blended families, and anyone who wants to avoid probate and keep matters private.',
+    typical: 'Flat fee, set in your engagement letter.',
+  },
+  {
+    slug: 'poa', page: 'Powers of Attorney.html', navLabel: 'Powers of Attorney',
+    cat: 'Care & Incapacity', title: 'Powers of Attorney',
+    short: "Names someone you trust to handle your finances if you can't.",
+    lede: "A durable power of attorney names someone you trust to handle your finances if you can't. Done right, it keeps your family out of a courtroom.",
+    body: [
+      "A durable power of attorney lets a person you name, your agent, pay your bills, manage your accounts, deal with insurance, and handle legal and financial matters if you become unable to. The durable part means it stays in effect even after you lose capacity, which is exactly when it matters.",
+      "Florida law is strict about these documents. Banks and title companies require specific statutory language, and a generic form off the internet often gets rejected at the worst possible moment. When that happens, the family's only option is a court-supervised guardianship, which is slow, public, and expensive.",
+      "We draft your power of attorney to current Florida statutes, scope the powers to what you actually want your agent to be able to do, and explain the choices so you can pick the right person with confidence.",
+    ],
+    includes: [
+      ['Durable Power of Attorney', 'Financial and legal authority that survives incapacity.'],
+      ['Scope of Powers',          'Tailored to what you want your agent to handle.'],
+      ['Successor Agents',         "Backups in case your first choice can't serve."],
+      ['Statutory Compliance',     'Drafted to the language Florida banks require.'],
+    ],
+    forWhom: 'Every adult, and especially anyone helping aging parents plan ahead.',
+    typical: 'Flat-fee document, often bundled with the core plan.',
+  },
+  {
+    slug: 'healthcare', page: 'Healthcare Directives.html', navLabel: 'Healthcare Directives',
+    cat: 'Care & Incapacity', title: 'Healthcare Directives',
+    short: 'Your healthcare surrogate and living will, so your wishes are clear and followed.',
+    lede: "Healthcare directives say who speaks for you and what you want when you can't make medical decisions yourself. They spare your family from guessing.",
+    body: [
+      "Healthcare directives are two documents that work together. A healthcare surrogate designation names the person who makes medical decisions for you when you can't make them yourself. A living will states your own wishes about life-prolonging treatment if you're ever terminally ill, end-stage, or in a persistent vegetative state.",
+      "The living will is itself a healthcare directive, so we keep the two together as one package rather than treating them as separate products. Side by side, they answer both questions a hospital will ask: who decides, and what did this person want.",
+      "Without these in place, your family may have to petition a court to make decisions, often during the hardest week of their lives. We prepare both documents, add a HIPAA release so your surrogate can actually access your records, and walk you through the choices in plain terms.",
+    ],
+    includes: [
+      ['Healthcare Surrogate', 'Names who makes medical decisions for you.'],
+      ['Living Will',          'Your wishes on end-of-life care, in writing and witnessed.'],
+      ['HIPAA Authorization',  'Lets your surrogate access your medical records.'],
+    ],
+    forWhom: "Every adult. The hospital will ask for these the moment they're needed.",
+    typical: 'Flat-fee document package.',
+  },
+  {
+    slug: 'guardianship', page: 'Guardian Designations.html', navLabel: 'Guardian Designations',
+    cat: 'Care & Incapacity', title: 'Guardian Designations',
+    short: 'Names who raises your children if something happens to you.',
+    lede: "A guardian designation tells the court who you want to raise your children if you can't. For young families, it's often the most important page in the plan.",
+    body: [
+      "If both parents are gone or unable to serve, a Florida court decides who raises your minor children. A guardian designation tells the judge who you'd choose, with standby names in case your first pick can't serve. Judges give real weight to a parent's written wishes, so this short document carries a lot of influence.",
+      "The same idea protects adults. A pre-need guardian designation names who you'd want to manage your care and affairs if a court ever had to appoint a guardian for you, which can head off a contested fight among relatives.",
+      "We prepare both the designation for your minor children and, if you want it, a pre-need designation for yourself. We also make sure it fits with the guardian named in your will so nothing contradicts.",
+    ],
+    includes: [
+      ['Guardian for Minors', 'Names who raises your children, with standby choices.'],
+      ['Pre-Need Guardian',   "Names who'd care for you if a court got involved."],
+      ['Coordination',        'Aligned with the guardian named in your will.'],
+    ],
+    forWhom: 'Parents of minor children, and anyone planning for their own future care.',
+    typical: 'Flat-fee document, included with family planning packages.',
+  },
+  {
+    slug: 'business', page: 'Business Succession.html', navLabel: 'Business Succession',
+    cat: 'Closely-Held', title: 'Business Succession',
+    short: 'Keeps a family business in the family, or sets up a clean sale.',
+    lede: "For many owners the business is the biggest asset in the estate. We build the structures that keep it in the family or set up a clean sale.",
+    body: [
+      "When a business owner dies or steps away without a plan, the company can stall fast. Partners and heirs end up negotiating under pressure, sometimes in court, and value walks out the door. A succession plan settles the hard questions in advance, while everyone's still at the table.",
+      "We draft buy-sell agreements that say what happens to an owner's share on death, disability, retirement, or a dispute, and how it gets valued and paid for. We update LLC operating agreements and corporate documents so they actually match your intent, and we coordinate with your CPA so the transfer works for both the family and the tax picture.",
+      "The goal is a business that survives the transition intact, whether that means handing it to the next generation or selling it on your terms.",
+    ],
+    includes: [
+      ['Buy-Sell Agreement',         'Triggered by death, disability, retirement, or dispute.'],
+      ['Operating Agreement Updates','Aligning company documents with your plan.'],
+      ['Succession Structure',       'Family transfer or a clean third-party sale.'],
+      ['Advisor Coordination',       'We work alongside your CPA and insurance advisor.'],
+    ],
+    forWhom: 'Founders, partners, and family-business owners planning for the next chapter.',
+    typical: 'Flat fees based on scope, set in your engagement letter.',
+  },
+];
+
 // Small caps tracked label with a leading hairline rule.
 window.PEPEyebrow = function PEPEyebrow({ children, color, style }) {
   const T = window.PEP;
@@ -38,13 +156,16 @@ window.PEPEyebrow = function PEPEyebrow({ children, color, style }) {
 // `current` is the slug of the active page (or null for home).
 window.PEPNav = function PEPNav({ current }) {
   const T = window.PEP;
+  const areas = window.PEP_AREAS || [];
   const items = [
-    { label: 'Practice Areas', href: 'Practice Areas.html', slug: 'practice' },
-    { label: 'Process',        href: 'Process.html',        slug: 'process' },
-    { label: 'Attorneys',      href: 'Attorneys.html',      slug: 'attorneys' },
-    { label: 'Resources',      href: 'Resources.html',      slug: 'resources' },
-    { label: 'Contact',        href: 'Contact.html',        slug: 'contact' },
+    { label: 'Practice Areas', href: 'Practice Areas.html', slug: 'practice',
+      children: areas.map((a) => ({ label: a.navLabel || a.title, href: a.page, cat: a.cat })) },
+    { label: 'Process',   href: 'Process.html',   slug: 'process' },
+    { label: 'About Us',  href: 'Attorneys.html',  slug: 'attorneys' },
+    { label: 'Resources', href: 'Resources.html', slug: 'resources' },
+    { label: 'Contact',   href: 'Contact.html',   slug: 'contact' },
   ];
+  const [openMenu, setOpenMenu] = React.useState(null);
   return (
     <div style={{
       padding: '22px 40px', display: 'flex', alignItems: 'center',
@@ -59,6 +180,48 @@ window.PEPNav = function PEPNav({ current }) {
       }}>
         {items.map(it => {
           const active = current === it.slug;
+          if (it.children && it.children.length) {
+            const isOpen = openMenu === it.slug;
+            return (
+              <div key={it.slug} style={{ position: 'relative', display: 'inline-flex', alignItems: 'center' }}
+                onMouseEnter={() => setOpenMenu(it.slug)}
+                onMouseLeave={() => setOpenMenu(null)}>
+                <a href={it.href} style={{
+                  color: active || isOpen ? T.sageDk : T.ink,
+                  borderBottom: active ? `1.5px solid ${T.sageDk}` : 'none',
+                  paddingBottom: 2, textDecoration: 'none',
+                  display: 'inline-flex', alignItems: 'center', gap: 6,
+                }}>
+                  {it.label}
+                  <span style={{
+                    fontSize: 9, lineHeight: 1, transform: isOpen ? 'rotate(180deg)' : 'none',
+                    transition: 'transform 0.15s ease', color: T.tealBr,
+                  }}>▼</span>
+                </a>
+                {isOpen && (
+                  <div style={{ position: 'absolute', top: '100%', left: '50%', transform: 'translateX(-50%)', paddingTop: 16, zIndex: 60 }}>
+                    <div style={{
+                      background: T.cream, border: `1px solid ${T.rule}`, borderRadius: 14,
+                      boxShadow: '0 18px 50px rgba(10,10,10,0.14)', padding: 8, minWidth: 268,
+                    }}>
+                      {it.children.map((c, ci) => (
+                        <a key={c.href} href={c.href} style={{
+                          display: 'block', padding: '12px 14px', borderRadius: 9,
+                          textDecoration: 'none', color: T.ink,
+                          borderBottom: ci < it.children.length - 1 ? `1px solid ${T.rule}` : 'none',
+                        }}
+                          onMouseEnter={(e) => { e.currentTarget.style.background = T.sand; }}
+                          onMouseLeave={(e) => { e.currentTarget.style.background = 'transparent'; }}>
+                          <span style={{ display: 'block', fontSize: 10, letterSpacing: 1.2, textTransform: 'uppercase', color: T.tealBr, fontWeight: 600, marginBottom: 3 }}>{c.cat}</span>
+                          <span style={{ fontFamily: T.display, fontSize: 19, letterSpacing: -0.2, color: T.ink }}>{c.label}</span>
+                        </a>
+                      ))}
+                    </div>
+                  </div>
+                )}
+              </div>
+            );
+          }
           return (
             <a key={it.slug} href={it.href} style={{
               color: active ? T.sageDk : T.ink,
@@ -84,15 +247,14 @@ window.PEPFooter = function PEPFooter() {
   const T = window.PEP;
   const cols = [
     ['Practice', [
-      ['Wills',                  'Practice Areas.html#wills'],
-      ['Revocable Trusts',       'Practice Areas.html#trusts'],
-      ['Powers of Attorney',     'Practice Areas.html#poa'],
-      ['Healthcare Directives',  'Practice Areas.html#healthcare'],
-      ['Business Succession',    'Practice Areas.html#business'],
+      ['Wills',                  'Wills.html'],
+      ['Revocable Trusts',       'Revocable Trusts.html'],
+      ['Powers of Attorney',     'Powers of Attorney.html'],
+      ['Healthcare Directives',  'Healthcare Directives.html'],
+      ['Business Succession',    'Business Succession.html'],
     ]],
     ['Firm', [
-      ['About',     'Attorneys.html'],
-      ['Attorneys', 'Attorneys.html'],
+      ['About Us',  'Attorneys.html'],
       ['Process',   'Process.html'],
       ['Reviews',   'Attorneys.html#reviews'],
     ]],
@@ -234,6 +396,102 @@ window.PEPHero = function PEPHero({ eyebrow, title, italic, lede, aside }) {
         {aside}
       </div>
     </section>
+  );
+};
+
+// Dedicated practice-area page. Driven entirely by a PEP_AREAS entry, so each
+// page file is a one-line wrapper: <window.PEPAreaPage slug="wills"/>.
+window.PEPAreaPage = function PEPAreaPage({ slug }) {
+  const T = window.PEP;
+  const areas = window.PEP_AREAS || [];
+  const a = areas.find((x) => x.slug === slug);
+  if (!a) return null;
+  // three sibling areas for the "Related" strip, cycling so each page differs
+  const start = areas.indexOf(a);
+  const related = [1, 2, 3].map((n) => areas[(start + n) % areas.length]);
+
+  return (
+    <window.PEPPage current="practice">
+      <window.PEPHero eyebrow={a.cat} title={a.title} lede={a.lede} />
+
+      {/* Overview + sidebar */}
+      <section style={{ padding: '64px 40px 24px' }}>
+        <div style={{ display: 'grid', gridTemplateColumns: '1.5fr 1fr', gap: 64, alignItems: 'start' }}>
+          <div>
+            <window.PEPEyebrow>Overview</window.PEPEyebrow>
+            <div style={{ marginTop: 22 }}>
+              {a.body.map((p, i) => (
+                <p key={i} style={{ fontSize: 17, lineHeight: 1.75, color: T.ink, margin: i === 0 ? '0 0 20px' : '0 0 20px' }}>{p}</p>
+              ))}
+            </div>
+          </div>
+
+          <div style={{
+            background: T.sand, border: `1px solid ${T.rule}`, borderRadius: 16,
+            padding: '28px 30px', position: 'sticky', top: 32, alignSelf: 'start',
+          }}>
+            <span style={{
+              fontSize: 10, letterSpacing: 1.5, textTransform: 'uppercase', fontWeight: 600,
+              color: T.teal, border: `1px solid ${T.tealBr}`, borderRadius: 999,
+              padding: '6px 12px', display: 'inline-block',
+            }}>✓ We draft this</span>
+            <div style={{ marginTop: 24 }}>
+              <window.PEPEyebrow>For Whom</window.PEPEyebrow>
+              <div style={{ marginTop: 10, fontSize: 14, lineHeight: 1.6, color: T.ink }}>{a.forWhom}</div>
+            </div>
+            <div style={{ marginTop: 22 }}>
+              <window.PEPEyebrow>Typical Engagement</window.PEPEyebrow>
+              <div style={{ marginTop: 10, fontSize: 14, lineHeight: 1.6, color: T.ink }}>{a.typical}</div>
+            </div>
+            <a href="Contact.html" style={{
+              display: 'block', textAlign: 'center', marginTop: 26,
+              background: T.ink, color: T.cream, padding: '14px 20px', borderRadius: 10,
+              fontSize: 14, fontWeight: 500, textDecoration: 'none', letterSpacing: 0.3,
+            }}>Schedule a Consultation</a>
+          </div>
+        </div>
+      </section>
+
+      {/* What's included */}
+      <section style={{ padding: '40px 40px 24px' }}>
+        <window.PEPEyebrow>Engagement Includes</window.PEPEyebrow>
+        <div style={{ marginTop: 20, border: `1px solid ${T.rule}`, borderRadius: 14, overflow: 'hidden' }}>
+          {a.includes.map(([t, d], i) => (
+            <div key={t} style={{
+              display: 'grid', gridTemplateColumns: '1fr 1.4fr', gap: 24, padding: '22px 26px',
+              borderBottom: i < a.includes.length - 1 ? `1px solid ${T.rule}` : 'none',
+            }}>
+              <div style={{ fontFamily: T.display, fontSize: 22, letterSpacing: -0.3, color: T.ink }}>{t}</div>
+              <div style={{ fontSize: 14, lineHeight: 1.6, color: T.muted }}>{d}</div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* Related areas */}
+      <section style={{ padding: '40px 40px 8px' }}>
+        <window.PEPEyebrow>Related Areas</window.PEPEyebrow>
+        <div style={{
+          marginTop: 24, display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 0,
+          border: `1px solid ${T.rule}`, borderRadius: 14, overflow: 'hidden',
+        }}>
+          {related.map((r, i) => (
+            <a key={r.slug} href={r.page} style={{
+              padding: '26px 28px', textDecoration: 'none', color: T.ink, background: T.cream,
+              borderRight: i < 2 ? `1px solid ${T.rule}` : 'none',
+              display: 'flex', flexDirection: 'column', gap: 8,
+            }}>
+              <span style={{ fontSize: 11, letterSpacing: 1.5, color: T.tealBr, fontWeight: 600, textTransform: 'uppercase' }}>{r.cat}</span>
+              <span style={{ fontFamily: T.display, fontSize: 26, letterSpacing: -0.4 }}>{r.title}</span>
+              <span style={{ fontSize: 13, color: T.muted, lineHeight: 1.5, marginTop: 2 }}>{r.short}</span>
+              <span style={{ fontSize: 12, color: T.teal, letterSpacing: 0.4, marginTop: 6 }}>Read more →</span>
+            </a>
+          ))}
+        </div>
+      </section>
+
+      <window.PEPCTA/>
+    </window.PEPPage>
   );
 };
 
