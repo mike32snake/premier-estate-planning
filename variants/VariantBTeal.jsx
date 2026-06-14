@@ -46,7 +46,7 @@ function VariantBTeal() {
           {[
             ['Practice Areas', 'Practice Areas.html'],
             ['Process',        'Process.html'],
-            ['Attorneys',      'Attorneys.html'],
+            ['About Us',       'Attorneys.html'],
             ['Resources',      'Resources.html'],
             ['Contact',        'Contact.html'],
           ].map(([label, href]) => (
@@ -334,8 +334,8 @@ function VariantBTeal() {
             </div>
           </div>
           {[
-            ['Practice', ['Wills &amp; Trusts','Business Succession','Powers of Attorney &amp; Care']],
-            ['Firm', ['About','Attorneys','Reviews']],
+            ['Practice', ['Wills','Revocable Trusts','Powers of Attorney','Healthcare Directives','Business Succession']],
+            ['Firm', ['About Us','Process','Reviews']],
             ['Resources', ['Articles','Quiz','FAQ','Guides']],
             ['Contact', ['Schedule','Email','Privacy Policy','Legal Disclaimer']],
           ].map(([h, items]) => (
