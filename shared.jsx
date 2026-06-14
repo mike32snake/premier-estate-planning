@@ -41,8 +41,8 @@ window.PEP_AREAS = [
     typical: 'Flat fee, included in most planning packages. Signed within two weeks.',
   },
   {
-    slug: 'trusts', page: 'Revocable Trusts.html', navLabel: 'Revocable Trusts',
-    cat: 'Core Planning', title: 'Revocable Trusts',
+    slug: 'trusts', page: 'Revocable Trusts.html', navLabel: 'Trusts',
+    cat: 'Core Planning', title: 'Trusts',
     short: "Keeps your estate out of probate and steps in if you ever can't manage things yourself.",
     lede: "A revocable living trust keeps your estate out of probate, manages your assets if you're ever unable to, and passes everything privately to the people you choose.",
     body: [
@@ -248,7 +248,7 @@ window.PEPFooter = function PEPFooter() {
   const cols = [
     ['Practice', [
       ['Wills',                  'Wills.html'],
-      ['Revocable Trusts',       'Revocable Trusts.html'],
+      ['Trusts',                 'Revocable Trusts.html'],
       ['Powers of Attorney',     'Powers of Attorney.html'],
       ['Healthcare Directives',  'Healthcare Directives.html'],
       ['Business Succession',    'Business Succession.html'],

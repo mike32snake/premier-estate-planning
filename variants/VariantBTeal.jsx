@@ -306,7 +306,7 @@ function VariantBTeal() {
             </div>
           </div>
           {[
-            ['Practice', ['Wills','Revocable Trusts','Powers of Attorney','Healthcare Directives','Business Succession']],
+            ['Practice', ['Wills','Trusts','Powers of Attorney','Healthcare Directives','Business Succession']],
             ['Firm', ['About Us','Process','Reviews']],
             ['Resources', ['Articles','Quiz','FAQ','Guides']],
             ['Contact', ['Schedule','Email','Privacy Policy','Legal Disclaimer']],

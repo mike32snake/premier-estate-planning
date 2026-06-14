@@ -94,7 +94,7 @@ function ContactPage() {
                 }}>
                   <option value="" disabled>Select a topic</option>
                   <option value="wills">Wills</option>
-                  <option value="trusts">Revocable Trusts</option>
+                  <option value="trusts">Trusts</option>
                   <option value="powers-attorney">Powers of Attorney</option>
                   <option value="healthcare-directives">Healthcare Directives</option>
                   <option value="guardianship">Guardianship Designation</option>
