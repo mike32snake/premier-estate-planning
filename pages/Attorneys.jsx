@@ -17,18 +17,18 @@ function AttorneysPage() {
               Derek Carrillo, <em style={{ color: T.teal, fontStyle: 'italic' }}>Esq.</em>
             </h1>
             <p style={{ fontFamily: T.display, fontStyle: 'italic', fontSize: 24, lineHeight: 1.5, color: T.muted, maxWidth: 560, margin: 0 }}>
-              Sixteen years of practice. Fifteen hundred families. The attorney who
-              drafts your plan is the one who signs it.
+              Eleven years in practice. Founder of Premier Law. Admitted in four
+              states. The attorney who drafts your plan is the one who signs it.
             </p>
             <div style={{
               display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: 16,
               marginTop: 40, fontSize: 13, color: T.muted, letterSpacing: 0.4,
             }}>
               {[
-                ['J.D.',        'University of Florida · 2008'],
-                ['Bar',         'Florida Bar · RPPTL Section'],
-                ['Recognition', 'Super Lawyers, 2019 – 2026'],
-                ['Fellowship',  'ACTEC (pending)'],
+                ['J.D.',     'Barry University · 2014'],
+                ['Bar',      'FL · DC · NM · NY'],
+                ['Founded',  'Premier Law · 2015'],
+                ['Closed',   '$1B+ in transactions'],
               ].map(([a, b]) => (
                 <div key={a}>
                   <span style={{ color: T.tealBr, fontWeight: 600, letterSpacing: 1, textTransform: 'uppercase', fontSize: 11 }}>{a}</span><br/>
@@ -98,24 +98,25 @@ function AttorneysPage() {
           }}>
             {[
               ['Education', [
-                'J.D., University of Florida · 2008',
-                'B.A., Eckerd College · 2005',
-                'CLE, Estate &amp; Trust Planning · ongoing',
+                'J.D., Barry University · 2014',
+                'Dwayne O. Andreas School of Law',
+                'B.A., Bethany College · 2010',
               ]],
               ['Bar Admissions', [
-                'Florida State Bar · 2008',
-                'U.S. District Court, M.D. Fla.',
-                'U.S. Tax Court · 2014',
+                'Florida',
+                'District of Columbia',
+                'New Mexico',
+                'New York',
               ]],
-              ['Memberships', [
-                'FL Bar · RPPTL Section',
-                'Pinellas County Estate Planning Council',
-                'ACTEC (Fellowship pending)',
+              ['Experience', [
+                'Founder, Premier Law · 2015',
+                'Former in-house, telecom tower company',
+                'Former in-house, multifamily developer',
               ]],
-              ['Community', [
-                'Board, Tampa Bay Legal Aid',
-                'Pro bono · Stetson Probate Clinic',
-                'Volunteer, St. Pete Free Clinic',
+              ['Focus', [
+                'Estate planning',
+                'Real estate &amp; development',
+                'Telecommunications &amp; infrastructure',
               ]],
             ].map(([h, items], i) => (
               <div key={h} style={{

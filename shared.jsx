@@ -84,9 +84,11 @@ window.PEPFooter = function PEPFooter() {
   const T = window.PEP;
   const cols = [
     ['Practice', [
-      ['Wills &amp; Trusts',           'Practice Areas.html#wills'],
-      ['Business Succession',          'Practice Areas.html#business'],
-      ['Powers of Attorney &amp; Care','Practice Areas.html#care'],
+      ['Wills',                  'Practice Areas.html#wills'],
+      ['Revocable Trusts',       'Practice Areas.html#trusts'],
+      ['Powers of Attorney',     'Practice Areas.html#poa'],
+      ['Healthcare Directives',  'Practice Areas.html#healthcare'],
+      ['Business Succession',    'Practice Areas.html#business'],
     ]],
     ['Firm', [
       ['About',     'Attorneys.html'],
