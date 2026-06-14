@@ -212,7 +212,6 @@ window.PEPNav = function PEPNav({ current }) {
                         }}
                           onMouseEnter={(e) => { e.currentTarget.style.background = T.sand; }}
                           onMouseLeave={(e) => { e.currentTarget.style.background = 'transparent'; }}>
-                          <span style={{ display: 'block', fontSize: 10, letterSpacing: 1.2, textTransform: 'uppercase', color: T.tealBr, fontWeight: 600, marginBottom: 3 }}>{c.cat}</span>
                           <span style={{ fontFamily: T.display, fontSize: 19, letterSpacing: -0.2, color: T.ink }}>{c.label}</span>
                         </a>
                       ))}
