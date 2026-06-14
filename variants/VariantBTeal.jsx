@@ -32,37 +32,8 @@ function VariantBTeal() {
       width: 1440, background: cream, color: ink, fontFamily: body,
       position: 'relative',
     }}>
-      {/* NAV — flat ruled bar */}
-      <div style={{
-        padding: '22px 40px', display: 'flex', alignItems: 'center',
-        justifyContent: 'space-between', borderBottom: `1px solid ${rule}`,
-      }}>
-        <a href="index.html" style={{ display: 'inline-block' }}>
-          <img src="assets/pep-logo.png" style={{ height: 40, mixBlendMode: 'multiply', display: 'block' }} />
-        </a>
-        <nav style={{
-          display: 'flex', gap: 36, fontSize: 14, fontWeight: 500, color: ink,
-        }}>
-          {[
-            ['Practice Areas', 'Practice Areas.html'],
-            ['Process',        'Process.html'],
-            ['About Us',       'Attorneys.html'],
-            ['Resources',      'Resources.html'],
-            ['Contact',        'Contact.html'],
-          ].map(([label, href]) => (
-            <a key={label} href={href} style={{
-              color: ink, textDecoration: 'none', paddingBottom: 2,
-            }}>{label}</a>
-          ))}
-        </nav>
-        <a href="Contact.html" style={{
-          background: ink, color: cream, border: 'none', padding: '12px 22px',
-          borderRadius: 14, fontSize: 13, fontWeight: 500, fontFamily: body, cursor: 'pointer',
-          letterSpacing: 0.3, textDecoration: 'none', display: 'inline-block',
-        }}>
-          Schedule a Consultation
-        </a>
-      </div>
+      {/* NAV — shared chrome so the bar is identical across the whole site */}
+      <window.PEPNav current={null} />
 
       {/* HERO */}
       <section style={{ padding: '72px 40px 96px' }}>
