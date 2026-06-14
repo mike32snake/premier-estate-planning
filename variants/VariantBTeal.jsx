@@ -84,9 +84,10 @@ function VariantBTeal() {
 
           {/* right — stacked cards */}
           <div style={{ display: 'flex', flexDirection: 'column', gap: 20 }}>
-            <div style={{
+            <a href="Quiz.html" style={{
               background: sageDk, color: cream, borderRadius: 14, padding: '36px 36px 32px',
               flex: 1, position: 'relative', overflow: 'hidden',
+              textDecoration: 'none', display: 'block',
             }}>
               <Eyebrow color="rgba(255,255,255,0.7)">A Question to Consider</Eyebrow>
               <div style={{ fontFamily: display, fontSize: 34, lineHeight: 1.18, marginTop: 18, fontWeight: 400, letterSpacing: -0.5, fontStyle: 'italic' }}>
@@ -98,7 +99,7 @@ function VariantBTeal() {
               }}>
                 Five questions. A checklist made for you. →
               </div>
-            </div>
+            </a>
             <div style={{
               background: '#fff', borderRadius: 14, padding: '32px 32px', flex: 1,
               display: 'flex', flexDirection: 'column', justifyContent: 'space-between',
