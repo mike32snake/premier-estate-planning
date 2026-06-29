@@ -28,8 +28,8 @@ window.PEP_AREAS = [
     lede: "A will directs who receives your assets, names guardians for your children, and tells the court who's in charge. It's the floor every Florida estate plan is built on.",
     body: [
       "A last will and testament does three jobs. It names the personal representative who settles your estate, it lists who inherits what, and it appoints guardians for your minor children. Without one, Florida's intestacy statute decides all of that for you, and the result is rarely what people would have chosen.",
-      "A will on its own still passes through probate, the court process that proves the will and transfers your property. Probate in Florida is public, takes months, and carries filing and attorney costs. That's why many of our clients pair a will with a revocable trust, which keeps assets out of probate. For a simpler estate, a well-drafted will may be all you need.",
-      "We draft the will, the self-proving affidavit that lets it be admitted without tracking down witnesses years later, and the supporting forms. Then we handle the signing in our office, witnessed and notarized so it holds up.",
+      "A will on its own still passes through probate, the court process that proves the will and transfers your property. Probate in Florida is public, takes months, and carries filing and attorney costs. That's why many of our clients pair a will with a living trust, which keeps assets out of probate. For a simpler estate, a well-drafted will may be all you need.",
+      "We draft the will, the self-proving affidavit that lets it be admitted without tracking down witnesses years later, and the supporting forms. Then we handle the signing, witnessed and notarized so it holds up.",
     ],
     includes: [
       ['Last Will & Testament', 'Names your personal representative, beneficiaries, and specific gifts.'],
@@ -42,27 +42,28 @@ window.PEP_AREAS = [
   },
   {
     slug: 'trusts', page: 'Revocable Trusts.html', navLabel: 'Trusts',
-    cat: 'Core Planning', title: 'Trusts',
-    short: "Keeps your estate out of probate and steps in if you ever can't manage things yourself.",
-    lede: "A revocable living trust keeps your estate out of probate, manages your assets if you're ever unable to, and passes everything privately to the people you choose.",
+    cat: 'Core Planning', title: 'Revocable & Irrevocable Trusts',
+    short: "Revocable trusts keep your estate out of probate. Irrevocable trusts add protection and tax planning when you need it.",
+    lede: "A trust is the workhorse of a modern estate plan. We draft both revocable and irrevocable trusts, and we'll tell you plainly which mix fits your family.",
     body: [
-      "A revocable living trust is a legal arrangement you create and control during your lifetime. You move your assets into it, you serve as your own trustee, and you can change or revoke it anytime. Nothing about your day to day changes. You still buy, sell, and spend exactly as before.",
-      "The value shows up at two moments. If you become incapacitated, the successor trustee you named steps in to manage things without a court guardianship. When you pass, the trust distributes your assets directly to your beneficiaries without probate, which keeps the process private and usually faster and cheaper than a will alone.",
-      "Wills and revocable trusts are separate products, and they solve different problems. We'll tell you plainly which one fits your situation, and for many families the answer is both: the trust does the heavy lifting and a pour-over will acts as a backstop.",
-      "We draft the trust, prepare the pour-over will, and help you retitle your home, accounts, and other assets into the trust so it actually works when it's needed. A trust that isn't funded is just paper.",
+      "A revocable living trust is a legal arrangement you create and control during your lifetime. You move your assets into it, you serve as your own trustee, and you can change or revoke it anytime. Nothing about your day to day changes. If you become incapacitated, the successor trustee you named steps in without a court guardianship, and when you pass, the trust distributes your assets privately, without probate.",
+      "Some families need more than a revocable trust can offer. An irrevocable trust gives up some control in exchange for stronger protection. It can shield assets from creditors, help with Medicaid and long-term care planning, and remove growth from your taxable estate. Once funded, its terms are fixed, so we design it carefully around your situation.",
+      "We draft the full range of irrevocable trusts, including IRA trusts that protect inherited retirement accounts and preserve their tax advantages, irrevocable life insurance trusts (ILITs) that keep policy proceeds out of your taxable estate, and spousal lifetime access trusts (SLATs) that move assets out of your estate while your spouse still has access. Which one fits depends on your assets and your goals, and we walk you through the trade-offs in plain terms.",
+      "Many of our trusts can also include optional Lifetime Protection Trust provisions, which hold a beneficiary's inheritance in protected form against future creditors, divorce, or poor decisions. We recommend it when it fits, rather than adding it to every plan by default.",
+      "Whichever trust you choose, we prepare the pour-over will and help you retitle your home, accounts, and other assets into the trust so it actually works when it's needed. A trust that isn't funded is just paper.",
     ],
     includes: [
       ['Revocable Living Trust', 'Holds and distributes your assets, fully under your control.'],
+      ['Irrevocable Trusts',     'IRA trusts, ILITs, and SLATs for protection and tax planning.'],
       ['Pour-Over Will',         'A safety net for anything left outside the trust.'],
       ['Asset Funding',          'Retitling your home and accounts into the trust.'],
-      ['Successor Trustee Plan', "Names who takes over if you can't serve."],
     ],
-    forWhom: 'Homeowners, blended families, and anyone who wants to avoid probate and keep matters private.',
-    typical: 'Flat fee, set in your engagement letter.',
+    forWhom: 'Homeowners, blended families, and anyone who wants to avoid probate, protect assets, or plan for taxes and long-term care.',
+    typical: 'Offered through our Foundational and Comprehensive plan packages, or a la carte. Flat fee, set in your engagement letter.',
   },
   {
-    slug: 'poa', page: 'Powers of Attorney.html', navLabel: 'Powers of Attorney',
-    cat: 'Care & Incapacity', title: 'Powers of Attorney',
+    slug: 'poa', page: 'Powers of Attorney.html', navLabel: 'Power of Attorney',
+    cat: 'Care & Incapacity', title: 'Power of Attorney',
     short: "Names someone you trust to handle your finances if you can't.",
     lede: "A durable power of attorney names someone you trust to handle your finances if you can't. Done right, it keeps your family out of a courtroom.",
     body: [
@@ -116,6 +117,26 @@ window.PEP_AREAS = [
     typical: 'Flat-fee document, included with family planning packages.',
   },
   {
+    slug: 'ladybird', page: 'Lady Bird Deed.html', navLabel: 'Lady Bird Deed',
+    cat: 'Real Property', title: 'Enhanced Life Estate Deed',
+    short: 'Passes your Florida home to your heirs without probate, while you keep full control for life.',
+    lede: "An enhanced life estate deed, often called a Lady Bird deed, lets your home pass to the people you choose without probate, while you keep complete control of it for the rest of your life.",
+    body: [
+      "A Lady Bird deed is a Florida real estate deed that names who receives your property when you pass, while reserving an enhanced life estate for you. During your lifetime you keep every right you have now. You can live in the home, rent it, mortgage it, sell it, or change your mind and name someone else, all without anyone else's signature or consent.",
+      "When you pass, the home transfers automatically to the beneficiaries you named, outside of probate. That saves your family the cost, delay, and public record that probate brings, and it does it with a single recorded document rather than a full trust.",
+      "Because you keep full control, the transfer is not a completed gift, so it generally does not trigger gift tax, and your heirs still receive a stepped-up tax basis. It also preserves your Florida homestead protection and homestead tax exemption during your lifetime. For Medicaid planning, a Lady Bird deed can pass the home to heirs without being treated as a disqualifying transfer, though the rules are specific and we'll walk you through them.",
+      "A Lady Bird deed is a clean fit for a primary residence when a full trust is more than you need, and it works well alongside a will or trust for the rest of your estate. We confirm it suits your situation, prepare the deed to Florida law, and handle the recording.",
+    ],
+    includes: [
+      ['Enhanced Life Estate Deed', 'Drafted and recorded to current Florida law.'],
+      ['Retained Control',          'You keep the right to sell, mortgage, or change your mind.'],
+      ['Probate Avoidance',         'The home passes to your heirs without probate.'],
+      ['Homestead & Tax Review',    'Preserves homestead protection and stepped-up basis.'],
+    ],
+    forWhom: 'Florida homeowners who want a simple, low-cost way to keep their home out of probate.',
+    typical: 'Flat-fee document. Available a la carte or within a plan package.',
+  },
+  {
     slug: 'business', page: 'Business Succession.html', navLabel: 'Business Succession',
     cat: 'Closely-Held', title: 'Business Succession',
     short: 'Keeps a family business in the family, or sets up a clean sale.',
@@ -160,6 +181,7 @@ window.PEPNav = function PEPNav({ current }) {
   const items = [
     { label: 'Practice Areas', href: 'Practice Areas.html', slug: 'practice',
       children: areas.map((a) => ({ label: a.navLabel || a.title, href: a.page, cat: a.cat })) },
+    { label: 'Packages',  href: 'Packages.html',  slug: 'packages' },
     { label: 'Process',   href: 'Process.html',   slug: 'process' },
     { label: 'About Us',  href: 'Attorneys.html',  slug: 'attorneys' },
     { label: 'Resources', href: 'Resources.html', slug: 'resources' },
@@ -248,13 +270,15 @@ window.PEPFooter = function PEPFooter() {
     ['Practice', [
       ['Wills',                  'Wills.html'],
       ['Trusts',                 'Revocable Trusts.html'],
-      ['Powers of Attorney',     'Powers of Attorney.html'],
+      ['Power of Attorney',      'Powers of Attorney.html'],
       ['Healthcare Directives',  'Healthcare Directives.html'],
+      ['Lady Bird Deed',         'Lady Bird Deed.html'],
       ['Business Succession',    'Business Succession.html'],
     ]],
     ['Firm', [
       ['About Us',  'Attorneys.html'],
       ['Process',   'Process.html'],
+      ['Packages',  'Packages.html'],
       ['Reviews',   'Attorneys.html#reviews'],
     ]],
     ['Resources', [
@@ -279,7 +303,7 @@ window.PEPFooter = function PEPFooter() {
         <div>
           <img src="assets/pep-logo.png" style={{ height: 40, mixBlendMode: 'multiply' }} alt="PEP" />
           <div style={{ marginTop: 14, lineHeight: 1.7 }}>
-            Tampa, Florida<br/>Serving Tampa Bay &amp; clients nationwide
+            Tampa, Florida<br/>Serving Tampa Bay &amp; Florida
           </div>
         </div>
         {cols.map(([h, items]) => (
@@ -300,11 +324,10 @@ window.PEPFooter = function PEPFooter() {
         borderTop: `1px solid ${T.rule}`, paddingTop: 20,
         display: 'flex', justifyContent: 'space-between', fontSize: 12, letterSpacing: 0.4,
       }}>
-        <span>© 2026 Premier Estate Planning, PLLC &middot; All rights reserved</span>
-        <span>Florida Bar &middot; Attorney Advertising</span>
+        <span>© 2026 Premier Estate Planning PLLC &middot; All rights reserved</span>
       </div>
 
-      <div style={{ marginTop: 24, fontSize: 11, lineHeight: 1.7, color: T.muted, maxWidth: 1100 }}>
+      <div style={{ marginTop: 24, fontSize: 11, lineHeight: 1.7, color: T.muted, maxWidth: 1100, textAlign: 'justify' }}>
         <div style={{ fontSize: 11, letterSpacing: 1.5, fontWeight: 600, color: T.ink, textTransform: 'uppercase', marginBottom: 8 }}>Legal Disclaimer</div>
         <p style={{ margin: '0 0 10px' }}>The hiring of a lawyer is an important decision and should not be based solely on advertisements. Before you decide, you may request free written information about our attorneys&rsquo; qualifications and experience.</p>
         <p style={{ margin: '0 0 10px' }}>This website is provided for informational purposes only and does not constitute legal advice. The information here is not a substitute for consulting with an attorney and does not create an attorney-client relationship. You should always seek professional legal counsel for advice regarding your specific situation.</p>
@@ -365,7 +388,7 @@ window.PEPCTA = function PEPCTA() {
         }}>
           <div style={{ fontSize: 11, letterSpacing: 2, textTransform: 'uppercase', color: T.tealBr, fontWeight: 600, marginBottom: 14 }}>Office</div>
           Tampa, Florida<br/>
-          Serving Tampa Bay &amp; clients nationwide<br/>
+          Serving Tampa Bay &amp; Florida<br/>
           813.330.0136<br/>
           info@pep.law
         </div>
@@ -420,7 +443,7 @@ window.PEPAreaPage = function PEPAreaPage({ slug }) {
             <window.PEPEyebrow>Overview</window.PEPEyebrow>
             <div style={{ marginTop: 22 }}>
               {a.body.map((p, i) => (
-                <p key={i} style={{ fontSize: 17, lineHeight: 1.75, color: T.ink, margin: i === 0 ? '0 0 20px' : '0 0 20px' }}>{p}</p>
+                <p key={i} style={{ fontSize: 17, lineHeight: 1.75, color: T.ink, margin: '0 0 20px', textAlign: 'justify' }}>{p}</p>
               ))}
             </div>
           </div>
@@ -523,7 +546,7 @@ window.PEPArticleHero = function PEPArticleHero({ category, title, italic, lede,
           paddingTop: 24, borderTop: `1px solid ${T.rule}`,
           display: 'flex', gap: 40, fontSize: 13, color: T.muted, letterSpacing: 0.4, flexWrap: 'wrap',
         }}>
-          <div><span style={{ color: T.tealBr, fontWeight: 600, textTransform: 'uppercase', fontSize: 11, letterSpacing: 1.5, marginRight: 8 }}>By</span>Derek Carrillo, Esq.</div>
+          <div><span style={{ color: T.tealBr, fontWeight: 600, textTransform: 'uppercase', fontSize: 11, letterSpacing: 1.5, marginRight: 8 }}>By</span>Derek A. Carrillo, Esq.</div>
           {meta && meta.map((m, i) => (
             <div key={i}><span style={{ color: T.tealBr, fontWeight: 600, textTransform: 'uppercase', fontSize: 11, letterSpacing: 1.5, marginRight: 8 }}>{m[0]}</span>{m[1]}</div>
           ))}
@@ -608,7 +631,7 @@ window.PEPProse = {
     }}>{children}</h3>;
   },
   P: ({ children, lead }) => (
-    <p style={{ margin: '0 0 20px', fontSize: lead ? 19 : 17, lineHeight: lead ? 1.6 : 1.75 }}>{children}</p>
+    <p style={{ margin: '0 0 20px', fontSize: lead ? 19 : 17, lineHeight: lead ? 1.6 : 1.75, textAlign: 'justify' }}>{children}</p>
   ),
   Pull: ({ children }) => {
     const T = window.PEP;

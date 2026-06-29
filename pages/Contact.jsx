@@ -82,7 +82,7 @@ function ContactPage() {
               <Input label="First name" name="first_name" placeholder="Eleanor" required />
               <Input label="Last name"  name="last_name"  placeholder="Halloran" required />
               <Input label="Email"      name="email" type="email" placeholder="eleanor@email.com" required />
-              <Input label="Phone"      name="phone" type="tel"   placeholder="813.555.0142" />
+              <Input label="Phone"      name="phone" type="tel"   placeholder="813.555.0142" required />
               <label style={{ display: 'flex', flexDirection: 'column', gap: 8, gridColumn: 'span 2' }}>
                 <span style={{ fontSize: 11, letterSpacing: 2, color: T.sageDk, fontWeight: 600, textTransform: 'uppercase' }}>
                   Estate Planning Topic *
@@ -94,10 +94,11 @@ function ContactPage() {
                 }}>
                   <option value="" disabled>Select a topic</option>
                   <option value="wills">Wills</option>
-                  <option value="trusts">Trusts</option>
-                  <option value="powers-attorney">Powers of Attorney</option>
+                  <option value="trusts">Revocable & Irrevocable Trusts</option>
+                  <option value="powers-attorney">Power of Attorney</option>
                   <option value="healthcare-directives">Healthcare Directives</option>
                   <option value="guardianship">Guardianship Designation</option>
+                  <option value="lady-bird-deed">Enhanced Life Estate Deed / Lady Bird Deed</option>
                   <option value="business-succession">Business Succession</option>
                   <option value="plan-review">Review of an Existing Plan</option>
                   <option value="other">Something Else</option>
@@ -148,7 +149,7 @@ function ContactPage() {
               <div style={{ marginTop: 14, fontSize: 15, lineHeight: 1.7 }}>
                 Premier Estate Planning, PLLC<br/>
                 Tampa, Florida<br/>
-                Serving Tampa Bay &amp; clients nationwide
+                Serving Tampa Bay &amp; Florida
               </div>
               <div style={{
                 marginTop: 16, paddingTop: 16, borderTop: `1px solid ${T.rule}`,
@@ -221,10 +222,10 @@ function ContactPage() {
             border: `1px solid ${T.rule}`, borderRadius: 14, overflow: 'hidden',
           }}>
             {[
-              ['Within one business day', 'You will hear back from our office with two or three proposed call times.'],
+              ['Within one business day', 'You will hear back from us with two or three proposed call times.'],
               ['Within one week',         'A free thirty-minute call. We listen first, then suggest a path forward.'],
               ['Within two weeks',        'If you decide to move forward, your drafts arrive with a plain-English summary.'],
-              ['On signing',              'Witnessed and notarized in our Tampa office. You leave with your bound plan.'],
+              ['On signing',              'Witnessed and notarized signing. Your full plan is delivered digitally, ready when you need it.'],
             ].map(([w, d], i) => (
               <div key={w} style={{
                 padding: '28px 28px', background: T.sand,

@@ -21,15 +21,15 @@ function ProcessPage() {
     {
       n: 'III',
       title: 'Execution',
-      timing: 'Day 14 · 90 minutes · in office',
-      body: 'You sign in our office with two witnesses and a notary. You will leave with your signed originals and a one-page instruction sheet your personal representative can actually follow.',
-      includes: ['Witnessed & notarized signing', 'Signed originals you take home', 'Funding instructions for any trust', 'Beneficiary designation review'],
+      timing: 'Day 14 · 90 minutes',
+      body: 'Signing with two witnesses and a notary. You will leave with your signed originals, a digital copy of the full plan, and a one-page instruction sheet your personal representative can actually follow.',
+      includes: ['Witnessed & notarized signing', 'Signed originals you take home', 'Digital copy of your full plan', 'Funding instructions for any trust'],
     },
   ];
 
   const faq = [
     ['What is included in the flat fee?',
-     'Everything from the consultation through execution: drafting, revisions, the signing meeting, your signed originals, and one year of minor amendments. Court filings (if any), recording fees, and notary fees are paid at cost and disclosed in the engagement letter.'],
+     'Everything from the consultation through execution: drafting, revisions, the signing meeting, your signed originals, and one year of minor amendments. Recording fees and notary fees are paid at cost and disclosed in the engagement letter.'],
     ['How long until my plan is in place?',
      'Most plans are signed within two weeks of the consultation. If something is urgent, like a surgery, travel, or a recent diagnosis, we can move faster. Just mention your timing on the first call.'],
     ['Do you maintain ongoing relationships with clients?',
@@ -143,7 +143,7 @@ function ProcessPage() {
                   fontFamily: T.display, fontSize: 26, margin: '0 0 12px',
                   fontWeight: 400, letterSpacing: -0.4, lineHeight: 1.2,
                 }}>{q}</h3>
-                <p style={{ fontSize: 15, lineHeight: 1.65, color: T.muted, margin: 0 }}>{a}</p>
+                <p style={{ fontSize: 15, lineHeight: 1.65, color: T.muted, margin: 0, textAlign: 'justify' }}>{a}</p>
               </div>
             ))}
           </div>

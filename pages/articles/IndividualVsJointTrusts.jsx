@@ -12,7 +12,7 @@ function ArticleTrustsCompare() {
         title="Individual vs. joint trusts:"
         italic="a strategic choice."
         lede="Florida is a separate-property state, and for most couples here, individual trusts work better than a joint trust. The reasons have everything to do with what happens after one spouse passes."
-        meta={[['Reading','6 minutes'],['Updated','Spring 2026']]}
+        meta={[['Reading','6 minutes']]}
       />
 
       <window.PEPArticleBody
@@ -68,9 +68,9 @@ function ArticleTrustsCompare() {
           <LI>Possible erosion of creditor protection on jointly-titled assets.</LI>
         </UL>
 
-        <H2>The Lifetime Protection Trust advantage</H2>
+        <H2>The optional Lifetime Protection Trust</H2>
         <P>
-          Most PEP-drafted trusts include <em>Lifetime Protection Trust</em> (LPT) provisions: structural elements that hold inherited assets in protective form for your beneficiaries after your death. The benefits compound naturally with separate trusts:
+          As an option, we can add <em>Lifetime Protection Trust</em> (LPT) provisions to your trust: structural elements that hold inherited assets in protective form for your beneficiaries after your death. It is something we recommend when it fits your goals, not a default on every plan. When it does fit, the benefits compound naturally with separate trusts:
         </P>
         <UL>
           <LI>Enhanced asset protection for inheriting children.</LI>
@@ -102,13 +102,13 @@ function ArticleTrustsCompare() {
         </Callout>
 
         <P>
-          To begin, <a href="Contact.html" style={{ color: T.teal }}>schedule a consultation</a> or call our office at 813.330.0136.
+          To begin, <a href="Contact.html" style={{ color: T.teal }}>schedule a consultation</a> or call us at 813.330.0136.
         </P>
       </window.PEPArticleBody>
 
       <window.PEPRelated items={[
         ['Core Planning', 'The cornerstones of estate planning', 'Estate Planning Essentials.html', '11 min'],
-        ['Trust Admin', 'HEMS, in practice', 'HEMS Explained.html', '9 min'],
+        ['Trust Admin', 'Health, Education & Maintenance', 'HEMS Explained.html', '9 min'],
         ['Funding', 'Funding your trust, step by step', 'Funding Your Trust.html', '7 min'],
       ]}/>
 

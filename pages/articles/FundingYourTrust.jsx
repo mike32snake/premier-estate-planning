@@ -12,7 +12,7 @@ function ArticleFunding() {
         title="Funding your trust:"
         italic="why, what, when, how."
         lede="An unfunded trust is a nicely drafted stack of paper that does almost nothing. Funding it means retitling your assets into the trust's name, and that is what makes the document actually work."
-        meta={[['Reading','7 minutes'],['Updated','Spring 2026']]}
+        meta={[['Reading','7 minutes']]}
       />
 
       <window.PEPArticleBody
@@ -106,7 +106,7 @@ function ArticleFunding() {
 
       <window.PEPRelated items={[
         ['Core Planning', 'The cornerstones of estate planning', 'Estate Planning Essentials.html', '11 min'],
-        ['Trust Admin', 'HEMS, in practice', 'HEMS Explained.html', '9 min'],
+        ['Trust Admin', 'Health, Education & Maintenance', 'HEMS Explained.html', '9 min'],
         ['Marriage', 'Individual vs. joint trusts', 'Individual vs Joint Trusts.html', '6 min'],
       ]}/>
 

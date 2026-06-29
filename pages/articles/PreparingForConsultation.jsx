@@ -12,7 +12,7 @@ function ArticlePrepConsult() {
         title="Preparing for your"
         italic="initial consultation."
         lede="The first call is a relaxed conversation. There is no homework packet and no intake form to fill out beforehand. A few things just make the conversation more useful when they are handy."
-        meta={[['Reading','4 minutes'],['Updated','Spring 2026']]}
+        meta={[['Reading','4 minutes']]}
       />
 
       <window.PEPArticleBody
@@ -36,7 +36,7 @@ function ArticlePrepConsult() {
         <UL>
           <LI>Your family: spouse, children, parents, anyone you support or worry about.</LI>
           <LI>The general shape of your assets, by category. Exact figures are not needed.</LI>
-          <LI>Anything you have already done: wills, trusts, powers of attorney, beneficiary designations.</LI>
+          <LI>Anything you have already done: wills, trusts, power of attorney, beneficiary designations.</LI>
           <LI>Your goals and concerns, including the ones that feel too small to mention.</LI>
           <LI>Whether PEP is the right fit, and what a flat fee would look like if so.</LI>
         </UL>
@@ -47,7 +47,7 @@ function ArticlePrepConsult() {
         <ul style={{ margin: 0, padding: 0, fontSize: 16 }}>
           <Checkbox><strong>A rough family tree</strong>: spouse, children with rough ages, prior marriages, anyone you support.</Checkbox>
           <Checkbox><strong>A general asset picture</strong>: real estate, investment accounts, retirement, business interests, life insurance. Approximate values are plenty.</Checkbox>
-          <Checkbox><strong>Existing planning documents</strong>: any prior wills, trusts, or powers of attorney, even ones you suspect are out of date.</Checkbox>
+          <Checkbox><strong>Existing planning documents</strong>: any prior wills, trusts, or power of attorney, even ones you suspect are out of date.</Checkbox>
           <Checkbox><strong>Beneficiary designations</strong>: or a note on what they currently look like, especially for retirement accounts and life insurance.</Checkbox>
           <Checkbox><strong>Your other advisors' names</strong>: CPA, financial advisor, insurance agent. We work with them directly.</Checkbox>
           <Checkbox><strong>A list of your concerns</strong>: the things that brought you to this call. There is no wrong answer; this is the most useful part.</Checkbox>

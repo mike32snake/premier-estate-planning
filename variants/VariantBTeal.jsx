@@ -43,7 +43,7 @@ function VariantBTeal() {
             background: sand, borderRadius: 14, padding: '72px 56px',
             position: 'relative', overflow: 'hidden', border: `1px solid ${rule}`,
           }}>
-            <Eyebrow>Estate &amp; Trust Counsel · Established 2015</Eyebrow>
+            <Eyebrow>Estate &amp; Trust Counsel</Eyebrow>
             <h1 style={{
               fontFamily: display, fontWeight: 400, fontSize: 96, lineHeight: 0.98,
               letterSpacing: -2.5, margin: '28px 0 44px', color: ink,
@@ -52,7 +52,7 @@ function VariantBTeal() {
               done <em style={{ color: teal, fontStyle: 'italic' }}>properly.</em>
             </h1>
             <p style={{ fontSize: 18, lineHeight: 1.65, color: muted, maxWidth: 560, margin: 0 }}>
-              We're a Florida firm focused on wills, revocable trusts, business
+              We're a Florida firm focused on wills, trusts, business
               succession, and incapacity planning. We help families and business
               owners across the Tampa Bay area protect what they've built.
             </p>
@@ -112,7 +112,7 @@ function VariantBTeal() {
                   objectPosition: 'center top',
                 }}/>
                 <div>
-                  <div style={{ fontFamily: display, fontSize: 28, fontWeight: 400, letterSpacing: -0.3 }}>Derek Carrillo, Esq.</div>
+                  <div style={{ fontFamily: display, fontSize: 28, fontWeight: 400, letterSpacing: -0.3 }}>Derek A. Carrillo, Esq.</div>
                   <div style={{ fontSize: 13, color: muted }}>Founder &middot; Principal Attorney</div>
                 </div>
               </div>
@@ -136,7 +136,7 @@ function VariantBTeal() {
             </h2>
           </div>
           <div style={{ fontSize: 15, color: muted, maxWidth: 320, lineHeight: 1.6 }}>
-            Three practice areas, each quoted as a flat fee in your engagement letter. No hourly billing.
+            A full range of practice areas, each quoted as a flat fee in your engagement letter. No hourly billing.
           </div>
         </div>
 
@@ -155,7 +155,7 @@ function VariantBTeal() {
               </p>
             </div>
             <div style={{ display: 'flex', gap: 0, flexWrap: 'wrap', borderTop: `1px solid ${rule}`, marginTop: 32, paddingTop: 20 }}>
-              {['Pour-over wills', 'Revocable trusts', 'Homestead strategy', 'Guardianship for minors'].map((t, i) => (
+              {['Pour-over wills', 'Revocable & irrevocable trusts', 'Homestead strategy', 'Guardianship for minors'].map((t, i) => (
                 <span key={t} style={{
                   padding: '4px 16px 4px 0', fontSize: 13, color: ink,
                   borderRight: i < 3 ? `1px solid ${rule}` : 'none', marginRight: 16,
@@ -166,14 +166,14 @@ function VariantBTeal() {
 
           <div style={{ gridColumn: 'span 5', background: teal, color: cream, borderRadius: 14, padding: 36, display: 'flex', flexDirection: 'column', justifyContent: 'space-between', minHeight: 340 }}>
             <div>
-              <div style={{ fontFamily: display, fontSize: 14, color: tealBr, marginBottom: 10, letterSpacing: 1.5, textTransform: 'uppercase', fontWeight: 600 }}>II &middot; Business</div>
-              <h3 style={{ fontFamily: display, fontSize: 34, margin: '6px 0 14px', fontWeight: 400, letterSpacing: -0.5 }}>Business Succession</h3>
+              <div style={{ fontFamily: display, fontSize: 14, color: tealBr, marginBottom: 10, letterSpacing: 1.5, textTransform: 'uppercase', fontWeight: 600 }}>II &middot; Care &amp; Incapacity</div>
+              <h3 style={{ fontFamily: display, fontSize: 34, margin: '6px 0 14px', fontWeight: 400, letterSpacing: -0.5 }}>Power of Attorney &amp; Care Planning</h3>
               <p style={{ fontSize: 15, lineHeight: 1.65, opacity: 0.88, margin: 0 }}>
-                Buy-sell agreements, LLC restructuring, and dynasty trusts for closely held Florida businesses. We keep the value in the family or set up a clean sale.
+                Power of attorney, healthcare surrogates, living wills, and guardianship designations. The documents that keep your family in control when you cannot speak for yourself.
               </p>
             </div>
             <div style={{ display: 'flex', gap: 0, flexWrap: 'wrap', borderTop: '1px solid rgba(255,255,255,0.18)', marginTop: 28, paddingTop: 16 }}>
-              {['Buy-Sell Agreements', 'LLC Reforms', 'Dynasty Trusts', 'Key-Person Planning'].map((t, i) => (
+              {['Durable Power of Attorney', 'Healthcare Surrogate', 'Living Will', 'Guardianship'].map((t, i) => (
                 <span key={t} style={{
                   padding: '4px 16px 4px 0', fontSize: 13, color: cream, opacity: 0.88,
                   borderRight: i < 3 ? '1px solid rgba(255,255,255,0.18)' : 'none', marginRight: 16,
@@ -184,18 +184,18 @@ function VariantBTeal() {
 
           <div style={{ gridColumn: 'span 12', background: sageDk, color: cream, borderRadius: 14, padding: 44, display: 'grid', gridTemplateColumns: '1fr 1.2fr', gap: 48, alignItems: 'center' }}>
             <div>
-              <div style={{ fontFamily: display, fontSize: 14, color: tealBr, marginBottom: 12, letterSpacing: 1.5, textTransform: 'uppercase', fontWeight: 600 }}>III &middot; Care &amp; Incapacity</div>
-              <h3 style={{ fontFamily: display, fontSize: 40, margin: '6px 0 14px', fontWeight: 400, letterSpacing: -0.8 }}>Powers of Attorney &amp; Care Planning</h3>
+              <div style={{ fontFamily: display, fontSize: 14, color: tealBr, marginBottom: 12, letterSpacing: 1.5, textTransform: 'uppercase', fontWeight: 600 }}>III &middot; Business</div>
+              <h3 style={{ fontFamily: display, fontSize: 40, margin: '6px 0 14px', fontWeight: 400, letterSpacing: -0.8 }}>Business Succession</h3>
               <p style={{ fontSize: 16, lineHeight: 1.65, opacity: 0.88, margin: 0, maxWidth: 520 }}>
-                Powers of attorney, healthcare surrogates, living wills, and guardianship designations. The documents that keep your family in control when you cannot speak for yourself.
+                Buy-sell agreements, LLC restructuring, and succession planning for closely held Florida businesses. We keep the value in the family or set up a clean sale.
               </p>
             </div>
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2,1fr)', gap: 1, background: 'rgba(255,255,255,0.14)' }}>
               {[
-                ['Durable POA',           'Financial decisions in incapacity'],
-                ['Healthcare Surrogate',  'Medical decision authority'],
-                ['Living Will',           'End-of-life directives'],
-                ['Guardianship',          'Designations for minor children'],
+                ['Buy-Sell Agreements',   'What happens to a share on death or exit'],
+                ['LLC Restructuring',     'Operating agreements aligned to your plan'],
+                ['Succession Structure',  'Family transfer or a clean sale'],
+                ['Advisor Coordination',  'We work with your CPA and insurer'],
               ].map(([t, d]) => (
                 <div key={t} style={{ background: sageDk, padding: '20px 22px' }}>
                   <div style={{ fontFamily: display, fontSize: 22, fontWeight: 400, letterSpacing: -0.3 }}>{t}</div>
@@ -219,7 +219,7 @@ function VariantBTeal() {
             {[
               ['I','Consultation', "A free thirty-minute call to understand your situation and what matters most to you."],
               ['II','Drafting', 'We send a plain-language summary first. You review it, we make changes, then we finalize the documents.'],
-              ['III','Execution', 'You sign in our office with witnesses and a notary, then leave with a bound copy of your plan.'],
+              ['III','Execution', 'Signing with witnesses and a notary. Your finished plan is delivered digitally, ready whenever you need it.'],
             ].map(([n,t,d], i) => (
               <div key={n} style={{
                 padding: '40px 32px 8px',
@@ -289,7 +289,7 @@ function VariantBTeal() {
           }}>
             <div style={{ fontSize: 11, letterSpacing: 2, textTransform: 'uppercase', color: tealBr, fontWeight: 600, marginBottom: 14 }}>Office</div>
             Tampa, Florida<br/>
-            Serving Tampa Bay &amp; clients nationwide<br/>
+            Serving Tampa Bay &amp; Florida<br/>
             813.330.0136<br/>
             info@pep.law
           </div>
@@ -302,11 +302,11 @@ function VariantBTeal() {
           <div>
             <img src="assets/pep-logo.png" style={{ height: 40, mixBlendMode: 'multiply' }} />
             <div style={{ marginTop: 14, lineHeight: 1.7 }}>
-              Tampa, Florida<br/>Serving Tampa Bay &amp; clients nationwide
+              Tampa, Florida<br/>Serving Tampa Bay &amp; Florida
             </div>
           </div>
           {[
-            ['Practice', ['Wills','Trusts','Powers of Attorney','Healthcare Directives','Business Succession']],
+            ['Practice', ['Wills','Trusts','Power of Attorney','Healthcare Directives','Lady Bird Deed','Business Succession']],
             ['Firm', ['About Us','Process','Reviews']],
             ['Resources', ['Articles','Quiz','FAQ','Guides']],
             ['Contact', ['Schedule','Email','Privacy Policy','Legal Disclaimer']],
@@ -318,11 +318,10 @@ function VariantBTeal() {
           ))}
         </div>
         <div style={{ borderTop: `1px solid ${rule}`, paddingTop: 20, display: 'flex', justifyContent: 'space-between', fontSize: 12, letterSpacing: 0.4 }}>
-          <span>© 2026 Premier Estate Planning, PLLC · All rights reserved</span>
-          <span>Florida Bar &middot; Attorney Advertising</span>
+          <span>© 2026 Premier Estate Planning PLLC · All rights reserved</span>
         </div>
 
-        <div style={{ marginTop: 24, fontSize: 11, lineHeight: 1.7, color: muted, maxWidth: 1100 }}>
+        <div style={{ marginTop: 24, fontSize: 11, lineHeight: 1.7, color: muted, maxWidth: 1100, textAlign: 'justify' }}>
           <div style={{ fontSize: 11, letterSpacing: 1.5, fontWeight: 600, color: ink, textTransform: 'uppercase', marginBottom: 8 }}>Legal Disclaimer</div>
           <p style={{ margin: '0 0 10px' }}>The hiring of a lawyer is an important decision and should not be based solely on advertisements. Before you decide, you may request free written information about our attorneys&rsquo; qualifications and experience.</p>
           <p style={{ margin: '0 0 10px' }}>This website is provided for informational purposes only and does not constitute legal advice. The information here is not a substitute for consulting with an attorney and does not create an attorney-client relationship. You should always seek professional legal counsel for advice regarding your specific situation.</p>

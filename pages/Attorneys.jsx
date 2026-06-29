@@ -14,11 +14,11 @@ function AttorneysPage() {
               fontFamily: T.display, fontWeight: 400, fontSize: 112, lineHeight: 0.96,
               letterSpacing: -3, margin: '24px 0 28px', color: T.ink,
             }}>
-              Derek Carrillo, <em style={{ color: T.teal, fontStyle: 'italic' }}>Esq.</em>
+              Derek A. Carrillo, <em style={{ color: T.teal, fontStyle: 'italic' }}>Esq.</em>
             </h1>
             <p style={{ fontFamily: T.display, fontStyle: 'italic', fontSize: 24, lineHeight: 1.5, color: T.muted, maxWidth: 560, margin: 0 }}>
-              Eleven years in practice. Founder of Premier Law. Admitted in four
-              states. The attorney who drafts your plan is the one who signs it.
+              Eleven years in practice. Founder of Premier Estate Planning. Admitted
+              in four states. The attorney who drafts your plan is the one who signs it.
             </p>
             <div style={{
               display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: 16,
@@ -27,8 +27,6 @@ function AttorneysPage() {
               {[
                 ['J.D.',     'Barry University · 2014'],
                 ['Bar',      'FL · DC · NM · NY'],
-                ['Founded',  'Premier Law · 2015'],
-                ['Closed',   '$1B+ in transactions'],
               ].map(([a, b]) => (
                 <div key={a}>
                   <span style={{ color: T.tealBr, fontWeight: 600, letterSpacing: 1, textTransform: 'uppercase', fontSize: 11 }}>{a}</span><br/>
@@ -70,7 +68,7 @@ function AttorneysPage() {
               On <em style={{ color: T.teal }}>plain counsel.</em>
             </h2>
           </div>
-          <div style={{ fontSize: 18, lineHeight: 1.7, color: T.ink, maxWidth: 700 }}>
+          <div style={{ fontSize: 18, lineHeight: 1.7, color: T.ink, maxWidth: 700, textAlign: 'justify' }}>
             <p style={{ margin: '0 0 22px' }}>
               Estate work is different from most legal practice. The documents we draft
               get read at someone's kitchen table, often during the hardest week of a
@@ -93,7 +91,7 @@ function AttorneysPage() {
       {/* Memberships + bio facts */}
       <section style={{ padding: '0 40px 96px' }}>
         <div style={{ borderTop: `1px solid ${T.rule}`, paddingTop: 48 }}>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 0,
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: 0,
             border: `1px solid ${T.rule}`, borderRadius: 14, overflow: 'hidden',
           }}>
             {[
@@ -108,20 +106,10 @@ function AttorneysPage() {
                 'New Mexico',
                 'New York',
               ]],
-              ['Experience', [
-                'Founder, Premier Law · 2015',
-                'Former in-house, telecom tower company',
-                'Former in-house, multifamily developer',
-              ]],
-              ['Focus', [
-                'Estate planning',
-                'Real estate &amp; development',
-                'Telecommunications &amp; infrastructure',
-              ]],
             ].map(([h, items], i) => (
               <div key={h} style={{
                 padding: '28px 28px',
-                borderRight: i < 3 ? `1px solid ${T.rule}` : 'none',
+                borderRight: i < 1 ? `1px solid ${T.rule}` : 'none',
               }}>
                 <div style={{ fontSize: 11, letterSpacing: 2, textTransform: 'uppercase', color: T.sageDk, fontWeight: 600, marginBottom: 16 }}>{h}</div>
                 <ul style={{ margin: 0, padding: 0, listStyle: 'none', display: 'flex', flexDirection: 'column', gap: 10 }}>

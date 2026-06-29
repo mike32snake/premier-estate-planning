@@ -4,7 +4,7 @@ function ResourcesPage() {
   const T = window.PEP;
 
   const featured = {
-    cat: 'FEATURE · SPRING 2026',
+    cat: 'FEATURE',
     title: 'The cornerstones of estate planning: an essential overview',
     summary: 'Your plan is more than a list of who gets what. It is part of a bigger financial picture, built to carry out your wishes and look after the people you love. A close look at the six documents most Florida families need.',
     read: '11 minute read',
@@ -12,14 +12,14 @@ function ResourcesPage() {
   };
 
   const articles = [
-    ['Overview',     'About the practice',                              'A short overview of how we work, what we draft, and how we charge.',                                                  '5 min · Spring 2026',   'About the Practice.html'],
-    ['Process',      'How our engagement works',                        'Three meetings, two weeks, one flat fee. A look at each step and what happens in between.',                                              '5 min · Spring 2026',   'How Our Engagement Works.html'],
-    ['Process',      'Preparing for your initial consultation',         'The first call is a relaxed conversation. Here is what to have handy before we talk.',                                                     '4 min · Spring 2026',   'Preparing for Your Consultation.html'],
-    ['Trust Admin',  'HEMS, in practice',                               'Health, Education, Maintenance, and Support: the distribution standard at the heart of most modern trusts, explained line by line.',              '9 min · Spring 2026',   'HEMS Explained.html'],
-    ['Marriage',     'Individual vs. joint trusts: a strategic choice', 'For Florida couples, separate trusts almost always work better than a joint trust. Here is why, for administration, taxes, and protection.', '6 min · Spring 2026', 'Individual vs Joint Trusts.html'],
-    ['Funding',      'Funding your trust: why, what, when, how',        'An unfunded trust is a nicely drafted stack of paper that does almost nothing. Here is what funding means and how it actually works.',          '7 min · Spring 2026',   'Funding Your Trust.html'],
-    ['After a Loss', 'After the loss of a spouse: a planning checklist','The hardest days are not the time for big decisions. This checklist breaks the months that follow into three simple phases.',                 '7 min · Spring 2026',   'After the Loss of a Spouse.html'],
-    ['Process',      'After plan design: what happens next',            'You have finished the design meeting. Here is what the next ten to fourteen days look like: drafting, review, signing, and funding.',                                    '4 min · Spring 2026',   'After Plan Design.html'],
+    ['Overview',     'About the practice',                              'A short overview of how we work, what we draft, and how we charge.',                                                  '5 min',   'About the Practice.html'],
+    ['Process',      'How our engagement works',                        'Three meetings, two weeks, one flat fee. A look at each step and what happens in between.',                                              '5 min',   'How Our Engagement Works.html'],
+    ['Process',      'Preparing for your initial consultation',         'The first call is a relaxed conversation. Here is what to have handy before we talk.',                                                     '4 min',   'Preparing for Your Consultation.html'],
+    ['Trust Admin',  'Health, Education & Maintenance, in practice',    'The Health, Education, Maintenance, and Support standard at the heart of most modern trusts, explained line by line.',              '9 min',   'HEMS Explained.html'],
+    ['Marriage',     'Individual vs. joint trusts: a strategic choice', 'For Florida couples, separate trusts almost always work better than a joint trust. Here is why, for administration, taxes, and protection.', '6 min', 'Individual vs Joint Trusts.html'],
+    ['Funding',      'Funding your trust: why, what, when, how',        'An unfunded trust is a nicely drafted stack of paper that does almost nothing. Here is what funding means and how it actually works.',          '7 min',   'Funding Your Trust.html'],
+    ['After a Loss', 'After the loss of a spouse: a planning checklist','The hardest days are not the time for big decisions. This checklist breaks the months that follow into three simple phases.',                 '7 min',   'After the Loss of a Spouse.html'],
+    ['Process',      'After plan design: what happens next',            'You have finished the design meeting. Here is what the next ten to fourteen days look like: drafting, review, signing, and funding.',                                    '4 min',   'After Plan Design.html'],
   ];
 
   const cats = ['All','Overview','Process','Trust Admin','Marriage','Funding','After a Loss'];
@@ -161,7 +161,7 @@ function ResourcesPage() {
             <ul style={{ margin: 0, padding: 0, listStyle: 'none', display: 'flex', flexDirection: 'column', gap: 14 }}>
               {[
                 ['The Cornerstones of Estate Planning', 'PDF · 3 pp', 'guides/estate-planning-essentials.pdf'],
-                ['HEMS, in Practice',                   'PDF · 4 pp', 'guides/hems-explained.pdf'],
+                ['Health, Education & Maintenance',     'PDF · 4 pp', 'guides/hems-explained.pdf'],
                 ['Funding Your Trust',                  'PDF · 2 pp', 'guides/funding-your-trust.pdf'],
               ].map(([t, m, href]) => (
                 <li key={t} style={{
@@ -194,7 +194,7 @@ function ResourcesPage() {
           }}>
             {[
               ['Do I really need a trust, or will a will suffice?',
-               'A will alone still goes through probate. A properly funded revocable trust skips it for most assets. For Florida residents who own real estate, a trust with a pour-over will as backup is almost always the better setup.'],
+               'A will alone still goes through probate. A properly funded living trust skips it for most assets. For Florida residents who own real estate, a trust with a pour-over will as backup is almost always the better setup.'],
               ['How often should I update my plan?',
                'Big life changes like marriage, divorce, a new child, a move, or a death in the family are good reasons to review. Otherwise, every three to five years is plenty.'],
               ['Can you handle out-of-state property?',
@@ -215,7 +215,7 @@ function ResourcesPage() {
                   {q}
                   <span style={{ color: T.tealBr, fontSize: 24 }}>+</span>
                 </summary>
-                <p style={{ fontSize: 15, lineHeight: 1.65, color: T.muted, margin: '14px 0 0' }}>{a}</p>
+                <p style={{ fontSize: 15, lineHeight: 1.65, color: T.muted, margin: '14px 0 0', textAlign: 'justify' }}>{a}</p>
               </details>
             ))}
           </div>

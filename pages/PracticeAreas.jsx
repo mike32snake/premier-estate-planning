@@ -19,14 +19,14 @@ function PracticeAreasPage() {
           display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 0,
           border: `1px solid ${T.rule}`, borderRadius: 16, overflow: 'hidden',
         }}>
-          {areas.map((a, i) => {
+          {(() => { const lastRowStart = areas.length - ((areas.length % 3) || 3); return areas.map((a, i) => {
             const col = i % 3;
-            const firstRow = i < 3;
+            const notLastRow = i < lastRowStart;
             return (
               <a key={a.slug} href={a.page} style={{
                 padding: '34px 32px', textDecoration: 'none', color: T.ink, background: T.cream,
                 borderRight: col < 2 ? `1px solid ${T.rule}` : 'none',
-                borderBottom: firstRow ? `1px solid ${T.rule}` : 'none',
+                borderBottom: notLastRow ? `1px solid ${T.rule}` : 'none',
                 display: 'flex', flexDirection: 'column', gap: 12, minHeight: 240,
               }}>
                 <span style={{ fontFamily: T.display, fontSize: 12, color: T.tealBr, letterSpacing: 1.5, fontWeight: 600, textTransform: 'uppercase' }}>{a.cat}</span>
@@ -37,7 +37,7 @@ function PracticeAreasPage() {
                 </span>
               </a>
             );
-          })}
+          }); })()}
         </div>
       </section>
 

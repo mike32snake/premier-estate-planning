@@ -22,7 +22,7 @@ function ArticleSpousalLoss() {
         title="After the loss of a spouse:"
         italic="a planning checklist."
         lede="The hardest days are not the time for complicated decisions. This checklist breaks the months that follow into three simple phases, so the most important things get attention first and the rest can wait."
-        meta={[['Reading','7 minutes'],['Updated','Spring 2026']]}
+        meta={[['Reading','7 minutes']]}
       />
 
       <window.PEPArticleBody
@@ -97,7 +97,7 @@ function ArticleSpousalLoss() {
         />
 
         <Callout title="What to expect from probate or trust administration">
-          If your spouse had a properly funded revocable trust, most assets transfer without probate, and our role is mostly administrative: retitling, accountings, and beneficiary distributions. If there was a will but no trust, formal or summary probate may be required. We handle both in-house and will tell you which applies on our first call.
+          If your spouse had a properly funded living trust, most assets transfer without probate, and our role is mostly administrative: retitling, accountings, and beneficiary distributions. If there was a will but no trust, formal or summary probate may be required. We handle both in-house and will tell you which applies on our first call.
         </Callout>
 
         <H2>Where PEP fits</H2>
@@ -105,7 +105,7 @@ function ArticleSpousalLoss() {
           We assist surviving spouses with probate administration, trust funding and distribution, deed transfers, retitling, and the dozen smaller matters that arrive in the months after a loss. Most clients prefer to hand that work over entirely, and we handle each item ourselves instead of passing it to staff.
         </P>
         <P>
-          If you would like assistance, <a href="Contact.html" style={{ color: T.teal }}>schedule a free thirty-minute call</a> or reach our office at 813.330.0136. There is no obligation, and most callers leave the conversation with a clearer sense of next steps regardless of whether they retain us.
+          If you would like assistance, <a href="Contact.html" style={{ color: T.teal }}>schedule a free thirty-minute call</a> or reach us at 813.330.0136. There is no obligation, and most callers leave the conversation with a clearer sense of next steps regardless of whether they retain us.
         </P>
       </window.PEPArticleBody>
 

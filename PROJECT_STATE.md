@@ -1,5 +1,66 @@
 # PROJECT_STATE — Premier Estate Planning (PEP)
 
+_Last updated: 2026-06-29_
+
+## Latest session (2026-06-29) — Derek's content edits
+
+Worked through a batch of edits Derek sent. All JSX validated through the exact
+@babel/standalone@7.29.0 build the pages load in-browser (26/26 transform clean);
+every page serves 200 locally.
+
+**Home (`variants/VariantBTeal.jsx`)**
+- Removed "Established 2015". Hero/services copy: "revocable trusts" → "trusts" /
+  "Revocable & irrevocable trusts".
+- Services blurb "Three practice areas…" → "A full range of practice areas…".
+- Reordered services so Business Succession is #3 (I Core Planning, II Care &
+  Incapacity, III Business). Removed dynasty-trust references.
+- Execution step now "Signing with witnesses and a notary… delivered digitally".
+- "Serving Tampa Bay & Florida" (was "clients nationwide").
+
+**Shared chrome (`shared.jsx`)** — single source of truth, propagates site-wide
+- Footer (here + the home's inline footer): dropped comma in "Premier Estate Planning
+  PLLC", removed "Florida Bar · Attorney Advertising", justified the legal disclaimer
+  (matches premier.law's wording verbatim), "Serving Tampa Bay & Florida".
+- `PEP_AREAS`: rewrote the Trusts entry (revocable + irrevocable; IRA trusts, ILITs,
+  SLATs; optional Lifetime Protection Trust; title "Revocable & Irrevocable Trusts";
+  engagement points to packages). Added a new **Enhanced Life Estate / Lady Bird Deed**
+  area *before* Business Succession. POA → singular "Power of Attorney". Removed
+  in-office signing language from the Wills body.
+- Added **Packages** to the nav and footer. Area-page Overview + article body prose
+  (`PEPProse.P`) now justified. Article byline → "Derek A. Carrillo, Esq.".
+
+**New pages**
+- `Lady Bird Deed.html` + `pages/areas/LadyBirdDeed.jsx` (renders `PEPAreaPage slug="ladybird"`).
+- `Packages.html` + `pages/Packages.jsx`: Foundational + Comprehensive plan tiers and an
+  A La Carte menu. **No prices shown** (a pricing note says quotes come on the consult).
+
+**About Us (`pages/Attorneys.jsx`)**
+- "Derek A. Carrillo, Esq.". "Founder of Premier Estate Planning" (not Premier Law).
+- Removed the Founded/transaction tiles and the Experience + Focus columns (grid → 2 col).
+- Philosophy paragraphs justified.
+
+**Resources / Process / Contact / articles**
+- HEMS → "Health, Education & Maintenance" in all labels/titles (full standard kept in
+  the article body for legal accuracy). Removed season/year from cards + article heroes.
+- Process: removed in-office + court-filing from the FAQ; "bound" copy → digital; FAQ
+  justified. Contact: all fields mandatory (phone was optional); added Lady Bird Deed
+  topic; "Serving Tampa Bay & Florida".
+- Articles: removed in-office/bound mentions, singularized POA, dynasty removed, LPT
+  framed as optional, "revocable trust" → "living trust" in prose where it read as a
+  service label.
+
+**Privacy** — already mirrors premier.law's policy verbatim, rebranded to "Premier Estate
+Planning, PLLC" (intentionally omits premier.law's two "client portal" sentences since PEP
+has no portal).
+
+**Open judgment calls flagged to Derek:** (1) HEMS label uses three terms but body keeps
+the accurate four-term standard; (2) executed *originals* kept physical (FL wills require
+it) while the plan *copy* is digital; (3) privacy policy drops the client-portal lines.
+
+_Earlier session below._
+
+---
+
 _Last updated: 2026-05-23_
 
 ## What this is

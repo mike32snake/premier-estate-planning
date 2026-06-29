@@ -33,9 +33,10 @@ function ArticleHEMS() {
     <window.PEPPage current="resources">
       <window.PEPArticleHero
         category="GUIDE · TRUST ADMINISTRATION"
-        title="HEMS, in practice."
+        title="Health, Education &"
+        italic="Maintenance."
         lede="Health, Education, Maintenance, and Support: the standard that guides how trust funds get used. A practical look at what falls inside, what falls outside, and why the line matters."
-        meta={[['Reading','9 minutes'],['Updated','Spring 2026']]}
+        meta={[['Reading','9 minutes']]}
       />
 
       <window.PEPArticleBody
@@ -52,10 +53,10 @@ function ArticleHEMS() {
         </>}
       >
         <P lead>
-          HEMS stands for <em>Health, Education, Maintenance, and Support</em>. It is the standard most well-drafted trusts use to guide distributions. It gives a trustee room to cover a beneficiary's real needs while keeping the trust's protections against creditors, divorce, and impulse spending intact. The four letters look simple. In practice, the line between "covered" and "not covered" is where the judgment lives.
+          The <em>Health, Education, Maintenance, and Support</em> standard is what most well-drafted trusts use to guide distributions. It gives a trustee room to cover a beneficiary's real needs while keeping the trust's protections against creditors, divorce, and impulse spending intact. The four words look simple. In practice, the line between "covered" and "not covered" is where the judgment lives.
         </P>
 
-        <Pull>Good HEMS language gives a trustee room to help while keeping the trust's protections intact.</Pull>
+        <Pull>Good distribution language gives a trustee room to help while keeping the trust's protections intact.</Pull>
 
         <Categories
           title="Health"
@@ -104,21 +105,21 @@ function ArticleHEMS() {
           ]}
         />
 
-        <Callout title="Where HEMS does not reach">
+        <Callout title="Where the standard does not reach">
           Luxury vehicles beyond a reasonable need, speculative investments, gambling, gifts to non-beneficiaries beyond modest amounts, and purchases inconsistent with the beneficiary's established standard of living. The trustee's job is to read the standard reasonably and to write down the reason for every distribution.
         </Callout>
 
         <H2>Why the line matters</H2>
         <P>
-          The HEMS language does real work. It is what lets a trust protect a beneficiary from a future creditor, a divorce, or a bankruptcy. A trustee who keeps distributions <em>within</em> the HEMS standard preserves that protection. A trustee who goes <em>outside</em> it can weaken the trust's protections, sometimes for good.
+          The distribution standard does real work. It is what lets a trust protect a beneficiary from a future creditor, a divorce, or a bankruptcy. A trustee who keeps distributions <em>within</em> the standard preserves that protection. A trustee who goes <em>outside</em> it can weaken the trust's protections, sometimes for good.
         </P>
 
         <Callout tone="dark" title="If you are a trustee">
-          Document every distribution decision. A short note in the file, covering what was requested, what was approved, and why it falls within HEMS, is the single most useful protection against a future challenge.
+          Document every distribution decision. A short note in the file, covering what was requested, what was approved, and why it falls within the standard, is the single most useful protection against a future challenge.
         </Callout>
 
         <P>
-          PEP drafts HEMS standards into nearly every trust we prepare, and we counsel trustees on day-to-day administration. If you are a trustee navigating a discretionary distribution and you are unsure, <a href="Contact.html" style={{ color: T.teal }}>a brief call is usually all it takes to resolve the question</a>.
+          PEP drafts this standard into nearly every trust we prepare, and we counsel trustees on day-to-day administration. If you are a trustee weighing a discretionary distribution and you are unsure, <a href="Contact.html" style={{ color: T.teal }}>a brief call is usually all it takes to resolve the question</a>.
         </P>
       </window.PEPArticleBody>
 

@@ -12,7 +12,7 @@ function ArticleEPE() {
         title="The cornerstones of"
         italic="estate planning."
         lede="Your plan is more than a record of how your assets pass. It is part of a bigger financial picture, built to carry out your wishes and look after the people you love."
-        meta={[['Reading','11 minutes'],['Updated','Spring 2026']]}
+        meta={[['Reading','11 minutes']]}
       />
 
       <window.PEPArticleBody
@@ -34,7 +34,7 @@ function ArticleEPE() {
 
         <H2><span id="trust"/>The Living Trust</H2>
         <P>
-          A revocable living trust is a flexible legal arrangement that allows you to transfer your assets into a trust during your lifetime. You remain in full control as trustee; the trust simply holds title on your behalf. The practical consequence is that, on your death, those assets pass to your beneficiaries without going through Florida's probate court. That means avoiding the time, expense, and public record that probate involves.
+          A living trust is a flexible legal arrangement that allows you to transfer your assets into a trust during your lifetime. You remain in full control as trustee; the trust simply holds title on your behalf. The practical consequence is that, on your death, those assets pass to your beneficiaries without going through Florida's probate court. That means avoiding the time, expense, and public record that probate involves.
         </P>
         <Pull>A trust does two things well: it keeps your family out of probate, and it keeps your affairs private.</Pull>
         <P>
@@ -46,7 +46,7 @@ function ArticleEPE() {
           A Family Protection Subtrust is a structural feature of the living trust: a "trust within the trust" that takes effect after your death. The subtrust holds and manages those assets for your beneficiaries. Creditors, divorces, and tax events have a much harder time reaching money held this way than money handed over outright.
         </P>
         <P>
-          The result is a plan that protects your beneficiaries from forces neither of you can predict: a future divorce, a lawsuit, a bankruptcy, a remarriage. Distributions can be made flexibly, according to the standard you set (see our article on <a href="HEMS Explained.html" style={{ color: T.teal }}>HEMS standards</a>), and the principal remains shielded.
+          The result is a plan that protects your beneficiaries from forces neither of you can predict: a future divorce, a lawsuit, a bankruptcy, a remarriage. Distributions can be made flexibly, according to the standard you set (see our article on the <a href="HEMS Explained.html" style={{ color: T.teal }}>Health, Education &amp; Maintenance standard</a>), and the principal remains shielded.
         </P>
 
         <H2><span id="will"/>The Last Will &amp; Testament</H2>
@@ -98,7 +98,7 @@ function ArticleEPE() {
       </window.PEPArticleBody>
 
       <window.PEPRelated items={[
-        ['HEMS', 'A practical guide to HEMS distributions', 'HEMS Explained.html', '8 min'],
+        ['Trust Admin', 'A practical guide to trust distributions', 'HEMS Explained.html', '8 min'],
         ['Marriage', 'Individual vs. joint trusts for married couples', 'Individual vs Joint Trusts.html', '6 min'],
         ['Trust Funding', 'Why and how to fund your trust', 'Funding Your Trust.html', '7 min'],
       ]}/>

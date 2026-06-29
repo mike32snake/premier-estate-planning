@@ -12,7 +12,7 @@ function ArticleAbout() {
         title="Quality estate planning,"
         italic="quietly delivered."
         lede="A short overview of how we work: what we draft, how we charge, and where we fit among your advisors."
-        meta={[['Reading','5 minutes'],['Updated','Spring 2026']]}
+        meta={[['Reading','5 minutes']]}
       />
 
       <window.PEPArticleBody
@@ -34,9 +34,9 @@ function ArticleAbout() {
 
         <H2>What we do</H2>
         <UL>
-          <LI><strong>Wills &amp; Revocable Trusts.</strong> The cornerstone of every plan: probate avoidance, guardianship of minor children, homestead protection.</LI>
-          <LI><strong>Business Succession.</strong> Buy-sell agreements, LLC operating reforms, and dynasty trusts for closely-held Florida businesses.</LI>
-          <LI><strong>Powers of Attorney &amp; Care Planning.</strong> Durable powers of attorney, healthcare surrogates, living wills, and guardianship designations.</LI>
+          <LI><strong>Wills &amp; Trusts.</strong> The cornerstone of every plan: probate avoidance, guardianship of minor children, homestead protection.</LI>
+          <LI><strong>Business Succession.</strong> Buy-sell agreements, LLC operating reforms, and succession planning for closely-held Florida businesses.</LI>
+          <LI><strong>Power of Attorney &amp; Care Planning.</strong> Durable power of attorney, healthcare surrogates, living wills, and guardianship designations.</LI>
         </UL>
 
         <H2>How we work</H2>
@@ -77,11 +77,11 @@ function ArticleAbout() {
 
         <H2>Where we are based</H2>
         <P>
-          Our office is in Tampa, convenient to Hillsborough, Pinellas, Pasco, Manatee, and Sarasota counties, and we serve clients throughout the Tampa Bay area and nationwide. First consultations can be done by phone or video. Signing meetings happen in person.
+          Our office is in Tampa, convenient to Hillsborough, Pinellas, Pasco, Manatee, and Sarasota counties, and we serve clients throughout the Tampa Bay area and across Florida. First consultations can be done by phone or video. Signing meetings happen in person.
         </P>
 
         <Callout tone="dark">
-          To find out whether PEP is right for your family, <a href="Contact.html" style={{ color: T.tealBr }}>schedule a free thirty-minute consultation</a> or call our office at 813.330.0136.
+          To find out whether PEP is right for your family, <a href="Contact.html" style={{ color: T.tealBr }}>schedule a free thirty-minute consultation</a> or call us at 813.330.0136.
         </Callout>
       </window.PEPArticleBody>
 

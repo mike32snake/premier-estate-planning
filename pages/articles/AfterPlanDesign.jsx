@@ -28,7 +28,7 @@ function ArticleAfterDesign() {
         title="After plan design:"
         italic="what happens next."
         lede="You have finished the design meeting and confirmed the shape of your plan. The rest moves quickly: drafting, review, signing, and funding. Here is each step, and what we need from you along the way."
-        meta={[['Reading','4 minutes'],['Updated','Spring 2026']]}
+        meta={[['Reading','4 minutes']]}
       />
 
       <window.PEPArticleBody
@@ -55,16 +55,16 @@ function ArticleAfterDesign() {
             body="Within a day of our meeting you will receive an email summary of every decision we made together. Read it carefully; if anything is wrong, missing, or simply different from what you intended, tell us before we begin drafting."
           />
           <Step n="2" title="Document preparation"
-            body="With the design confirmed, our office prepares the full set of documents: trust, will, powers of attorney, healthcare surrogate, living will, and anything else your plan calls for. Derek does the drafting."
+            body="With the design confirmed, our team prepares the full set of documents: trust, will, power of attorney, healthcare surrogate, living will, and anything else your plan calls for. Derek does the drafting."
           />
           <Step n="3" title="Review notification"
             body="You will receive an email when drafts are ready. The package includes a plain-language summary of every document. Read the summary first, then the legal language. Note any questions for the wrap-up meeting."
           />
           <Step n="4" title="Wrap-up meeting"
-            body="A 60-minute meeting (in office or by video) to walk through every document, address questions, discuss funding strategy, and prepare for execution. Bring a list of questions; bring your spouse if applicable."
+            body="A 60-minute meeting by phone or video to walk through every document, address questions, discuss funding strategy, and prepare for execution. Have a list of questions ready; include your spouse if applicable."
           />
           <Step n="5" title="Document execution"
-            body="Signing occurs in our Tampa office with two witnesses and a notary public, scheduled at your convenience. The full set takes approximately 90 minutes. You leave with the bound portfolio in hand."
+            body="Signing takes place with two witnesses and a notary public, scheduled at your convenience. The full set takes approximately 90 minutes. Your signed originals go home with you, along with a digital copy of the full plan."
           />
           <Step n="6" title="Plan completion &amp; funding"
             body="Your executed originals go home with you; digital copies live in your secure client file. For trusts, funding begins right away. We prepare the deeds, send beneficiary forms to your financial institutions, and follow up at 30, 60, and 90 days to confirm it is done."
@@ -75,16 +75,16 @@ function ArticleAfterDesign() {
 
         <H2>If you need a deed</H2>
         <P>
-          Florida real estate held in your name must be retitled to the trust by a new deed. Our office prepares the deed as part of every estate-planning engagement. Out-of-state property is funded through local counsel we coordinate with on your behalf.
+          Florida real estate held in your name must be retitled to the trust by a new deed. Our team prepares the deed as part of every estate-planning engagement. Out-of-state property is funded through local counsel we coordinate with on your behalf.
         </P>
 
         <H2>If you have questions along the way</H2>
         <P>
-          Reach the office at any time. There is no billable clock between plan design and signing, and small questions are easier to resolve in real time than to defer to the wrap-up meeting. Email is generally faster than phone for non-urgent questions.
+          Reach us at any time. There is no billable clock between plan design and signing, and small questions are easier to resolve in real time than to defer to the wrap-up meeting. Email is generally faster than phone for non-urgent questions.
         </P>
 
-        <Callout tone="dark" title="Office contact">
-          <strong>info@pep.law</strong> &nbsp;·&nbsp; 813.330.0136 &nbsp;·&nbsp; Tampa, Florida &middot; serving Tampa Bay &amp; clients nationwide
+        <Callout tone="dark" title="Direct contact">
+          <strong>info@pep.law</strong> &nbsp;·&nbsp; 813.330.0136 &nbsp;·&nbsp; Tampa, Florida &middot; serving Tampa Bay &amp; Florida
         </Callout>
       </window.PEPArticleBody>
 

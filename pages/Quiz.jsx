@@ -44,7 +44,7 @@ function QuizPage() {
         ['none',         'Nothing yet'],
         ['old-will',     'A will from more than five years ago'],
         ['recent-will',  'A recent will'],
-        ['trust',        'A revocable trust (funded or not)'],
+        ['trust',        'A living trust (funded or not)'],
         ['full-plan',    'A full plan with POA and healthcare directives'],
       ],
     },
@@ -87,7 +87,7 @@ function QuizPage() {
       recs.push(['Guardianship Designation',     'Names a guardian for your minor children.']);
     }
     if (a.realestate !== 'no' || a.docs === 'none' || a.docs === 'old-will' || a.goal === 'avoid-probate') {
-      recs.push(['Revocable Living Trust',       'Avoids probate and keeps your affairs private.']);
+      recs.push(['Living Trust',                 'Avoids probate and keeps your affairs private.']);
       recs.push(['Pour-Over Will',               'A safety net that captures anything not titled in trust.']);
     }
     recs.push(['Durable Power of Attorney',      'Names a trusted person to handle finances in incapacity.']);
