@@ -1,5 +1,20 @@
 # PROJECT_STATE — Premier Estate Planning (PEP)
 
+_Last updated: 2026-08-04_
+
+## Latest session (2026-08-04) — Derek's second batch of edits (deployed, commit 905a564)
+- Home: eyebrow "Estate Planning Counsel"; proof bar 16 yrs → **12 yrs**; hero serves "across Florida".
+- Plans renamed: Foundational → **Essential**, Comprehensive → **Advanced** (Packages page, shared.jsx, meta).
+- Packages: removed the Optional Lifetime Protection Trust row (LPT still mentioned on trusts page/article).
+- Wills: Pour-Over Will marked as an add-on for trust-based plans (shared.jsx includes list).
+- Process hero: "name is on the door" → "the attorney you meet on day one".
+- About: JD/Bar hero tiles removed; bar admissions alphabetized (DC, FL, NM, NY); "Twelve years in practice".
+- "Premier Estate Planning, PLLC" comma removed everywhere (Contact, Privacy, meta).
+- "Serving Tampa Bay & Florida" → "Serving all of Florida" (footers, office blocks, contact, articles, meta).
+- Guide PDFs in guides/ were NOT regenerated this session (no plan-name matches found in them, but unverified).
+
+---
+
 _Last updated: 2026-06-29_
 
 ## Latest session (2026-06-29) — Derek's content edits
