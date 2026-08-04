@@ -77,7 +77,7 @@ function ArticleAbout() {
 
         <H2>Where we are based</H2>
         <P>
-          Our office is in Tampa, convenient to Hillsborough, Pinellas, Pasco, Manatee, and Sarasota counties, and we serve clients throughout the Tampa Bay area and across Florida. First consultations can be done by phone or video. Signing meetings happen in person.
+          Our office is in Tampa, and we serve clients across all of Florida. First consultations can be done by phone or video. Signing meetings happen in person.
         </P>
 
         <Callout tone="dark">

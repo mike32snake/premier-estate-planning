@@ -17,23 +17,9 @@ function AttorneysPage() {
               Derek A. Carrillo, <em style={{ color: T.teal, fontStyle: 'italic' }}>Esq.</em>
             </h1>
             <p style={{ fontFamily: T.display, fontStyle: 'italic', fontSize: 24, lineHeight: 1.5, color: T.muted, maxWidth: 560, margin: 0 }}>
-              Eleven years in practice. Founder of Premier Estate Planning. Admitted
+              Twelve years in practice. Founder of Premier Estate Planning. Admitted
               in four states. The attorney who drafts your plan is the one who signs it.
             </p>
-            <div style={{
-              display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: 16,
-              marginTop: 40, fontSize: 13, color: T.muted, letterSpacing: 0.4,
-            }}>
-              {[
-                ['J.D.',     'Barry University · 2014'],
-                ['Bar',      'FL · DC · NM · NY'],
-              ].map(([a, b]) => (
-                <div key={a}>
-                  <span style={{ color: T.tealBr, fontWeight: 600, letterSpacing: 1, textTransform: 'uppercase', fontSize: 11 }}>{a}</span><br/>
-                  <span style={{ color: T.ink }}>{b}</span>
-                </div>
-              ))}
-            </div>
           </div>
 
           <div>
@@ -101,8 +87,8 @@ function AttorneysPage() {
                 'B.A., Bethany College · 2010',
               ]],
               ['Bar Admissions', [
-                'Florida',
                 'District of Columbia',
+                'Florida',
                 'New Mexico',
                 'New York',
               ]],

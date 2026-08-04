@@ -43,7 +43,7 @@ function VariantBTeal() {
             background: sand, borderRadius: 14, padding: '72px 56px',
             position: 'relative', overflow: 'hidden', border: `1px solid ${rule}`,
           }}>
-            <Eyebrow>Estate &amp; Trust Counsel</Eyebrow>
+            <Eyebrow>Estate Planning Counsel</Eyebrow>
             <h1 style={{
               fontFamily: display, fontWeight: 400, fontSize: 96, lineHeight: 0.98,
               letterSpacing: -2.5, margin: '28px 0 44px', color: ink,
@@ -54,7 +54,7 @@ function VariantBTeal() {
             <p style={{ fontSize: 18, lineHeight: 1.65, color: muted, maxWidth: 560, margin: 0 }}>
               We're a Florida firm focused on wills, trusts, business
               succession, and incapacity planning. We help families and business
-              owners across the Tampa Bay area protect what they've built.
+              owners across Florida protect what they've built.
             </p>
 
             <div style={{ display: 'flex', gap: 14, marginTop: 44, alignItems: 'center' }}>
@@ -77,7 +77,7 @@ function VariantBTeal() {
               letterSpacing: 1.2, textTransform: 'uppercase',
             }}>
               <div><strong style={{ color: ink, fontFamily: display, fontSize: 36, fontWeight: 400, display: 'block', letterSpacing: -1, textTransform: 'none' }}>1,400+</strong>Florida families</div>
-              <div><strong style={{ color: ink, fontFamily: display, fontSize: 36, fontWeight: 400, display: 'block', letterSpacing: -1, textTransform: 'none' }}>16 yrs</strong>In practice</div>
+              <div><strong style={{ color: ink, fontFamily: display, fontSize: 36, fontWeight: 400, display: 'block', letterSpacing: -1, textTransform: 'none' }}>12 yrs</strong>In practice</div>
               <div><strong style={{ color: ink, fontFamily: display, fontSize: 36, fontWeight: 400, display: 'block', letterSpacing: -1, textTransform: 'none' }}>4.9 ★</strong>230 reviews</div>
             </div>
           </div>
@@ -289,7 +289,7 @@ function VariantBTeal() {
           }}>
             <div style={{ fontSize: 11, letterSpacing: 2, textTransform: 'uppercase', color: tealBr, fontWeight: 600, marginBottom: 14 }}>Office</div>
             Tampa, Florida<br/>
-            Serving Tampa Bay &amp; Florida<br/>
+            Serving all of Florida<br/>
             813.330.0136<br/>
             info@pep.law
           </div>
@@ -302,7 +302,7 @@ function VariantBTeal() {
           <div>
             <img src="assets/pep-logo.png" style={{ height: 40, mixBlendMode: 'multiply' }} />
             <div style={{ marginTop: 14, lineHeight: 1.7 }}>
-              Tampa, Florida<br/>Serving Tampa Bay &amp; Florida
+              Tampa, Florida<br/>Serving all of Florida
             </div>
           </div>
           {[

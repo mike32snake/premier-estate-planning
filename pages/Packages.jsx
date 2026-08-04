@@ -4,7 +4,7 @@
 function PackagesPage() {
   const T = window.PEP;
 
-  const foundational = [
+  const essential = [
     ['Last Will & Testament', 'Names your personal representative, beneficiaries, and specific gifts.'],
     ['Durable Power of Attorney', 'Financial and legal authority that survives incapacity.'],
     ['Healthcare Surrogate & Living Will', 'Who decides for you, and your wishes on end-of-life care.'],
@@ -13,11 +13,10 @@ function PackagesPage() {
     ['Plain-language summary', 'You see what each document does before you sign.'],
   ];
 
-  const comprehensive = [
-    ['Everything in the Foundational plan', 'The full set of core documents above, included.'],
+  const advanced = [
+    ['Everything in the Essential plan', 'The full set of core documents above, included.'],
     ['Revocable Living Trust', 'Keeps your estate out of probate, with a pour-over will as backup.'],
     ['Asset funding & retitling', 'Deed for your Florida homestead and help moving assets into the trust.'],
-    ['Optional Lifetime Protection Trust', 'Holds a beneficiary’s inheritance in protected form, when it fits.'],
     ['Successor trustee planning', 'Names who steps in if you cannot serve.'],
     ['Advisor coordination & annual check-in', 'We work with your CPA and review the plan each year.'],
   ];
@@ -88,15 +87,15 @@ function PackagesPage() {
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 24, alignItems: 'start' }}>
           <Card
             tag="Tier One"
-            name="Foundational Estate Plan"
+            name="Essential Estate Plan"
             blurb="The core documents every Florida adult should have. The right starting point when a full trust is more than you need right now."
-            items={foundational}
+            items={essential}
           />
           <Card
             tag="Tier Two · Most chosen"
-            name="Comprehensive Estate Plan"
-            blurb="The foundational plan plus a living trust and funding, for families who want to avoid probate and plan for the long term."
-            items={comprehensive}
+            name="Advanced Estate Plan"
+            blurb="The essential plan plus a living trust and funding, for families who want to avoid probate and plan for the long term."
+            items={advanced}
             dark
           />
         </div>

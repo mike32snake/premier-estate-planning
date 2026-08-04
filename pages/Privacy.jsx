@@ -26,7 +26,7 @@ function PrivacyPage() {
       <section style={{ padding: '64px 40px 96px' }}>
         <div style={{ maxWidth: 820, margin: '0 auto' }}>
           <P>
-            Welcome to the Premier Estate Planning, PLLC (&ldquo;Premier Estate Planning&rdquo;) website. Premier Estate Planning has created this privacy statement to demonstrate its firm commitment to privacy for Premier Estate Planning clients and other website users and to disclose its information gathering and dissemination practices. If you have any questions regarding this Privacy Policy or the practices of this website, please contact us at 813.330.0136 or info@pep.law.
+            Welcome to the Premier Estate Planning PLLC (&ldquo;Premier Estate Planning&rdquo;) website. Premier Estate Planning has created this privacy statement to demonstrate its firm commitment to privacy for Premier Estate Planning clients and other website users and to disclose its information gathering and dissemination practices. If you have any questions regarding this Privacy Policy or the practices of this website, please contact us at 813.330.0136 or info@pep.law.
           </P>
 
           <H2>Information Collected</H2>

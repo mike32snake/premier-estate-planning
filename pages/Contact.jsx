@@ -147,9 +147,9 @@ function ContactPage() {
             }}>
               <window.PEPEyebrow>Office</window.PEPEyebrow>
               <div style={{ marginTop: 14, fontSize: 15, lineHeight: 1.7 }}>
-                Premier Estate Planning, PLLC<br/>
+                Premier Estate Planning PLLC<br/>
                 Tampa, Florida<br/>
-                Serving Tampa Bay &amp; Florida
+                Serving all of Florida
               </div>
               <div style={{
                 marginTop: 16, paddingTop: 16, borderTop: `1px solid ${T.rule}`,

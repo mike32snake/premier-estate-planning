@@ -44,7 +44,7 @@ function ProcessPage() {
         eyebrow="The Engagement"
         title="Three meetings."
         italic="About two weeks."
-        lede="Estate planning does not have to drag on. Our process is short, flat-fee, and handled start to finish by the attorney whose name is on the door."
+        lede="Estate planning does not have to drag on. Our process is short, flat-fee, and handled start to finish by the attorney you meet on day one."
       />
 
       {/* timeline */}

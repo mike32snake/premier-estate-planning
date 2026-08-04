@@ -35,7 +35,7 @@ window.PEP_AREAS = [
       ['Last Will & Testament', 'Names your personal representative, beneficiaries, and specific gifts.'],
       ['Guardian Designation',  'Appoints who raises your minor children, with standby choices.'],
       ['Self-Proving Affidavit','Lets the will be admitted to probate without locating witnesses.'],
-      ['Pour-Over Will',        'Catches any asset not already titled in your trust.'],
+      ['Pour-Over Will',        'Available as an add-on for trust-based plans. Catches any asset not already titled in your trust.'],
     ],
     forWhom: 'Every adult in Florida. Essential the moment you have children or own property.',
     typical: 'Flat fee, included in most planning packages. Signed within two weeks.',
@@ -59,7 +59,7 @@ window.PEP_AREAS = [
       ['Asset Funding',          'Retitling your home and accounts into the trust.'],
     ],
     forWhom: 'Homeowners, blended families, and anyone who wants to avoid probate, protect assets, or plan for taxes and long-term care.',
-    typical: 'Offered through our Foundational and Comprehensive plan packages, or a la carte. Flat fee, set in your engagement letter.',
+    typical: 'Offered through our Essential and Advanced plan packages, or a la carte. Flat fee, set in your engagement letter.',
   },
   {
     slug: 'poa', page: 'Powers of Attorney.html', navLabel: 'Power of Attorney',
@@ -303,7 +303,7 @@ window.PEPFooter = function PEPFooter() {
         <div>
           <img src="assets/pep-logo.png" style={{ height: 40, mixBlendMode: 'multiply' }} alt="PEP" />
           <div style={{ marginTop: 14, lineHeight: 1.7 }}>
-            Tampa, Florida<br/>Serving Tampa Bay &amp; Florida
+            Tampa, Florida<br/>Serving all of Florida
           </div>
         </div>
         {cols.map(([h, items]) => (
@@ -388,7 +388,7 @@ window.PEPCTA = function PEPCTA() {
         }}>
           <div style={{ fontSize: 11, letterSpacing: 2, textTransform: 'uppercase', color: T.tealBr, fontWeight: 600, marginBottom: 14 }}>Office</div>
           Tampa, Florida<br/>
-          Serving Tampa Bay &amp; Florida<br/>
+          Serving all of Florida<br/>
           813.330.0136<br/>
           info@pep.law
         </div>

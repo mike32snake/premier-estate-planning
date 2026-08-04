@@ -84,7 +84,7 @@ function ArticleAfterDesign() {
         </P>
 
         <Callout tone="dark" title="Direct contact">
-          <strong>info@pep.law</strong> &nbsp;·&nbsp; 813.330.0136 &nbsp;·&nbsp; Tampa, Florida &middot; serving Tampa Bay &amp; Florida
+          <strong>info@pep.law</strong> &nbsp;·&nbsp; 813.330.0136 &nbsp;·&nbsp; Tampa, Florida &middot; serving all of Florida
         </Callout>
       </window.PEPArticleBody>
 
